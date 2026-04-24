@@ -1,7 +1,7 @@
 {
   "week": "2026-W17",
-  "generated_at": "2026-04-24T17:54:34",
-  "summary": "本周重点抓两个高投产比的爆款逻辑：一是经典IP跨次元反差混搭，比如楚人美和孙悟空组队取经的脑洞选题，自带话题度钩子极强；二是强反差身份设定，比如重生雪狼王给女帝当奶爸的爽感路径，用户留存率高出普通选题近40%。工具端直接把评分9.0的FLUX.1-dev加入关键帧、参考图生产流水线，视频生成环节换用LTX-2.3，画面流畅度提升明显，能压缩近四分之一制作周期。",
+  "generated_at": "2026-04-24T18:32:54",
+  "summary": "本周重点优先抓两个核心方向，选题上直接套用强反差爆款逻辑，要么做跨IP魔改联动，比如楚人美和孙悟空组队取经的混搭脑洞，要么做身份反差爽点设定，比如重生雪狼王给女帝当奶爸，钩子直接点出冲突点起量效率极高。工具端直接把9.0分的FLUX.1-dev加入关键帧、参考图生产流水线，视频生成环节换用LTX-2.3系列，出片稳定性足够强，能省不少后期调整的无效成本。",
   "videos": [
     {
       "id": "bili_v_BV1fV41117NX",
@@ -9,7 +9,7 @@
       "url": "https://www.bilibili.com/video/BV1fV41117NX",
       "title": "【AI视频生成入门教程】即梦+豆包+剪映，制作AI漫剧+AI短剧+AI动态漫+AI动画+ComfyUI全集AI漫剧零基础入门教程，AI教程零基础入门到精通",
       "author": "ai视频生成入门教程",
-      "plays": 18652586,
+      "plays": 18652921,
       "likes": 12404,
       "duration_sec": 5824,
       "cover_url": "https://i2.hdslb.com/bfs/archive/57a6e5e84b428717bf7b112c7a730c2ad005d7ba.jpg",
@@ -30,8 +30,8 @@
       "url": "https://www.bilibili.com/video/BV15YdBB6Efz",
       "title": "楚人美游记 1-5 合集：当楚人美被孙悟空拐去取经",
       "author": "安奇米苏",
-      "plays": 11092486,
-      "likes": 6337,
+      "plays": 11189911,
+      "likes": 6378,
       "duration_sec": 559,
       "cover_url": "https://i0.hdslb.com/bfs/archive/c710f4f7ea8f9f1bd84be03a2c341d2afd3ccb86.jpg",
       "hook": "楚人美竟和孙悟空组队去取经？",
@@ -51,8 +51,8 @@
       "url": "https://www.bilibili.com/video/BV13UdhBjEH9",
       "title": "你掉的是这支小雪糕还是大雪糕",
       "author": "小猪要吃好果子",
-      "plays": 5477918,
-      "likes": 3061,
+      "plays": 5511374,
+      "likes": 3076,
       "duration_sec": 89,
       "cover_url": "https://i1.hdslb.com/bfs/archive/bc6f5415ee4d93926025a5c3bfaa4d05f009e98b.jpg",
       "hook": "你掉的是小雪糕还是这支大雪糕？",
@@ -67,12 +67,33 @@
       "score": 9.0
     },
     {
+      "id": "yt_5BGYQ4wDv4g",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/5BGYQ4wDv4g",
+      "title": "බස් රජා 5 😎 Sri Lankan Old Bus Modification #shorts #modified",
+      "author": "AI Rooftop",
+      "plays": 5065384,
+      "likes": 26476,
+      "duration_sec": 17,
+      "cover_url": "https://i.ytimg.com/vi/5BGYQ4wDv4g/hqdefault.jpg",
+      "hook": "斯里兰卡老巴士爆改成品超酷炫",
+      "structure": "旧车原貌→改装过程→最终成品展示",
+      "style_tags": [
+        "视觉冲击",
+        "改装展示",
+        "异域特色",
+        "短平快",
+        "AI生成"
+      ],
+      "score": 9.0
+    },
+    {
       "id": "bili_v_BV19BPZzjEKi",
       "platform": "bilibili_video",
       "url": "https://www.bilibili.com/video/BV19BPZzjEKi",
       "title": "我重生成雪狼王的第一件事，就是到处收集奶粉尿不湿",
       "author": "阿林动漫_",
-      "plays": 5007312,
+      "plays": 5022323,
       "likes": 54,
       "duration_sec": 713,
       "cover_url": "https://i2.hdslb.com/bfs/archive/8864789db5f5e6ce8464b6775047bbe06d4bc475.jpg",
@@ -88,34 +109,13 @@
       "score": 9.0
     },
     {
-      "id": "yt_5BGYQ4wDv4g",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/5BGYQ4wDv4g",
-      "title": "බස් රජා 5 😎 Sri Lankan Old Bus Modification #shorts #modified",
-      "author": "AI Rooftop",
-      "plays": 4978588,
-      "likes": 26073,
-      "duration_sec": 17,
-      "cover_url": "https://i.ytimg.com/vi/5BGYQ4wDv4g/hqdefault.jpg",
-      "hook": "斯里兰卡老巴士爆改成品超酷炫",
-      "structure": "旧车原貌→改装过程→最终成品展示",
-      "style_tags": [
-        "视觉冲击",
-        "改装展示",
-        "异域特色",
-        "短平快",
-        "AI生成"
-      ],
-      "score": 9.0
-    },
-    {
       "id": "bili_v_BV1ivwez5EDn",
       "platform": "bilibili_video",
       "url": "https://www.bilibili.com/video/BV1ivwez5EDn",
       "title": "刚到家发现爸妈居然变得陌生了....【B站AI创作大赛-开放赛道】",
       "author": "禁忌主角",
-      "plays": 4577354,
-      "likes": 701,
+      "plays": 4577736,
+      "likes": 702,
       "duration_sec": 558,
       "cover_url": "https://i0.hdslb.com/bfs/archive/c09d3c8500c19eaf7450743114cc93d29f205a6e.jpg",
       "hook": "刚回家，爸妈怎么变得陌生又奇怪？",
@@ -135,7 +135,7 @@
       "url": "https://www.bilibili.com/video/BV1pF4m1V7Dm",
       "title": "如何辨别AI还是人类，这几招不错",
       "author": "cheems小电影",
-      "plays": 4505167,
+      "plays": 4505168,
       "likes": 36,
       "duration_sec": 61,
       "cover_url": "https://i0.hdslb.com/bfs/archive/0966c341e2c6e4f54fd0c2a8200b97eaaf1b4621.jpg",
@@ -176,7 +176,7 @@
       "url": "https://www.bilibili.com/video/BV1F7xWzJEDp",
       "title": "一个人类竟然找到了外星人的巢穴❗️两个瘾君子的幻想❓",
       "author": "鱼C-小甲鱼",
-      "plays": 8889719,
+      "plays": 8889770,
       "likes": 504,
       "duration_sec": 191,
       "cover_url": "https://i2.hdslb.com/bfs/archive/cc765ba99e093f85191568e4bced1bf185afbdec.jpg",
@@ -197,8 +197,8 @@
       "url": "https://www.youtube.com/shorts/65WjlseqNvE",
       "title": "Aam 🥭& Strawberry🍓  ki LoveStory♥📈 😂|Part-2 |Flow Animation| #aishorts #trendingai #lovestory #aiart",
       "author": "FLOW ANIMATION",
-      "plays": 3159385,
-      "likes": 77386,
+      "plays": 3159583,
+      "likes": 77393,
       "duration_sec": 51,
       "cover_url": "https://i.ytimg.com/vi/65WjlseqNvE/hqdefault.jpg",
       "hook": "芒果和草莓居然也有甜甜的爱情？",
@@ -218,8 +218,8 @@
       "url": "https://www.bilibili.com/video/BV1s5QwBGEsv",
       "title": "你想定制一个AI孩子吗？",
       "author": "妈妈再灭我一次",
-      "plays": 6948173,
-      "likes": 513,
+      "plays": 6975560,
+      "likes": 517,
       "duration_sec": 407,
       "cover_url": "https://i0.hdslb.com/bfs/archive/4c557d64e64691b5c9ef8566b3b4fa320002c192.jpg",
       "hook": "你想定制属于自己的AI孩子吗？",
@@ -239,8 +239,8 @@
       "url": "https://www.youtube.com/shorts/mH0Npjt1EtQ",
       "title": "Old Indian Army Soldier Saves Hijacked Train | Epic Bike Jump Fight vs Super Villain 🔥🚆💥#shorts #ai",
       "author": "REAL FUCHI ANNU",
-      "plays": 2392930,
-      "likes": 147811,
+      "plays": 2547382,
+      "likes": 156922,
       "duration_sec": 116,
       "cover_url": "https://i.ytimg.com/vi/mH0Npjt1EtQ/hqdefault.jpg",
       "hook": "印度老兵骑摩托飞跃被劫火车",
@@ -260,7 +260,7 @@
       "url": "https://www.bilibili.com/video/BV1nRt1znErm",
       "title": "我的AI爸爸出来骗人了！",
       "author": "硬核妈妈丽洁",
-      "plays": 5363458,
+      "plays": 5363529,
       "likes": 34,
       "duration_sec": 169,
       "cover_url": "https://i0.hdslb.com/bfs/archive/460a1ccd1a8bccf413c3f7d7361d19f982d13bb0.jpg",
@@ -281,7 +281,7 @@
       "url": "https://www.bilibili.com/video/BV1hHaazgEvv",
       "title": "当用AI把历史名人变成游戏Boss【第三期】",
       "author": "冬芝鹿",
-      "plays": 5030732,
+      "plays": 5030799,
       "likes": 23731,
       "duration_sec": 91,
       "cover_url": "https://i1.hdslb.com/bfs/archive/30a9ae1190e804ee70381f7cb67db54651cffbac.jpg",
@@ -302,8 +302,8 @@
       "url": "https://www.youtube.com/shorts/LnUsni5GPeI",
       "title": "🤝Kids Helping Your Friends #shorts #cartoon#cartoonshorts #shortsforkids #shortvideo",
       "author": "Irish kids tv",
-      "plays": 2001914,
-      "likes": 9850,
+      "plays": 2006852,
+      "likes": 9860,
       "duration_sec": 10,
       "cover_url": "https://i.ytimg.com/vi/LnUsni5GPeI/hqdefault.jpg",
       "hook": "小朋友遇困难，同伴主动伸出援手",
@@ -343,8 +343,8 @@
       "url": "https://www.youtube.com/shorts/-ftTTcddQxc",
       "title": "බස් රජා 6 😎 Sri Lankan Old Bus Modification #shorts #modified",
       "author": "AI Rooftop",
-      "plays": 2564085,
-      "likes": 12673,
+      "plays": 2612069,
+      "likes": 12967,
       "duration_sec": 21,
       "cover_url": "https://i.ytimg.com/vi/-ftTTcddQxc/hqdefault.jpg",
       "hook": "你见过斯里兰卡爆改的复古老公交吗？",
@@ -364,8 +364,8 @@
       "url": "https://www.youtube.com/shorts/DmE3VblQlgY",
       "title": "#ai #cartoon #story #funny #love #shorts #sad",
       "author": "Ai Duniya King",
-      "plays": 928281,
-      "likes": 8072,
+      "plays": 931426,
+      "likes": 8094,
       "duration_sec": 33,
       "cover_url": "https://i.ytimg.com/vi/DmE3VblQlgY/hqdefault.jpg",
       "hook": "AI卡通爱情故事甜虐反转好哭又好笑",
@@ -385,8 +385,8 @@
       "url": "https://www.youtube.com/shorts/b12hGSXBnrk",
       "title": "THE MOST DANGEROUS AI #shorts",
       "author": "jacobweeby",
-      "plays": 4523976,
-      "likes": 271767,
+      "plays": 4532098,
+      "likes": 272047,
       "duration_sec": 60,
       "cover_url": "https://i.ytimg.com/vi/b12hGSXBnrk/hqdefault.jpg",
       "hook": "你知道全球最危险的AI是什么吗？",
@@ -405,7 +405,7 @@
       "url": "https://www.youtube.com/shorts/6OCZqOFHO6M",
       "title": "Gareeb radha vs nagin 😲 #ai #shortvideo #trending",
       "author": "DIVINE REELS OG 🎬",
-      "plays": 3946334,
+      "plays": 3946716,
       "likes": 0,
       "duration_sec": 107,
       "cover_url": "https://i.ytimg.com/vi/6OCZqOFHO6M/hqdefault.jpg",
@@ -421,13 +421,34 @@
       "score": 8.0
     },
     {
+      "id": "xhs_69a9887c000000000e00f74c",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/69a9887c000000000e00f74c",
+      "title": "学会这些AI工具，轻松替你上班",
+      "author": "麦克说AI",
+      "plays": 0,
+      "likes": 112000,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241824/e585a25fd84057e97a86dd00d0c9d926/1040g00831tb81slhlk0g4a56f1hsi2l6e1773l8!nc_n_webp_mw_1",
+      "hook": "你还在加班？这些AI直接替你上班！",
+      "structure": "职场加班痛点→AI工具逐个拆解→实操技巧分享",
+      "style_tags": [
+        "真人出镜",
+        "干货科普",
+        "职场实用",
+        "工具测评",
+        "口语化"
+      ],
+      "score": 8.5
+    },
+    {
       "id": "dy_7045934595224767756",
       "platform": "douyin",
       "url": "https://www.douyin.com/video/7045934595224767756",
       "title": "房东送我一只圆珠笔，当时就拒绝了，我是不是错过什么了？",
       "author": "搞笑帽子哥",
       "plays": 0,
-      "likes": 85979,
+      "likes": 85980,
       "duration_sec": 135,
       "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-p-0015/6309f24f10074392a1bc7ae3911051af~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=IsV8o8zcR8Ss0F3D0vvldWidMz0%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
       "hook": "拒绝美女房东的圆珠笔，我错过啥了？",
@@ -448,7 +469,7 @@
       "title": "约了上门陪护服务，女孩两套着装，差点把我送走了！ #搞笑  #成年人有哪些崩溃瞬间  #人类暴躁行为大赏 ",
       "author": "搞笑帽子哥",
       "plays": 0,
-      "likes": 85043,
+      "likes": 85044,
       "duration_sec": 111,
       "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0004/413e3a6125b449aeb351cef07a2073f6~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=qtre367BZawL56W7lz%2BFD5RjVyk%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
       "hook": "开门惊见穿春丽cos服的人自称陪护",
@@ -510,7 +531,7 @@
       "title": "吓得师傅都不敢喘气！ #搞笑帽子哥 #搞笑 #搞笑视频 #搞笑段子 #搞笑剧情",
       "author": "搞笑帽子哥",
       "plays": 0,
-      "likes": 45570,
+      "likes": 45575,
       "duration_sec": 22,
       "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/3472998eda8845b981a7f90c1c94866c~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=%2BuViE3o1xO7%2FACvNQV%2F5TSmZY9c%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
       "hook": "坐网约车被后座女生恶狠狠盯着？",
@@ -552,7 +573,7 @@
       "title": "带现任见前任这样穿合适吗？ #搞笑帽子哥 #搞笑 #搞笑情侣 #搞笑夫妻 #搞笑短剧",
       "author": "搞笑帽子哥",
       "plays": 0,
-      "likes": 33463,
+      "likes": 33473,
       "duration_sec": 21,
       "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/9834cbf974f24de28a118172db6245a5~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=uz%2FWsQNMd7pGai5t6Gl06KxCci4%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
       "hook": "带现任见前任这么穿合适吗？",
@@ -594,7 +615,7 @@
       "title": "一招制敌！ #搞笑 #反转 #迷惑行为大赏 #恶搞 #搞笑段子",
       "author": "搞笑帽子哥",
       "plays": 0,
-      "likes": 29553,
+      "likes": 29555,
       "duration_sec": 94,
       "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/a4b07b9f722d43d796c2f5011bff7b17~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=3WmJvj61mPf0zMBLqP9svlz1O3s%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
       "hook": "美女娇俏托脸对男生主动示好",
@@ -656,7 +677,7 @@
       "title": "AI直出治愈系动画vlog教程！无后期配音剪辑！",
       "author": "骑蜗牛追导弹",
       "plays": 0,
-      "likes": 7662,
+      "likes": 7663,
       "duration_sec": null,
       "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/c25960b5dbdeb1376fd897a45d67d1dd/1040g2sg31sc64bsc5se05nq4o3808oep33f5u40!nc_n_webp_mw_1",
       "hook": "AI直出治愈动画vlog？无需后期剪辑！",
@@ -713,34 +734,13 @@
       "score": 9.0
     },
     {
-      "id": "xhs_69bb60de00000000230100cd",
-      "platform": "xiaohongshu",
-      "url": "https://www.xiaohongshu.com/explore/69bb60de00000000230100cd",
-      "title": "小红书现在还有人能看完12分钟的短片吗？",
-      "author": "灰昼",
-      "plays": 0,
-      "likes": 13000,
-      "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/4d09e4c50d60324ea13e6cd637f8f1f1/spectrum/1040g34o31ts32t8mmq105o0mvfu08h3g5ribpog!nc_n_webp_mw_1",
-      "hook": "少年拉弓对准镜头 你能看完12分钟短片？",
-      "structure": "悬念提问→守虎故事演绎→结尾互动引导",
-      "style_tags": [
-        "定格动画",
-        "国风武侠",
-        "民间故事改编",
-        "悬念开头",
-        "质感画风"
-      ],
-      "score": 8.0
-    },
-    {
       "id": "dy_7516059102267886908",
       "platform": "douyin",
       "url": "https://www.douyin.com/video/7516059102267886908",
       "title": "将计就计!#搞笑#恶搞",
       "author": "搞笑帽子哥",
       "plays": 0,
-      "likes": 6897,
+      "likes": 6899,
       "duration_sec": 160,
       "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oAQe87cb5CHQMAL7gJQgNe8CxnBFgNeyi9zGI0~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=C2nrydIpSmMV7%2BBPIu1OMuL0nDY%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
       "hook": "美女坏笑，藏着什么整蛊小心思？",
@@ -761,7 +761,7 @@
       "title": "妻子越想越生气！ #搞笑帽子哥 #搞笑夫妻 #搞笑家庭 #搞笑情侣 #搞笑",
       "author": "搞笑帽子哥",
       "plays": 0,
-      "likes": 1857,
+      "likes": 1861,
       "duration_sec": 24,
       "cover_url": "https://p9-pc-sign.douyinpic.com/tos-cn-i-dy/9501973e8df74c4584b169f3db445249~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=84y6%2FZojCOGY5QvaFTTzjj74cTY%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
       "hook": "妻子坐车里为啥越想越生气？",
@@ -782,7 +782,7 @@
       "title": "遇到不怀好意的人，装疯卖傻绝对是高招！ #搞笑帽子哥 #搞笑 #搞笑视频 #网约车 #搞笑短剧",
       "author": "搞笑帽子哥",
       "plays": 0,
-      "likes": 1352,
+      "likes": 1353,
       "duration_sec": 51,
       "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/de6ed5c994034c9dbddb07334645d123~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=VRm1Z9SuPquMrLzehpYlIkWeSA4%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
       "hook": "坐网约车遇不怀好意的人，你会怎么做？",
@@ -846,7 +846,7 @@
       "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "name": "stabilityai/stable-diffusion-xl-base-1.0",
       "description": "text-to-image",
-      "metric": 2027951,
+      "metric": 2026603,
       "summary": "文生图SOTA模型，生成短剧图像类素材",
       "stage_tags": [
         "ref_image",
@@ -860,7 +860,7 @@
       "url": "https://huggingface.co/Lightricks/LTX-2.3",
       "name": "Lightricks/LTX-2.3",
       "description": "image-to-video",
-      "metric": 1678424,
+      "metric": 1683025,
       "summary": "高性能图生视频生成模型",
       "stage_tags": [
         "videogen"
@@ -873,7 +873,7 @@
       "url": "https://huggingface.co/Lightricks/LTX-2.3-fp8",
       "name": "Lightricks/LTX-2.3-fp8",
       "description": "image-to-video",
-      "metric": 1569589,
+      "metric": 1595468,
       "summary": "优质开源图生视频生成模型",
       "stage_tags": [
         "videogen"
@@ -886,7 +886,7 @@
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "name": "black-forest-labs/FLUX.1-dev",
       "description": "text-to-image",
-      "metric": 684097,
+      "metric": 686533,
       "summary": "SOTA文生图模型，生成参考图关键帧",
       "stage_tags": [
         "ref_image",
@@ -900,7 +900,7 @@
       "url": "https://huggingface.co/lightx2v/Wan2.2-Distill-Loras",
       "name": "lightx2v/Wan2.2-Distill-Loras",
       "description": "image-to-video",
-      "metric": 1362987,
+      "metric": 1343057,
       "summary": "Wan2.2蒸馏LoRA，可实现图像转视频",
       "stage_tags": [
         "videogen"
@@ -913,7 +913,7 @@
       "url": "https://huggingface.co/stabilityai/sdxl-turbo",
       "name": "stabilityai/sdxl-turbo",
       "description": "text-to-image",
-      "metric": 868921,
+      "metric": 857737,
       "summary": "高速文生图模型，可生成参考图关键帧",
       "stage_tags": [
         "ref_image",
@@ -927,10 +927,24 @@
       "url": "https://huggingface.co/Lightricks/LTX-2",
       "name": "Lightricks/LTX-2",
       "description": "image-to-video",
-      "metric": 797890,
+      "metric": 828130,
       "summary": "优质图生视频模型，适配短剧生产需求",
       "stage_tags": [
         "videogen"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_crynux-network_sdxl-turbo",
+      "source": "huggingface",
+      "url": "https://huggingface.co/crynux-network/sdxl-turbo",
+      "name": "crynux-network/sdxl-turbo",
+      "description": "text-to-image",
+      "metric": 729086,
+      "summary": "高速文生图模型，生成效率效果俱佳",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
       ],
       "score": 8.5
     },
@@ -940,7 +954,7 @@
       "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-9B",
       "name": "Qwen/Qwen3.5-9B",
       "description": "千问3.5-9B",
-      "metric": 720172,
+      "metric": 724312,
       "summary": "大语言模型，可生成短剧世界观、剧本",
       "stage_tags": [
         "world",
@@ -954,22 +968,8 @@
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
       "name": "black-forest-labs/FLUX.1-schnell",
       "description": "text-to-image",
-      "metric": 717335,
+      "metric": 718933,
       "summary": "SOTA快速文生图，可生成参考图关键帧",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_crynux-network_sdxl-turbo",
-      "source": "huggingface",
-      "url": "https://huggingface.co/crynux-network/sdxl-turbo",
-      "name": "crynux-network/sdxl-turbo",
-      "description": "text-to-image",
-      "metric": 703834,
-      "summary": "高速文生图模型，生成效率效果俱佳",
       "stage_tags": [
         "ref_image",
         "keyframe"
@@ -982,7 +982,7 @@
       "url": "https://huggingface.co/stabilityai/sd-turbo",
       "name": "stabilityai/sd-turbo",
       "description": "text-to-image",
-      "metric": 655543,
+      "metric": 650187,
       "summary": "高速文生图模型，生成效率高效果好",
       "stage_tags": [
         "ref_image",
@@ -996,7 +996,7 @@
       "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
       "name": "stable-diffusion-v1-5/stable-diffusion-v1-5",
       "description": "text-to-image",
-      "metric": 1508012,
+      "metric": 1476066,
       "summary": "文生图模型，可生成短剧参考图与关键帧",
       "stage_tags": [
         "ref_image",
@@ -1010,7 +1010,7 @@
       "url": "https://huggingface.co/Lightricks/LTX-Video",
       "name": "Lightricks/LTX-Video",
       "description": "image-to-video",
-      "metric": 550455,
+      "metric": 548665,
       "summary": "高性能图生视频模型，适配视频生成",
       "stage_tags": [
         "videogen"
@@ -1023,7 +1023,7 @@
       "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-35B-A3B",
       "name": "Qwen/Qwen3.5-35B-A3B",
       "description": "千问3.5-35B-A3B",
-      "metric": 1971919,
+      "metric": 1990037,
       "summary": "通用大模型可辅助短剧世界观及脚本创作",
       "stage_tags": [
         "world",
@@ -1037,7 +1037,7 @@
       "url": "https://www.modelscope.cn/models/Tongyi-MAI/Z-Image-Turbo",
       "name": "Tongyi-MAI/Z-Image-Turbo",
       "description": "造相-Z-Image-Turbo",
-      "metric": 519982,
+      "metric": 520640,
       "summary": "高速文生图模型，可生成参考图、关键帧",
       "stage_tags": [
         "ref_image",
@@ -1065,7 +1065,7 @@
       "url": "https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V3.2",
       "name": "deepseek-ai/DeepSeek-V3.2",
       "description": "文本生成",
-      "metric": 351423,
+      "metric": 351916,
       "summary": "高性能文本大模型，辅助短剧文本创作",
       "stage_tags": [
         "world",
@@ -1093,7 +1093,7 @@
       "url": "https://www.modelscope.cn/models/FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
       "name": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
       "description": "Fun-CosyVoice3-0.5B-2512",
-      "metric": 122917,
+      "metric": 123504,
       "summary": "高性能中文语音合成TTS模型",
       "stage_tags": [
         "tts"
@@ -1106,7 +1106,7 @@
       "url": "https://www.modelscope.cn/models/Qwen/Qwen3.6-35B-A3B",
       "name": "Qwen/Qwen3.6-35B-A3B",
       "description": "千问3.6-35B-A3B",
-      "metric": 118528,
+      "metric": 121380,
       "summary": "高性能大模型，用于世界观及剧本创作",
       "stage_tags": [
         "world",
@@ -1120,7 +1120,7 @@
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "name": "Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "metric": 109851,
+      "metric": 109894,
       "summary": "模块化扩散GUI，支持图视频生成优化",
       "stage_tags": [
         "ref_image",
@@ -1136,7 +1136,7 @@
       "url": "https://github.com/RVC-Boss/GPT-SoVITS",
       "name": "RVC-Boss/GPT-SoVITS",
       "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-      "metric": 56923,
+      "metric": 56937,
       "summary": "少样本语音克隆的优秀中文TTS工具",
       "stage_tags": [
         "tts"
@@ -1149,7 +1149,7 @@
       "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-27B",
       "name": "Qwen/Qwen3.5-27B",
       "description": "千问3.5-27B",
-      "metric": 1275717,
+      "metric": 1277936,
       "summary": "高性能中文大模型可辅助世界观剧本创作",
       "stage_tags": [
         "world",
@@ -1163,7 +1163,7 @@
       "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-397B-A17B",
       "name": "Qwen/Qwen3.5-397B-A17B",
       "description": "千问3.5-397B-A17B",
-      "metric": 111310,
+      "metric": 111621,
       "summary": "高性能大模型，可生成短剧世界观与剧本",
       "stage_tags": [
         "world",
@@ -1185,12 +1185,26 @@
       "score": 8.0
     },
     {
+      "id": "ms_nv-community_NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "source": "modelscope",
+      "url": "https://www.modelscope.cn/models/nv-community/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "name": "nv-community/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "description": "文本生成",
+      "metric": 232861,
+      "summary": "强文本生成大模型，可辅助世界观与脚本创作",
+      "stage_tags": [
+        "world",
+        "script"
+      ],
+      "score": 7.5
+    },
+    {
       "id": "ms_Qwen_Qwen-Image-2512",
       "source": "modelscope",
       "url": "https://www.modelscope.cn/models/Qwen/Qwen-Image-2512",
       "name": "Qwen/Qwen-Image-2512",
       "description": "文本生成图片",
-      "metric": 107213,
+      "metric": 107310,
       "summary": "中文文生图模型，可生成参考图、关键帧",
       "stage_tags": [
         "ref_image",
@@ -1199,25 +1213,12 @@
       "score": 8.0
     },
     {
-      "id": "ms_Lightricks_LTX-2.3",
-      "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/Lightricks/LTX-2.3",
-      "name": "Lightricks/LTX-2.3",
-      "description": "图片生成视频",
-      "metric": 47366,
-      "summary": "优质图生视频模型，适配视频生成环节",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 8.5
-    },
-    {
       "id": "gh_mudler_LocalAI",
       "source": "github",
       "url": "https://github.com/mudler/LocalAI",
       "name": "mudler/LocalAI",
       "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-      "metric": 45763,
+      "metric": 45771,
       "summary": "开源本地多模态AI引擎，支持多模型部署",
       "stage_tags": [
         "world",
@@ -1234,7 +1235,7 @@
       "url": "https://github.com/huggingface/diffusers",
       "name": "huggingface/diffusers",
       "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
-      "metric": 33428,
+      "metric": 33433,
       "summary": "扩散模型库，支持图视音生成及质量增强",
       "stage_tags": [
         "ref_image",
@@ -1251,7 +1252,7 @@
       "url": "https://github.com/invoke-ai/InvokeAI",
       "name": "invoke-ai/InvokeAI",
       "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The sol",
-      "metric": 27039,
+      "metric": 27042,
       "summary": "开源SD创作引擎，可生成参考图关键帧",
       "stage_tags": [
         "ref_image",
@@ -1265,7 +1266,7 @@
       "url": "https://github.com/duixcom/Duix-Avatar",
       "name": "duixcom/Duix-Avatar",
       "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
-      "metric": 12823,
+      "metric": 12827,
       "summary": "开源AI数字人克隆及视频生成工具",
       "stage_tags": [
         "videogen",
@@ -1279,7 +1280,7 @@
       "url": "https://github.com/NVIDIA-NeMo/NeMo",
       "name": "NVIDIA-NeMo/NeMo",
       "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
-      "metric": 17119,
+      "metric": 17122,
       "summary": "NVIDIA开源多模态语音AI开发框架",
       "stage_tags": [
         "script",
@@ -1293,7 +1294,7 @@
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
       "name": "Anil-matcha/Open-Generative-AI",
       "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No ",
-      "metric": 7122,
+      "metric": 7343,
       "summary": "开源多模型图像视频生成工具库",
       "stage_tags": [
         "ref_image",
@@ -1308,7 +1309,7 @@
       "url": "https://github.com/leejet/stable-diffusion.cpp",
       "name": "leejet/stable-diffusion.cpp",
       "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
-      "metric": 5825,
+      "metric": 5827,
       "summary": "C/C++实现的扩散模型高效推理框架",
       "stage_tags": [
         "ref_image",
@@ -1323,7 +1324,7 @@
       "url": "https://github.com/Forget-C/Jellyfish",
       "name": "Forget-C/Jellyfish",
       "description": "An end-to-end production workspace for AI-generated short dramas. From script input to structured storyboarding, consistency management, shot preparation, video generation, and export.",
-      "metric": 3092,
+      "metric": 3096,
       "summary": "AI短剧端到端全流程生产工作空间",
       "stage_tags": [
         "world",
@@ -1340,7 +1341,7 @@
       "url": "https://github.com/k2-fsa/OmniVoice",
       "name": "k2-fsa/OmniVoice",
       "description": "High-Quality Voice Cloning TTS for 600+ Languages",
-      "metric": 4220,
+      "metric": 4232,
       "summary": "600+语言高质量语音克隆TTS工具",
       "stage_tags": [
         "tts"
@@ -1353,7 +1354,7 @@
       "url": "https://github.com/Fannovel16/comfyui_controlnet_aux",
       "name": "Fannovel16/comfyui_controlnet_aux",
       "description": "ComfyUI's ControlNet Auxiliary Preprocessors",
-      "metric": 3942,
+      "metric": 3944,
       "summary": "ComfyUI ControlNet 辅助预处理工具集",
       "stage_tags": [
         "ref_image",
@@ -1361,6 +1362,22 @@
         "videogen"
       ],
       "score": 8.5
+    },
+    {
+      "id": "bili_BV1b2dSB8EEM",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1b2dSB8EEM",
+      "name": "【秋叶ComfyUI】秋叶最新发布！ComfyUI V8终极整合包来了！支持50 40 30系显卡，Win+Mac一键安装，解压即用（附Comfyui整合包）",
+      "description": "",
+      "metric": 18582,
+      "summary": "ComfyUI一键整合包，多显卡适配解压即用",
+      "stage_tags": [
+        "ref_image",
+        "keyframe",
+        "videogen",
+        "quality"
+      ],
+      "score": 7.0
     },
     {
       "id": "bili_BV1iZd8BnEw3",
@@ -1376,22 +1393,6 @@
         "keyframe"
       ],
       "score": 7.5
-    },
-    {
-      "id": "bili_BV1b2dSB8EEM",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1b2dSB8EEM",
-      "name": "【秋叶ComfyUI】秋叶最新发布！ComfyUI V8终极整合包来了！支持50 40 30系显卡，Win+Mac一键安装，解压即用（附Comfyui整合包）",
-      "description": "",
-      "metric": 16665,
-      "summary": "ComfyUI一键整合包，多显卡适配解压即用",
-      "stage_tags": [
-        "ref_image",
-        "keyframe",
-        "videogen",
-        "quality"
-      ],
-      "score": 7.0
     },
     {
       "id": "bili_BV1FAoeBBEW7",
@@ -1413,7 +1414,7 @@
       "url": "https://www.bilibili.com/video/BV1zQ9KBnEW1",
       "name": "【ComfyUI整合包2026版】Win+Mac一键安装，2026-AI绘画工作流模型插件塞满新手包！全套工作流可带走附Comfyui整合包下载与电脑配置",
       "description": "新版本-全面-便携-多人群适用！！！\n视频相关资源汇总，含视频中提到的整合包，模型精确名称，客户端下载地址，请粉丝+三连后，发送“整合包”。\nUp还有别的工作，不一定会秒回，但是看见了都会回复，谢谢！~[保卫萝卜_哇][保卫萝卜_哇]\n飞书文档：https://ccna39o15b4f.feishu.cn/wiki/PCz7w3oduiJvsZkfqIbcwFI1nzb",
-      "metric": 65515,
+      "metric": 65839,
       "summary": "ComfyUI绘画整合包，含工作流与模型插件",
       "stage_tags": [
         "ref_image",
@@ -1427,7 +1428,7 @@
       "url": "https://www.bilibili.com/video/BV1M3dhBkEoK",
       "name": "【2026最全面ComfyUI+AIagent智能体搭建+AI漫剧制作教程】B站强推！建议所有想学AI漫剧制作与AI短剧的同学，死磕这条视频，花了一月时间整理的",
       "description": "UP收到很多朋友私信 说能不能透彻讲解一期【ComfyUI+AIagent智能体搭建+AI漫剧制作教程】\n\n多角色资产裤短剧思路视频工作流具体的实战案例 用户场景 与“变现方式” \n\n这套视频初心是让你看完本套视频 彻底掌握ComfyUI+AI创作短剧\n\n【视频用的agent智能体+AI工作流 都整理了 】如果UP没回 可能就是正在制作教程 蟹蟹理解！",
-      "metric": 14086,
+      "metric": 14481,
       "summary": "AI漫剧短剧全流程制作实战教程",
       "stage_tags": [
         "world",
@@ -1458,7 +1459,7 @@
       "url": "https://www.bilibili.com/video/BV1D3s2zZEmd",
       "name": "Sora2 保姆级教程：从注册到出片，全网最详细教程，完全免费！",
       "description": "sora官网：sora.chatgpt.com\n去水印网站：Free Sora Watermark Remover - Remove Watermarks from Sora AI Videos Online\n可能对大家有帮助：\n夸克网盘链接：https://pan.quark.cn/s/11f0ed0b744a\n百度网盘链接： https://pan.baidu.com/s/1_-zWFaYOGKJSQC6sujS-yA?pwd=3da4 提取码: 3da4\n\n\n\n\nbgm：\nMusic: Solitu",
-      "metric": 1256358,
+      "metric": 1256449,
       "summary": "Sora2注册到出片保姆级入门教程",
       "stage_tags": [
         "videogen",
@@ -1472,7 +1473,7 @@
       "url": "https://www.bilibili.com/video/BV1PJ9QY8E9Y",
       "name": "【全100集】B站最详细StableDiffusion+Comfyui全套保姆级教程——秋叶零基础入门到精通，全程干货无废话，允许白嫖，拿走不谢！（附SD安装包",
       "description": "资料评论区获取哦",
-      "metric": 574104,
+      "metric": 574269,
       "summary": "SD+ComfyUI全套零基础到精通教程",
       "stage_tags": [
         "world",
