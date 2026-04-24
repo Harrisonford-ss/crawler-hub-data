@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview Gallery · 选风格</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:#0c0a08;color:#e8ddc8;min-height:100vh;
+  font-family:-apple-system,sans-serif;
+  background:radial-gradient(ellipse 80% 50% at 50% 0%, #1a1410 0%, #0c0a08 60%);
+}
+.wrap{max-width:1100px;margin:0 auto;padding:80px 40px 100px}
+.lab{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:#ff8c42;margin-bottom:20px}
+h1{
+  font-family:"Instrument Serif",serif;font-weight:400;
+  font-size:clamp(44px,7vw,88px);line-height:1.05;letter-spacing:-0.02em;
+  margin-bottom:24px;
+}
+h1 em{font-style:italic;color:#d4a853}
+p.intro{font-size:17px;line-height:1.7;max-width:640px;color:rgba(232,221,200,0.85);margin-bottom:60px}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{
+  display:block;text-decoration:none;color:inherit;
+  background:#141310;border:1px solid #2a241d;border-radius:16px;padding:28px;
+  transition:all 0.3s;
+  position:relative;overflow:hidden;
+}
+.card:hover{
+  border-color:#d4a853;transform:translateY(-4px);
+  box-shadow:0 30px 60px rgba(0,0,0,0.4);
+}
+.card .n{font-family:"Instrument Serif",serif;font-style:italic;font-size:72px;color:#3d3428;line-height:0.8;margin-bottom:18px}
+.card h3{font-family:"Instrument Serif",serif;font-size:28px;line-height:1.2;margin-bottom:12px}
+.card .sub{color:#d4a853;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:20px}
+.card p{font-size:14px;line-height:1.6;color:rgba(232,221,200,0.75);margin-bottom:18px}
+.card .go{color:#ff8c42;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:0.15em;text-transform:uppercase}
+.card .swatch{
+  display:flex;gap:4px;margin-bottom:20px;
+}
+.card .swatch span{flex:1;height:20px;border-radius:3px}
+
+.card[data-theme="noir"] .n{color:#5a1e10}
+.card[data-theme="noir"] .swatch span:nth-child(1){background:#000}
+.card[data-theme="noir"] .swatch span:nth-child(2){background:#ff3e00}
+.card[data-theme="noir"] .swatch span:nth-child(3){background:#c8b8a8}
+
+.card[data-theme="edit"] .n{color:#c4352d;opacity:0.6}
+.card[data-theme="edit"] .swatch span:nth-child(1){background:#f5ede0}
+.card[data-theme="edit"] .swatch span:nth-child(2){background:#1a1612}
+.card[data-theme="edit"] .swatch span:nth-child(3){background:#c4352d}
+
+.card[data-theme="term"] .n{color:#0d8a05}
+.card[data-theme="term"] .swatch span:nth-child(1){background:#000}
+.card[data-theme="term"] .swatch span:nth-child(2){background:#39ff14}
+.card[data-theme="term"] .swatch span:nth-child(3){background:#ffb000}
+
+.vs{margin-top:60px;padding:24px;border:1px dashed #3d3428;border-radius:12px;color:rgba(232,221,200,0.7);font-size:14px;line-height:1.7}
+.vs b{color:#d4a853}
+.vs a{color:#ff8c42}
+
+@media(max-width:760px){
+  .wrap{padding:48px 20px}
+  .grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<div class="lab">Preview Gallery · W17 真实数据</div>
+<h1>选一个 <em>风格</em><br/>我做成完整两页</h1>
+<p class="intro">3 个极端方向，都用 Week 17 真实数据。点进去看 1 分钟，告诉我编号（1 / 2 / 3），我半小时内上完整生产版（两页 + 所有 motion 细节）。</p>
+
+<div class="grid">
+  <a href="preview-1.html" class="card" data-theme="noir">
+    <div class="n">01</div>
+    <div class="swatch"><span></span><span></span><span></span></div>
+    <h3>Cinematic Noir</h3>
+    <div class="sub">Film · Dark · Drama</div>
+    <p>Netflix 片头。纯黑 + 血橙单色。巨型 Didone 斜体衬线。胶片颗粒 + vignette。焦点从模糊推进入场。气场压迫式。</p>
+    <div class="go">→ VIEW PREVIEW</div>
+  </a>
+
+  <a href="preview-2.html" class="card" data-theme="edit">
+    <div class="n">02</div>
+    <div class="swatch"><span></span><span></span><span></span></div>
+    <h3>Editorial Cream</h3>
+    <div class="sub">Magazine · Light · Type</div>
+    <p>Paris Review × Vogue。米白纸感背景 + 纯黑字 + 红色强调。首字母下沉、脚注 mono、¶ 段符、斜体 Fraunces。排版即戏剧。</p>
+    <div class="go">→ VIEW PREVIEW</div>
+  </a>
+
+  <a href="preview-3.html" class="card" data-theme="term">
+    <div class="n">03</div>
+    <div class="swatch"><span></span><span></span><span></span></div>
+    <h3>Terminal Operator</h3>
+    <div class="sub">Mono · Green · Data</div>
+    <p>Bloomberg Terminal × 8bit CRT。纯黑 + 磷光绿 + 琥珀琥珀。扫描线、闪烁光标、ASCII box、数据表。极客极客。</p>
+    <div class="go">→ VIEW PREVIEW</div>
+  </a>
+</div>
+
+<div class="vs">
+  3 个都看完 <b>挑 1 个编号</b>，我做完整版（<a href="index.html">/ 资讯</a> + <a href="tools.html">/ 学习</a>）并加：spotlight 光跟鼠标、数字 count-up、封面 parallax、页面切换淡入淡出、字符逐个入场、hover 微晃。<br/>都不喜欢也说一下，我再给另外 3 个方向。
+</div>
+
+</main>
+</body>
+</html>

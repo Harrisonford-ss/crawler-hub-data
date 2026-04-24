@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview 1 · Cinematic Noir</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#050302;
+  --blood:#ff3e00;
+  --blood-dim:#8a1c00;
+  --ash:#c8b8a8;
+  --ash-dim:#6a5d50;
+  --serif:"Playfair Display","Noto Serif SC",serif;
+  --display:"Italiana","Noto Serif SC",serif;
+  --mono:"JetBrains Mono",monospace;
+}
+html,body{background:var(--bg);color:var(--ash);font-family:var(--serif);min-height:100vh;overflow-x:hidden}
+body{
+  background:
+    radial-gradient(ellipse 50% 60% at 50% 30%, rgba(255,62,0,0.06) 0%, transparent 60%),
+    var(--bg);
+}
+/* film grain overlay */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:999;opacity:0.08;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  mix-blend-mode:overlay;
+}
+/* vignette */
+body::after{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:998;
+  background:radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.6) 100%);
+}
+a{color:var(--blood);text-decoration:none}
+a:hover{color:#ff8855}
+
+.filmstrip{
+  position:fixed;top:0;left:0;width:100%;height:28px;background:#000;z-index:100;
+  display:flex;align-items:center;padding:0 32px;
+  font-family:var(--mono);font-size:10px;letter-spacing:0.35em;color:var(--blood-dim);
+  border-bottom:1px solid var(--blood-dim);
+}
+.filmstrip .perf{
+  display:inline-block;width:6px;height:10px;background:#1a1208;border-radius:1px;margin:0 3px;
+}
+.filmstrip .cen{flex:1;text-align:center;color:var(--ash-dim)}
+
+.wrap{max-width:1100px;margin:0 auto;padding:80px 40px 100px;position:relative;z-index:1}
+
+.hero{min-height:85vh;display:flex;flex-direction:column;justify-content:center;position:relative}
+.hero .reel{
+  position:absolute;top:20px;left:0;display:flex;gap:2px;
+  font-family:var(--mono);font-size:10px;letter-spacing:0.3em;color:var(--blood);
+}
+.hero .reel::before{content:"●";color:var(--blood);font-size:14px;margin-right:10px;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+
+.hero h1{
+  font-family:var(--display);font-weight:400;
+  font-size:clamp(80px,14vw,180px);line-height:0.9;letter-spacing:-0.03em;
+  color:var(--ash);margin-bottom:40px;
+  opacity:0;filter:blur(24px);
+  animation:focusin 2s 0.3s cubic-bezier(0.2,0.9,0.3,1) forwards;
+}
+.hero h1 em{font-style:italic;color:var(--blood);display:block}
+@keyframes focusin{to{opacity:1;filter:blur(0)}}
+
+.hero .sub{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.4em;text-transform:uppercase;
+  color:var(--ash-dim);max-width:500px;
+  opacity:0;animation:fadein 1.5s 1.5s forwards;
+}
+@keyframes fadein{to{opacity:1}}
+
+.hero .summary{
+  margin-top:40px;max-width:640px;
+  font-family:var(--serif);font-style:italic;font-size:19px;line-height:1.7;color:var(--ash);
+  opacity:0;animation:fadein 1.5s 2s forwards;
+  padding-left:24px;border-left:2px solid var(--blood);
+}
+
+.section-mark{
+  display:flex;align-items:center;gap:20px;margin:140px 0 40px;
+  font-family:var(--mono);font-size:11px;letter-spacing:0.4em;color:var(--blood);text-transform:uppercase;
+}
+.section-mark::before{content:"";flex:0 0 40px;height:1px;background:var(--blood)}
+.section-mark::after{content:"";flex:1;height:1px;background:var(--ash-dim);opacity:0.3}
+
+/* entry card */
+.entry{
+  position:relative;padding:60px 0 60px 180px;border-bottom:1px solid #1a1410;
+  min-height:280px;
+}
+.entry:last-child{border-bottom:none}
+.entry-num{
+  position:absolute;left:0;top:40px;
+  font-family:var(--display);font-size:180px;line-height:0.8;color:#1a1410;
+  font-style:italic;user-select:none;pointer-events:none;
+  transition:color 0.4s;
+}
+.entry:hover .entry-num{color:var(--blood-dim)}
+.entry-title{
+  font-family:var(--display);font-size:42px;line-height:1.1;font-weight:400;
+  margin-bottom:20px;max-width:700px;
+}
+.entry-title a{color:var(--ash)}
+.entry-title a:hover{color:#fff}
+.entry-meta{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.25em;text-transform:uppercase;color:var(--ash-dim);
+  display:flex;gap:28px;margin-bottom:24px;
+}
+.entry-meta .plays{color:var(--blood)}
+.entry-hook{
+  font-family:var(--serif);font-style:italic;font-size:21px;line-height:1.5;color:var(--ash);
+  max-width:700px;margin-bottom:18px;
+  position:relative;padding-left:28px;
+}
+.entry-hook::before{
+  content:"\201C";position:absolute;left:-10px;top:-20px;
+  font-family:var(--display);font-size:100px;color:var(--blood);line-height:1;opacity:0.6;
+}
+.entry-tags{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.entry-tags span{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.2em;text-transform:uppercase;
+  color:var(--ash-dim);padding:4px 10px;border:1px solid #1a1410;
+}
+
+.entry-score{
+  position:absolute;top:60px;right:0;
+  text-align:right;
+}
+.entry-score-n{
+  font-family:var(--display);font-size:96px;line-height:0.9;color:var(--blood);
+  font-style:italic;
+  text-shadow:0 0 40px rgba(255,62,0,0.3);
+}
+.entry-score-l{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.3em;color:var(--ash-dim);
+  text-transform:uppercase;margin-top:8px;
+}
+
+.cut-to{
+  margin:120px 0 40px;text-align:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:0.5em;color:var(--blood-dim);text-transform:uppercase;
+}
+.cut-to a{color:var(--blood);border-bottom:1px solid var(--blood-dim);padding-bottom:4px}
+
+.fin{
+  margin-top:80px;text-align:center;padding:40px 0;
+  font-family:var(--display);font-size:72px;font-style:italic;color:var(--blood);
+  opacity:0.4;letter-spacing:0.15em;
+}
+
+@media(max-width:720px){
+  .wrap{padding:60px 24px 60px}
+  .hero h1{font-size:64px}
+  .entry{padding:40px 0 40px 80px}
+  .entry-num{font-size:80px}
+  .entry-title{font-size:28px}
+  .entry-score{position:static;text-align:left;margin-top:20px}
+  .entry-score-n{font-size:48px}
+}
+</style>
+</head>
+<body>
+
+<div class="filmstrip">
+  <span>CAM 01</span>
+  <span style="margin-left:20px"><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span></span>
+  <span class="cen">CRAWLER · HUB — A WEEKLY BRIEFING ON AI SHORT-FILM</span>
+  <span style="margin-left:20px"><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span><span class="perf"></span></span>
+  <span>REEL · <span id="weeknum">17</span></span>
+</div>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div class="reel">TAKE 01 — OPEN ON · WEEK 17</div>
+    <h1>What <em>Broke</em><br />The Feed</h1>
+    <div class="sub">A cinematographer's reading of seven days of AI shorts — what the thumbnails confess, what the plays reveal.</div>
+    <p class="summary" id="summary">loading…</p>
+  </section>
+
+  <section>
+    <div class="section-mark">SCENE II · THE ENTRIES</div>
+    <div id="entries"></div>
+  </section>
+
+  <div class="cut-to">CUT TO · <a href="tools.html">THE TOOLS →</a></div>
+
+  <div class="fin">— FIN —</div>
+
+</main>
+
+<script>
+function esc(s){return String(s??'').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]))}
+function fmt(n){n=Number(n)||0;if(n>=1e8)return (n/1e8).toFixed(1)+'亿';if(n>=1e4)return (n/1e4).toFixed(1)+'万';return n.toLocaleString()}
+
+fetch('data/latest.json?_='+Date.now()).then(r=>r.json()).then(d=>{
+  document.getElementById('weeknum').textContent = (d.week||'').split('-W')[1] || '';
+  document.getElementById('summary').textContent = d.summary || '';
+  const vids = (d.videos||[]).slice(0,5);
+  document.getElementById('entries').innerHTML = vids.map((v,i)=>{
+    const tags = (v.style_tags||[]).map(t=>`<span>${esc(t)}</span>`).join('');
+    return `<article class="entry">
+      <div class="entry-num">${String(i+1).padStart(2,'0')}</div>
+      <h3 class="entry-title"><a href="${esc(v.url)}" target="_blank">${esc(v.title||'(untitled)')}</a></h3>
+      <div class="entry-meta">
+        <span>${esc(v.author||'')}</span>
+        <span class="plays">▶ ${fmt(v.plays)}</span>
+        <span>♥ ${fmt(v.likes)}</span>
+        ${v.duration_sec?`<span>${v.duration_sec}s</span>`:''}
+      </div>
+      ${v.hook?`<div class="entry-hook">${esc(v.hook)}</div>`:''}
+      ${tags?`<div class="entry-tags">${tags}</div>`:''}
+      <div class="entry-score">
+        <div class="entry-score-n">${Number(v.score||0).toFixed(1)}</div>
+        <div class="entry-score-l">DOUBAO</div>
+      </div>
+    </article>`;
+  }).join('');
+}).catch(e=>{
+  document.getElementById('summary').textContent = '数据加载失败';
+});
+</script>
+</body>
+</html>
