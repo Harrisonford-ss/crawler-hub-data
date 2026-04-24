@@ -1,486 +1,33 @@
 {
   "week": "2026-W17",
-  "generated_at": "2026-04-24T18:32:54",
-  "summary": "本周重点优先抓两个核心方向，选题上直接套用强反差爆款逻辑，要么做跨IP魔改联动，比如楚人美和孙悟空组队取经的混搭脑洞，要么做身份反差爽点设定，比如重生雪狼王给女帝当奶爸，钩子直接点出冲突点起量效率极高。工具端直接把9.0分的FLUX.1-dev加入关键帧、参考图生产流水线，视频生成环节换用LTX-2.3系列，出片稳定性足够强，能省不少后期调整的无效成本。",
+  "generated_at": "2026-04-24T20:18:28",
+  "summary": "本周重点：值得重点学习的两个爆款方向，一是萌宠+AI生成反差搞笑内容，靠强视觉萌点钩子抓眼，完播率表现突出；二是个人AI创作落地类爽点内容，比如AI短片登上公共场景的真实案例，自带传播属性获赞数据亮眼。工具层面直接把评分9.62的FLUX.1-schnell纳入参考图、关键帧生产流水线，出图效率和质感远超同类型模型，再新增LTX-2.3-fp8负责视频生成环节，能大幅降低成片崩坏率。",
   "videos": [
     {
-      "id": "bili_v_BV1fV41117NX",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV1fV41117NX",
-      "title": "【AI视频生成入门教程】即梦+豆包+剪映，制作AI漫剧+AI短剧+AI动态漫+AI动画+ComfyUI全集AI漫剧零基础入门教程，AI教程零基础入门到精通",
-      "author": "ai视频生成入门教程",
-      "plays": 18652921,
-      "likes": 12404,
-      "duration_sec": 5824,
-      "cover_url": "https://i2.hdslb.com/bfs/archive/57a6e5e84b428717bf7b112c7a730c2ad005d7ba.jpg",
-      "hook": "零基础怎么做出爆款AI短剧漫剧？",
-      "structure": "痛点引入→工具介绍→分步实操→效果展示",
-      "style_tags": [
-        "干货教程",
-        "保姆级教学",
-        "零基础友好",
-        "实操演示",
-        "知识科普"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "bili_v_BV15YdBB6Efz",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV15YdBB6Efz",
-      "title": "楚人美游记 1-5 合集：当楚人美被孙悟空拐去取经",
-      "author": "安奇米苏",
-      "plays": 11189911,
-      "likes": 6378,
-      "duration_sec": 559,
-      "cover_url": "https://i0.hdslb.com/bfs/archive/c710f4f7ea8f9f1bd84be03a2c341d2afd3ccb86.jpg",
-      "hook": "楚人美竟和孙悟空组队去取经？",
-      "structure": "反差设定→原创剧情演绎→多集合集放送",
-      "style_tags": [
-        "AI动画",
-        "脑洞二创",
-        "IP联动",
-        "反差剧情",
-        "合集爽点"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "bili_v_BV13UdhBjEH9",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV13UdhBjEH9",
-      "title": "你掉的是这支小雪糕还是大雪糕",
-      "author": "小猪要吃好果子",
-      "plays": 5511374,
-      "likes": 3076,
-      "duration_sec": 89,
-      "cover_url": "https://i1.hdslb.com/bfs/archive/bc6f5415ee4d93926025a5c3bfaa4d05f009e98b.jpg",
-      "hook": "你掉的是小雪糕还是这支大雪糕？",
-      "structure": "抛出二选一疑问→搞笑整活→反转收尾",
-      "style_tags": [
-        "脑洞整活",
-        "古风混搭",
-        "经典梗改编",
-        "搞笑反转",
-        "视觉反差"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "yt_5BGYQ4wDv4g",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/5BGYQ4wDv4g",
-      "title": "බස් රජා 5 😎 Sri Lankan Old Bus Modification #shorts #modified",
-      "author": "AI Rooftop",
-      "plays": 5065384,
-      "likes": 26476,
-      "duration_sec": 17,
-      "cover_url": "https://i.ytimg.com/vi/5BGYQ4wDv4g/hqdefault.jpg",
-      "hook": "斯里兰卡老巴士爆改成品超酷炫",
-      "structure": "旧车原貌→改装过程→最终成品展示",
-      "style_tags": [
-        "视觉冲击",
-        "改装展示",
-        "异域特色",
-        "短平快",
-        "AI生成"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "bili_v_BV19BPZzjEKi",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV19BPZzjEKi",
-      "title": "我重生成雪狼王的第一件事，就是到处收集奶粉尿不湿",
-      "author": "阿林动漫_",
-      "plays": 5022323,
-      "likes": 54,
-      "duration_sec": 713,
-      "cover_url": "https://i2.hdslb.com/bfs/archive/8864789db5f5e6ce8464b6775047bbe06d4bc475.jpg",
-      "hook": "重生成雪狼，竟要给未来女帝当奶爸？",
-      "structure": "悬念引入→养娃日常→女帝身份反转揭秘",
-      "style_tags": [
-        "AI动画",
-        "重生爽文",
-        "奇幻萌系",
-        "反差感强",
-        "软萌治愈"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "bili_v_BV1ivwez5EDn",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV1ivwez5EDn",
-      "title": "刚到家发现爸妈居然变得陌生了....【B站AI创作大赛-开放赛道】",
-      "author": "禁忌主角",
-      "plays": 4577736,
-      "likes": 702,
-      "duration_sec": 558,
-      "cover_url": "https://i0.hdslb.com/bfs/archive/c09d3c8500c19eaf7450743114cc93d29f205a6e.jpg",
-      "hook": "刚回家，爸妈怎么变得陌生又奇怪？",
-      "structure": "悬念抛出→线索探查→真相揭秘",
-      "style_tags": [
-        "悬疑开场",
-        "惊悚氛围",
-        "AI制作",
-        "剧情反转",
-        "家庭怪谈"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "bili_v_BV1pF4m1V7Dm",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV1pF4m1V7Dm",
-      "title": "如何辨别AI还是人类，这几招不错",
-      "author": "cheems小电影",
-      "plays": 4505168,
-      "likes": 36,
-      "duration_sec": 61,
-      "cover_url": "https://i0.hdslb.com/bfs/archive/0966c341e2c6e4f54fd0c2a8200b97eaaf1b4621.jpg",
-      "hook": "cheems举枪对准同伴，质问其身份",
-      "structure": "悬念开场→科普辨AI技巧→趣味反转收尾",
-      "style_tags": [
-        "cheems动画",
-        "沙雕搞笑",
-        "干货科普",
-        "趣味剧情",
-        "萌梗演绎"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "yt_wG6T0FaoLCo",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/wG6T0FaoLCo",
-      "title": "Putin Saves Khamenei 😂 Trump’s Crazy Plan Backfires 💥 #putin #trump #funny #shorts",
-      "author": "Swag Memes",
-      "plays": 9301166,
-      "likes": 91219,
-      "duration_sec": 47,
-      "cover_url": "https://i.ytimg.com/vi/wG6T0FaoLCo/hqdefault.jpg",
-      "hook": "普京救哈梅内伊？特朗普计划彻底反噬",
-      "structure": "热点噱头引入→恶搞演绎→笑点暴击收尾",
-      "style_tags": [
-        "政要玩梗",
-        "恶搞meme",
-        "笑点密集",
-        "节奏轻快"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "bili_v_BV1F7xWzJEDp",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV1F7xWzJEDp",
-      "title": "一个人类竟然找到了外星人的巢穴❗️两个瘾君子的幻想❓",
-      "author": "鱼C-小甲鱼",
-      "plays": 8889770,
-      "likes": 504,
-      "duration_sec": 191,
-      "cover_url": "https://i2.hdslb.com/bfs/archive/cc765ba99e093f85191568e4bced1bf185afbdec.jpg",
-      "hook": "人类找到外星人巢穴？一般人看不懂？",
-      "structure": "悬念抛出→剧情演绎→核心隐喻解读",
-      "style_tags": [
-        "脑洞动画",
-        "悬念前置",
-        "猎奇剧情",
-        "隐喻解读",
-        "细思极恐"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "yt_65WjlseqNvE",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/65WjlseqNvE",
-      "title": "Aam 🥭& Strawberry🍓  ki LoveStory♥📈 😂|Part-2 |Flow Animation| #aishorts #trendingai #lovestory #aiart",
-      "author": "FLOW ANIMATION",
-      "plays": 3159583,
-      "likes": 77393,
-      "duration_sec": 51,
-      "cover_url": "https://i.ytimg.com/vi/65WjlseqNvE/hqdefault.jpg",
-      "hook": "芒果和草莓居然也有甜甜的爱情？",
-      "structure": "水果拟人设定→恋爱互动剧情→搞笑萌点收尾",
-      "style_tags": [
-        "AI动画",
-        "水果拟人",
-        "搞笑甜宠",
-        "萌系叙事",
-        "系列短剧"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "bili_v_BV1s5QwBGEsv",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV1s5QwBGEsv",
-      "title": "你想定制一个AI孩子吗？",
-      "author": "妈妈再灭我一次",
-      "plays": 6975560,
-      "likes": 517,
-      "duration_sec": 407,
-      "cover_url": "https://i0.hdslb.com/bfs/archive/4c557d64e64691b5c9ef8566b3b4fa320002c192.jpg",
-      "hook": "你想定制属于自己的AI孩子吗？",
-      "structure": "疑问引入→AI孩子场景展示→价值探讨",
-      "style_tags": [
-        "脑洞剧情",
-        "AI热点",
-        "真人演绎",
-        "亲子议题",
-        "深度反思"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "yt_mH0Npjt1EtQ",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/mH0Npjt1EtQ",
-      "title": "Old Indian Army Soldier Saves Hijacked Train | Epic Bike Jump Fight vs Super Villain 🔥🚆💥#shorts #ai",
-      "author": "REAL FUCHI ANNU",
-      "plays": 2547382,
-      "likes": 156922,
-      "duration_sec": 116,
-      "cover_url": "https://i.ytimg.com/vi/mH0Npjt1EtQ/hqdefault.jpg",
-      "hook": "印度老兵骑摩托飞跃被劫火车",
-      "structure": "劫车危机铺垫→老兵登场激战→正义获胜收尾",
-      "style_tags": [
-        "AI生成",
-        "爆燃动作",
-        "爽感叙事",
-        "特效大场面",
-        "英雄爽片"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "bili_v_BV1nRt1znErm",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV1nRt1znErm",
-      "title": "我的AI爸爸出来骗人了！",
-      "author": "硬核妈妈丽洁",
-      "plays": 5363529,
-      "likes": 34,
-      "duration_sec": 169,
-      "cover_url": "https://i0.hdslb.com/bfs/archive/460a1ccd1a8bccf413c3f7d7361d19f982d13bb0.jpg",
-      "hook": "我的AI爸爸居然跑出来骗人了？",
-      "structure": "抛出悬念→还原AI行骗过程→科普避坑技巧",
-      "style_tags": [
-        "悬念开头",
-        "真人演绎",
-        "搞怪趣味",
-        "生活科普",
-        "反诈干货"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "bili_v_BV1hHaazgEvv",
-      "platform": "bilibili_video",
-      "url": "https://www.bilibili.com/video/BV1hHaazgEvv",
-      "title": "当用AI把历史名人变成游戏Boss【第三期】",
-      "author": "冬芝鹿",
-      "plays": 5030799,
-      "likes": 23731,
-      "duration_sec": 91,
-      "cover_url": "https://i1.hdslb.com/bfs/archive/30a9ae1190e804ee70381f7cb67db54651cffbac.jpg",
-      "hook": "历史名人变成游戏Boss会是什么样？",
-      "structure": "悬念引入→AI生成BOSS展示→对应身份科普",
-      "style_tags": [
-        "AI生成",
-        "脑洞创意",
-        "视觉震撼",
-        "古风机甲",
-        "创意盘点"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "yt_LnUsni5GPeI",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/LnUsni5GPeI",
-      "title": "🤝Kids Helping Your Friends #shorts #cartoon#cartoonshorts #shortsforkids #shortvideo",
-      "author": "Irish kids tv",
-      "plays": 2006852,
-      "likes": 9860,
-      "duration_sec": 10,
-      "cover_url": "https://i.ytimg.com/vi/LnUsni5GPeI/hqdefault.jpg",
-      "hook": "小朋友遇困难，同伴主动伸出援手",
-      "structure": "困境呈现→同伴互助→暖心快乐收尾",
-      "style_tags": [
-        "儿童动画",
-        "暖心正能量",
-        "低龄友好",
-        "短平快",
-        "治愈"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "yt_qUQ49ZpaOd4",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/qUQ49ZpaOd4",
-      "title": "Chuck Norris #1 #ai #chucknorris #epic #legend #hero",
-      "author": "Dead Original Gaming",
-      "plays": 3594859,
-      "likes": 61967,
-      "duration_sec": 39,
-      "cover_url": "https://i.ytimg.com/vi/qUQ49ZpaOd4/hqdefault.jpg",
-      "hook": "Chuck Norris的逆天传说你见过几个？",
-      "structure": "梗点引入→离谱事迹盘点→神梗收尾",
-      "style_tags": [
-        "AI生成",
-        "硬汉梗科普",
-        "爽感拉满",
-        "短平快盘点"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "yt_-ftTTcddQxc",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/-ftTTcddQxc",
-      "title": "බස් රජා 6 😎 Sri Lankan Old Bus Modification #shorts #modified",
-      "author": "AI Rooftop",
-      "plays": 2612069,
-      "likes": 12967,
-      "duration_sec": 21,
-      "cover_url": "https://i.ytimg.com/vi/-ftTTcddQxc/hqdefault.jpg",
-      "hook": "你见过斯里兰卡爆改的复古老公交吗？",
-      "structure": "旧车原貌→改装过程→成品效果展示",
-      "style_tags": [
-        "AI生成",
-        "改装展示",
-        "视觉冲击",
-        "异域特色",
-        "短平快"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "yt_DmE3VblQlgY",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/DmE3VblQlgY",
-      "title": "#ai #cartoon #story #funny #love #shorts #sad",
-      "author": "Ai Duniya King",
-      "plays": 931426,
-      "likes": 8094,
-      "duration_sec": 33,
-      "cover_url": "https://i.ytimg.com/vi/DmE3VblQlgY/hqdefault.jpg",
-      "hook": "AI卡通爱情故事甜虐反转好哭又好笑",
-      "structure": "甜蜜恋爱铺垫→虐心转折→搞笑治愈收尾",
-      "style_tags": [
-        "AI卡通动画",
-        "甜虐反转",
-        "搞笑温情",
-        "迷你故事",
-        "短平快"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "yt_b12hGSXBnrk",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/b12hGSXBnrk",
-      "title": "THE MOST DANGEROUS AI #shorts",
-      "author": "jacobweeby",
-      "plays": 4532098,
-      "likes": 272047,
-      "duration_sec": 60,
-      "cover_url": "https://i.ytimg.com/vi/b12hGSXBnrk/hqdefault.jpg",
-      "hook": "你知道全球最危险的AI是什么吗？",
-      "structure": "悬念引入→风险点拆解→总结警示",
-      "style_tags": [
-        "悬念开头",
-        "科技科普",
-        "认知冲击",
-        "干货输出"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_6OCZqOFHO6M",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/6OCZqOFHO6M",
-      "title": "Gareeb radha vs nagin 😲 #ai #shortvideo #trending",
-      "author": "DIVINE REELS OG 🎬",
-      "plays": 3946716,
-      "likes": 0,
-      "duration_sec": 107,
-      "cover_url": "https://i.ytimg.com/vi/6OCZqOFHO6M/hqdefault.jpg",
-      "hook": "贫穷拉妲为何敢与蛇女正面对战？",
-      "structure": "悬念引入→高能对战过程→爽感结局收尾",
-      "style_tags": [
-        "AI生成",
-        "神话题材",
-        "反差冲突",
-        "高能对战",
-        "爽感短剧"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "xhs_69a9887c000000000e00f74c",
+      "id": "xhs_69cdf9d8000000001a034380",
       "platform": "xiaohongshu",
-      "url": "https://www.xiaohongshu.com/explore/69a9887c000000000e00f74c",
-      "title": "学会这些AI工具，轻松替你上班",
-      "author": "麦克说AI",
+      "url": "https://www.xiaohongshu.com/explore/69cdf9d8000000001a034380",
+      "title": "豆包同人",
+      "author": "柠檬茶烧丸",
       "plays": 0,
-      "likes": 112000,
+      "likes": 51000,
       "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241824/e585a25fd84057e97a86dd00d0c9d926/1040g00831tb81slhlk0g4a56f1hsi2l6e1773l8!nc_n_webp_mw_1",
-      "hook": "你还在加班？这些AI直接替你上班！",
-      "structure": "职场加班痛点→AI工具逐个拆解→实操技巧分享",
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241745/3d97e5661ab917f26049e6a33d0ac11a/1040g2sg31ueqv0ctiif05pfqshqipog64ah3so8!nc_n_webp_mw_1",
+      "hook": "拽姐竖指配「为何」疑问留悬念",
+      "structure": "单帧AI动画+对话框文字带出剧情",
       "style_tags": [
-        "真人出镜",
-        "干货科普",
-        "职场实用",
-        "工具测评",
-        "口语化"
+        "AI动画",
+        "同人创作",
+        "故障风",
+        "漫感",
+        "短平快"
       ],
-      "score": 8.5
-    },
-    {
-      "id": "dy_7045934595224767756",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7045934595224767756",
-      "title": "房东送我一只圆珠笔，当时就拒绝了，我是不是错过什么了？",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 85980,
-      "duration_sec": 135,
-      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-p-0015/6309f24f10074392a1bc7ae3911051af~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=IsV8o8zcR8Ss0F3D0vvldWidMz0%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "拒绝美女房东的圆珠笔，我错过啥了？",
-      "structure": "事件回放→悬念设问→搞笑反转揭秘",
-      "style_tags": [
-        "真人演绎",
-        "悬念开头",
-        "搞笑反转",
-        "都市日常",
-        "暧昧趣味"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "dy_7192550586754157880",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7192550586754157880",
-      "title": "约了上门陪护服务，女孩两套着装，差点把我送走了！ #搞笑  #成年人有哪些崩溃瞬间  #人类暴躁行为大赏 ",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 85044,
-      "duration_sec": 111,
-      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0004/413e3a6125b449aeb351cef07a2073f6~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=qtre367BZawL56W7lz%2BFD5RjVyk%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "开门惊见穿春丽cos服的人自称陪护",
-      "structure": "期望陪护上门→着装反差闹乌龙→搞笑收尾",
-      "style_tags": [
-        "真人演绎",
-        "反差搞笑",
-        "日常脑洞",
-        "误会反转"
-      ],
-      "score": 8.0
+      "score": 7.6,
+      "relevance": 10.0,
+      "quality": 7.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI生成同人动画，风格鲜明结构简单易复用"
     },
     {
       "id": "xhs_69ae4cff000000001a01c47f",
@@ -492,58 +39,47 @@
       "likes": 16000,
       "duration_sec": null,
       "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/63dea07a8e6759532a6a1dec050c3fc8/1040g2sg31tft2vg15mk05ppg8ct7dvtjec398so!nc_n_webp_mw_1",
-      "hook": "胖猫站秤上偷吃，身后橘猫正向它靠近",
-      "structure": "趣味场景引入→拟人互动→搞笑收尾",
+      "hook": "AI生成猫咪称重偷吃萌趣画面",
+      "structure": "拟人萌宠造反差，突出搞笑效果",
       "style_tags": [
         "AI生成",
         "萌宠搞笑",
-        "拟人剧情",
-        "反差感",
-        "轻松治愈"
+        "拟人化",
+        "短平快",
+        "治愈"
       ],
-      "score": 9.0
+      "score": 8.0,
+      "relevance": 10.0,
+      "quality": 8.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "优质AI生成萌宠搞笑内容，创作思路可直接复用"
     },
     {
-      "id": "xhs_69cdf9d8000000001a034380",
+      "id": "xhs_69709439000000002102bbad",
       "platform": "xiaohongshu",
-      "url": "https://www.xiaohongshu.com/explore/69cdf9d8000000001a034380",
-      "title": "豆包同人",
-      "author": "柠檬茶烧丸",
+      "url": "https://www.xiaohongshu.com/explore/69709439000000002102bbad",
+      "title": "我的AI短片登上了全国地铁站",
+      "author": "麦石MAXROCK",
       "plays": 0,
-      "likes": 51000,
+      "likes": 9643,
       "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241745/3d97e5661ab917f26049e6a33d0ac11a/1040g2sg31ueqv0ctiif05pfqshqipog64ah3so8!nc_n_webp_mw_1",
-      "hook": "傲娇豆包指你灵魂发问：为何？",
-      "structure": "疑问钩子→同人形象展示→趣味玩梗互动",
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/96a9cfb75b44286993443ce4c8e90006/1040g00831rklg8l3im0g5o99o7ogaoe7mprt50o!nc_n_webp_mw_1",
+      "hook": "AI短片登上全国地铁站引关注",
+      "structure": "展示AI动画作品+分享出圈成果",
       "style_tags": [
+        "国风神话",
         "AI动画",
-        "同人二创",
-        "傲娇人设",
-        "趣味玩梗",
-        "视觉冲击"
+        "视觉创意",
+        "高赞爆款",
+        "东方美学"
       ],
-      "score": 8.0
-    },
-    {
-      "id": "dy_7611501361825434915",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7611501361825434915",
-      "title": "吓得师傅都不敢喘气！ #搞笑帽子哥 #搞笑 #搞笑视频 #搞笑段子 #搞笑剧情",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 45575,
-      "duration_sec": 22,
-      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/3472998eda8845b981a7f90c1c94866c~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=%2BuViE3o1xO7%2FACvNQV%2F5TSmZY9c%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "坐网约车被后座女生恶狠狠盯着？",
-      "structure": "悬念引入→误会揭秘→搞笑反转收尾",
-      "style_tags": [
-        "真人演绎",
-        "搞笑反转",
-        "日常场景",
-        "悬念开头",
-        "轻喜剧"
-      ],
-      "score": 8.0
+      "score": 8.4,
+      "relevance": 10.0,
+      "quality": 9.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "高赞AI国风动画爆款，视觉设计和选题逻辑可直接复用"
     },
     {
       "id": "xhs_6703b070000000001b0233fc",
@@ -555,288 +91,375 @@
       "likes": 23000,
       "duration_sec": null,
       "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/fb4aa0e9a28b1f2531f81858e85168a2/spectrum/1040g0k0318l9flgf0o005otm4alpgpltv2g983g!nc_n_webp_mw_1",
-      "hook": "做AI视频没思路？这些技巧小白秒上手",
-      "structure": "痛点引入→工具讲解→技巧演示→干货总结",
+      "hook": "AI视频技巧集合，小白可快速上手",
+      "structure": "干货前置，分步讲解AI视频工具技巧",
       "style_tags": [
-        "干货科普",
-        "真人出镜",
-        "实用技巧",
-        "工具安利",
+        "AI教程",
+        "干货分享",
+        "工具教学",
         "小白友好"
       ],
-      "score": 8.5
+      "score": 7.6,
+      "relevance": 8.0,
+      "quality": 7.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI视频制作干货教程，技巧实用可直接复用至AI短剧创作"
     },
     {
-      "id": "dy_7628894710672755995",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7628894710672755995",
-      "title": "带现任见前任这样穿合适吗？ #搞笑帽子哥 #搞笑 #搞笑情侣 #搞笑夫妻 #搞笑短剧",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 33473,
-      "duration_sec": 21,
-      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/9834cbf974f24de28a118172db6245a5~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=uz%2FWsQNMd7pGai5t6Gl06KxCci4%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "带现任见前任这么穿合适吗？",
-      "structure": "悬念提问→情景演绎→搞笑反转收尾",
-      "style_tags": [
-        "真人演绎",
-        "美女吸睛",
-        "情侣搞笑",
-        "剧情反转",
-        "日常场景"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "xhs_69913e0d000000000c034763",
+      "id": "xhs_69bb60de00000000230100cd",
       "platform": "xiaohongshu",
-      "url": "https://www.xiaohongshu.com/explore/69913e0d000000000c034763",
-      "title": "AI短片《时差》，假如你的亲人开始“掉帧”",
-      "author": "三十二月",
+      "url": "https://www.xiaohongshu.com/explore/69bb60de00000000230100cd",
+      "title": "小红书现在还有人能看完12分钟的短片吗？",
+      "author": "灰昼",
       "plays": 0,
-      "likes": 10000,
+      "likes": 13000,
       "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/9a06bf5329eda5907f4b3415c72c1783/spectrum/1040g0k031sjjpt8i58005nhc3veg8qpd1vpob00!nc_n_webp_mw_1",
-      "hook": "地铁上亲人突然出现掉帧卡顿异常",
-      "structure": "反常现象铺垫→真相揭秘→情感价值升华",
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/4d09e4c50d60324ea13e6cd637f8f1f1/spectrum/1040g34o31ts32t8mmq105o0mvfu08h3g5ribpog!nc_n_webp_mw_1",
+      "hook": "持弓少年吸睛，反问观众看长片意愿",
+      "structure": "改编太平广记志怪，国风AI动画叙事",
       "style_tags": [
-        "AI生成",
-        "悬疑开场",
-        "情感催泪",
-        "现实隐喻",
-        "视觉特效"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "dy_7382207400440253750",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7382207400440253750",
-      "title": "一招制敌！ #搞笑 #反转 #迷惑行为大赏 #恶搞 #搞笑段子",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 29555,
-      "duration_sec": 94,
-      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/a4b07b9f722d43d796c2f5011bff7b17~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=3WmJvj61mPf0zMBLqP9svlz1O3s%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "美女娇俏托脸对男生主动示好",
-      "structure": "暧昧场景铺垫→离谱反转→搞笑笑点输出",
-      "style_tags": [
-        "真人演绎",
-        "反转搞笑",
-        "沙雕恶搞",
-        "暧昧前置",
-        "反差感"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "xhs_69b96377000000001e00dfa5",
-      "platform": "xiaohongshu",
-      "url": "https://www.xiaohongshu.com/explore/69b96377000000001e00dfa5",
-      "title": "《城乡往事》第11集 | 下雨天吃大锅菜",
-      "author": "文文的白日梦",
-      "plays": 0,
-      "likes": 8310,
-      "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/19ec876da8805a1a8852d415d620f84f/1040g00831tqng7i6n8005n0sc7k1qlk7228o5so!nc_n_webp_mw_1",
-      "hook": "你还记得童年雨天奶奶做的大锅菜吗？",
-      "structure": "童年回忆引入→大锅菜制作→温情共情收尾",
-      "style_tags": [
-        "吉卜力风动画",
-        "治愈怀旧",
-        "乡村美食",
-        "温情叙事"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "xhs_68c6a1cf000000001c03ccc0",
-      "platform": "xiaohongshu",
-      "url": "https://www.xiaohongshu.com/explore/68c6a1cf000000001c03ccc0",
-      "title": "bushi…现在AI小剧场已经发展成这样了啊？！",
-      "author": "汤姆的移动城堡",
-      "plays": 0,
-      "likes": 7687,
-      "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/ebb8fb8369a3f2ddf334f970eb041856/1040g00831mdld1qkks005ppv6vs7dn1ddtkqpr8!nc_n_webp_mw_1",
-      "hook": "穷酸哭脸橘猫拎包子来医院干啥？",
-      "structure": "悬念抛出→橘猫经历讲述→暖心结局",
-      "style_tags": [
+        "国风志怪",
         "AI动画",
-        "萌宠拟人",
-        "情绪治愈",
-        "软萌画风",
-        "短剧场"
+        "古风武侠",
+        "质感建模",
+        "大字封面"
       ],
-      "score": 9.0
+      "score": 8.0,
+      "relevance": 10.0,
+      "quality": 8.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI国风志怪动画制作精良，人设封面选题均可复用"
     },
     {
-      "id": "xhs_6989bc69000000000d00a7cd",
-      "platform": "xiaohongshu",
-      "url": "https://www.xiaohongshu.com/explore/6989bc69000000000d00a7cd",
-      "title": "AI直出治愈系动画vlog教程！无后期配音剪辑！",
-      "author": "骑蜗牛追导弹",
-      "plays": 0,
-      "likes": 7663,
-      "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/c25960b5dbdeb1376fd897a45d67d1dd/1040g2sg31sc64bsc5se05nq4o3808oep33f5u40!nc_n_webp_mw_1",
-      "hook": "AI直出治愈动画vlog？无需后期剪辑！",
-      "structure": "成品展示→制作教学→方法总结",
+      "id": "yt__92Rx7lOars",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/_92Rx7lOars",
+      "title": "AI is taking over minecraft shorts...  #minecraft",
+      "author": "highkeyhateme",
+      "plays": 2679393,
+      "likes": 124108,
+      "duration_sec": 62,
+      "cover_url": "https://i.ytimg.com/vi/_92Rx7lOars/hqdefault.jpg",
+      "hook": "AI占领我的世界 Shorts 引好奇",
+      "structure": "抛出AI渗透MC短内容现象+案例展示",
       "style_tags": [
-        "AI动画教程",
-        "治愈风",
-        "干货分享",
-        "零后期",
-        "工具实操"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "xhs_69e47752000000001a03123c",
-      "platform": "xiaohongshu",
-      "url": "https://www.xiaohongshu.com/explore/69e47752000000001a03123c",
-      "title": "起猛了，豆包竟然长脚了！",
-      "author": "元气小姨妈",
-      "plays": 0,
-      "likes": 23000,
-      "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241745/8aa5b8ebc8da5213ad4b62aaf060213f/spectrum/1040g34o31v4pb904hm0g5p1pfj2jjq8cin51frg!nc_n_webp_mw_1",
-      "hook": "起猛了！AI豆包居然长脚参加马拉松？",
-      "structure": "新奇看点引入→多款搞笑机器人展示→趣味吐槽",
-      "style_tags": [
-        "趣味整活",
-        "视觉反差",
-        "搞笑吐槽",
-        "AI拟人",
-        "实拍混剪"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "xhs_68037d16000000001c0292ec",
-      "platform": "xiaohongshu",
-      "url": "https://www.xiaohongshu.com/explore/68037d16000000001c0292ec",
-      "title": "AIGC古文剧情短剧，陶渊明《桃花源记》",
-      "author": "张凯翔原创AIGC短剧",
-      "plays": 0,
-      "likes": 6829,
-      "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/0abad57722e78ce2eb8454d08001909b/spectrum/1040g34o31gl64qku420g5nqv5c4g979vqjt6m90!nc_n_webp_mw_1",
-      "hook": "你真的看懂桃花源记的隐藏真相了吗？",
-      "structure": "悬念设问→剧情还原→隐藏真相解读",
-      "style_tags": [
-        "AIGC短剧",
-        "古风国风",
-        "经典新编",
-        "悬念解读",
-        "写实画风"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "dy_7516059102267886908",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7516059102267886908",
-      "title": "将计就计!#搞笑#恶搞",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 6899,
-      "duration_sec": 160,
-      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oAQe87cb5CHQMAL7gJQgNe8CxnBFgNeyi9zGI0~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=C2nrydIpSmMV7%2BBPIu1OMuL0nDY%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "美女坏笑，藏着什么整蛊小心思？",
-      "structure": "整蛊铺垫→对方中计→将计就计反杀",
-      "style_tags": [
-        "真人演绎",
-        "搞笑整蛊",
-        "反转剧情",
-        "轻松解压",
-        "日常段子"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "dy_7627468920903011634",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7627468920903011634",
-      "title": "妻子越想越生气！ #搞笑帽子哥 #搞笑夫妻 #搞笑家庭 #搞笑情侣 #搞笑",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 1861,
-      "duration_sec": 24,
-      "cover_url": "https://p9-pc-sign.douyinpic.com/tos-cn-i-dy/9501973e8df74c4584b169f3db445249~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=84y6%2FZojCOGY5QvaFTTzjj74cTY%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "妻子坐车里为啥越想越生气？",
-      "structure": "悬念设疑→揭晓生气原因→搞笑收尾",
-      "style_tags": [
-        "真人演绎",
-        "夫妻搞笑",
-        "悬念开头",
-        "日常接地气",
-        "反差笑点"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "dy_7608600294137597234",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7608600294137597234",
-      "title": "遇到不怀好意的人，装疯卖傻绝对是高招！ #搞笑帽子哥 #搞笑 #搞笑视频 #网约车 #搞笑短剧",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 1353,
-      "duration_sec": 51,
-      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/de6ed5c994034c9dbddb07334645d123~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=VRm1Z9SuPquMrLzehpYlIkWeSA4%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "坐网约车遇不怀好意的人，你会怎么做？",
-      "structure": "遇险场景引入→装疯卖傻应对→化险为夷搞笑收尾",
-      "style_tags": [
-        "真人演绎",
-        "搞笑反转",
-        "日常短剧",
-        "实用技巧",
-        "贴近生活"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "dy_7618441307547061519",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7618441307547061519",
-      "title": "奇葩小仙女打车 #搞笑帽子哥 #搞笑",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 1310,
-      "duration_sec": 37,
-      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/8994704edb2b495ca54e8ee1f52d7f95~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=LcShCzYB%2Bxbtb%2FDXs61XQqQ099o%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "打车遇奇葩乘客伸手索要东西？",
-      "structure": "冲突开场→奇葩事件展示→搞笑包袱收尾",
-      "style_tags": [
-        "真人演绎",
-        "搞笑日常",
-        "反差笑点",
-        "生活化场景",
-        "短平快段子"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "dy_7610393895406439718",
-      "platform": "douyin",
-      "url": "https://www.douyin.com/video/7610393895406439718",
-      "title": "秀才遇到兵，有理说不清！ #搞笑帽子哥 #搞笑 #搞笑短剧 #网约车 #超能挑战赛",
-      "author": "搞笑帽子哥",
-      "plays": 0,
-      "likes": 1184,
-      "duration_sec": 39,
-      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/b50b0e53ecc6472ba985d548736ad8a1~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=KO2q7AvPLsOZQG33DbfHtFirJts%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
-      "hook": "坐网约车遇奇葩，有理都说不清？",
-      "structure": "场景引入→冲突爆发→误会解开搞笑收尾",
-      "style_tags": [
-        "真人演绎",
-        "搞笑反转",
-        "日常场景",
-        "误会梗",
+        "Minecraft",
+        "AI游戏内容",
+        "热点话题",
         "短平快"
       ],
-      "score": 8.0
+      "score": 5.4,
+      "relevance": 5.0,
+      "quality": 6.0,
+      "actionable": 5.0,
+      "verdict": "B",
+      "reason": "仅提及AI与MC短结合，泛参考价值有限"
+    },
+    {
+      "id": "yt_kcBw1gpdfck",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/kcBw1gpdfck",
+      "title": "#ai #cartoon #story #shorts #love",
+      "author": "Ai Duniya King",
+      "plays": 1941752,
+      "likes": 0,
+      "duration_sec": 33,
+      "cover_url": "https://i.ytimg.com/vi/kcBw1gpdfck/hqdefault.jpg",
+      "hook": "AI卡通爱情短内容抓流量",
+      "structure": "33秒竖屏卡通爱情短叙事结构",
+      "style_tags": [
+        "AI动画",
+        "卡通风格",
+        "爱情题材",
+        "竖屏短剧"
+      ],
+      "score": 5.4,
+      "relevance": 10.0,
+      "quality": 6.0,
+      "actionable": 5.0,
+      "verdict": "B",
+      "reason": "仅元数据可参考AI卡通爱情题材创作方向"
+    },
+    {
+      "id": "yt_65WjlseqNvE",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/65WjlseqNvE",
+      "title": "Aam 🥭& Strawberry🍓  ki LoveStory♥📈 😂|Part-2 |Flow Animation| #aishorts #trendingai #lovestory #aiart",
+      "author": "FLOW ANIMATION",
+      "plays": 3159583,
+      "likes": 77393,
+      "duration_sec": 51,
+      "cover_url": "https://i.ytimg.com/vi/65WjlseqNvE/hqdefault.jpg",
+      "hook": "芒果草莓的搞笑爱情故事Part2",
+      "structure": "拟人水果演绎搞笑恋爱短剧情",
+      "style_tags": [
+        "AI动画",
+        "搞笑甜宠",
+        "水果拟人",
+        "系列短剧"
+      ],
+      "score": 7.4,
+      "relevance": 10.0,
+      "quality": 8.0,
+      "actionable": 7.0,
+      "verdict": "S",
+      "reason": "AI生成水果拟人爱情系列短剧，爆款模式可借鉴"
+    },
+    {
+      "id": "yt_mH0Npjt1EtQ",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/mH0Npjt1EtQ",
+      "title": "Old Indian Army Soldier Saves Hijacked Train | Epic Bike Jump Fight vs Super Villain 🔥🚆💥#shorts #ai",
+      "author": "REAL FUCHI ANNU",
+      "plays": 2547382,
+      "likes": 156922,
+      "duration_sec": 116,
+      "cover_url": "https://i.ytimg.com/vi/mH0Npjt1EtQ/hqdefault.jpg",
+      "hook": "印老兵救被劫火车，机车大战反派",
+      "structure": "劫车危机引入→英雄登场→高燃打戏收尾",
+      "style_tags": [
+        "AI动作爽片",
+        "军事题材",
+        "强冲突",
+        "爽感向",
+        "真人CG风"
+      ],
+      "score": 8.0,
+      "relevance": 10.0,
+      "quality": 8.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI生成军事爽剧，爽点结构和冲突设计可直接复用"
+    },
+    {
+      "id": "yt_q79Zey68ofI",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/q79Zey68ofI",
+      "title": "Magic Hulk Transformation! ⚡🤡 #cartoon #woodart #funny #animation #ai #comedy #woodworking #shorts",
+      "author": "Comaaly",
+      "plays": 841061,
+      "likes": 5635,
+      "duration_sec": 20,
+      "cover_url": "https://i.ytimg.com/vi/q79Zey68ofI/hqdefault.jpg",
+      "hook": "绿巨人魔法变身爽点吸睛",
+      "structure": "短平快呈现变身反差搞笑效果",
+      "style_tags": [
+        "AI动画",
+        "变身爽感",
+        "搞笑喜剧",
+        "短平快",
+        "奇幻"
+      ],
+      "score": 7.0,
+      "relevance": 10.0,
+      "quality": 7.0,
+      "actionable": 7.0,
+      "verdict": "S",
+      "reason": "AI生成搞笑变身短动画，结构创意可直接复用"
+    },
+    {
+      "id": "bili_v_BV15YdBB6Efz",
+      "platform": "bilibili_video",
+      "url": "https://www.bilibili.com/video/BV15YdBB6Efz",
+      "title": "楚人美游记 1-5 合集：当楚人美被孙悟空拐去取经",
+      "author": "安奇米苏",
+      "plays": 11092486,
+      "likes": 6337,
+      "duration_sec": 559,
+      "cover_url": "https://i0.hdslb.com/bfs/archive/c710f4f7ea8f9f1bd84be03a2c341d2afd3ccb86.jpg",
+      "hook": "魔改西游：楚人美被孙悟空拐去取经",
+      "structure": "IP魔改重组，多集连贯叙事，爽点密集",
+      "style_tags": [
+        "AI动画",
+        "魔改IP",
+        "西游同人",
+        "猎奇反差",
+        "爆款合集"
+      ],
+      "score": 8.0,
+      "relevance": 10.0,
+      "quality": 8.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI生成魔改IP爆款短剧，创意玩法和制作逻辑可直接复用"
+    },
+    {
+      "id": "bili_v_BV1ABcsztEcY",
+      "platform": "bilibili_video",
+      "url": "https://www.bilibili.com/video/BV1ABcsztEcY",
+      "title": "能卖上亿美金？国产短剧如何征服世界？",
+      "author": "影视飓风",
+      "plays": 8241449,
+      "likes": 10817,
+      "duration_sec": 679,
+      "cover_url": "https://i1.hdslb.com/bfs/archive/679d4004a51cdc87c25d3ba933de1d6dbea3c52c.jpg",
+      "hook": "AI短剧出海竟能赚上亿美金？",
+      "structure": "抛出问题+案例拆解+经验方法总结",
+      "style_tags": [
+        "AI短剧出海",
+        "商业干货",
+        "制作解析",
+        "行业洞察"
+      ],
+      "score": 8.0,
+      "relevance": 8.0,
+      "quality": 8.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI短剧出海干货内容，制作精良可借鉴性强"
+    },
+    {
+      "id": "bili_v_BV1fV41117NX",
+      "platform": "bilibili_video",
+      "url": "https://www.bilibili.com/video/BV1fV41117NX",
+      "title": "【AI视频生成入门教程】即梦+豆包+剪映，制作AI漫剧+AI短剧+AI动态漫+AI动画+ComfyUI全集AI漫剧零基础入门教程，AI教程零基础入门到精通",
+      "author": "ai视频生成入门教程",
+      "plays": 18652586,
+      "likes": 12404,
+      "duration_sec": 5824,
+      "cover_url": "https://i2.hdslb.com/bfs/archive/57a6e5e84b428717bf7b112c7a730c2ad005d7ba.jpg",
+      "hook": "零基础学AI短剧生成全流程",
+      "structure": "讲解三款工具配合制作AI短剧步骤",
+      "style_tags": [
+        "教程干货",
+        "AI短剧制作",
+        "零基础入门",
+        "工具实操"
+      ],
+      "score": 7.6,
+      "relevance": 8.0,
+      "quality": 7.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI短剧制作全流程实操教程，步骤清晰可直接复用"
+    },
+    {
+      "id": "bili_v_BV1mC4y1r7bd",
+      "platform": "bilibili_video",
+      "url": "https://www.bilibili.com/video/BV1mC4y1r7bd",
+      "title": "等了38年！《西游记》中最真实的狮驼岭被我用AI还原！",
+      "author": "AI疯人院",
+      "plays": 3389585,
+      "likes": 3136,
+      "duration_sec": 173,
+      "cover_url": "https://i1.hdslb.com/bfs/archive/3384fc0c1138bc8fe08b2e0f1a2dfc297587e93f.jpg",
+      "hook": "AI还原《西游记》最真实狮驼岭",
+      "structure": "先抛情怀悬念，再展示AI生成场景",
+      "style_tags": [
+        "AI生成动画",
+        "国风恐怖",
+        "西游IP改编",
+        "视觉猎奇",
+        "AI创作"
+      ],
+      "score": 8.4,
+      "relevance": 10.0,
+      "quality": 9.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI生成的西游改编优质动画，可借鉴IP改编与AI场景制作方法"
+    },
+    {
+      "id": "bili_v_BV1tKwHeKEk4",
+      "platform": "bilibili_video",
+      "url": "https://www.bilibili.com/video/BV1tKwHeKEk4",
+      "title": "中国《山海经》挑战世界AI，40分钟震撼到肝颤！",
+      "author": "AI疯人院",
+      "plays": 3292311,
+      "likes": 5017,
+      "duration_sec": 2417,
+      "cover_url": "https://i2.hdslb.com/bfs/archive/cd421d9fae6b81d452c6381b699e6bd1e261de9f.jpg",
+      "hook": "山海经异兽视觉冲击，AI大片噱头拉满",
+      "structure": "系列化呈现AI生成的山海经异兽奇幻场景",
+      "style_tags": [
+        "东方奇幻",
+        "AI生成动画",
+        "山海经IP",
+        "怪兽视觉"
+      ],
+      "score": 8.4,
+      "relevance": 10.0,
+      "quality": 9.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "高质量AI生成国风奇幻内容，选题和制作逻辑可复用"
+    },
+    {
+      "id": "dy_7632156581789994249",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7632156581789994249",
+      "title": "人生赢家：李响冷静布局，让拜金妻自食苦果* #缘尽双色球  #新剧来袭 ",
+      "author": "小乔剧院",
+      "plays": 0,
+      "likes": 3,
+      "duration_sec": 835,
+      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/e318bab5a0dc405084e6e3b31fe0f8ab~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092359600&x-signature=%2BYYWAaA5wQHM%2Fhlv7fJAT81Vll8%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260424111507F8D07D133BDAE80C770B",
+      "hook": "男主布局让拜金妻自食苦果",
+      "structure": "都市逆袭爽文，打脸拜金女叙事",
+      "style_tags": [
+        "都市爽文",
+        "AI短剧",
+        "逆袭打脸",
+        "财富题材"
+      ],
+      "score": 7.6,
+      "relevance": 10.0,
+      "quality": 7.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI生成爽文短剧，结构封面可直接复用学习"
+    },
+    {
+      "id": "dy_7632156579621539081",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7632156579621539081",
+      "title": "人生赢家：妻带情夫逼离婚，妄图独吞亿元彩票* #缘尽双色球  #新剧来袭 ",
+      "author": "小乔剧院",
+      "plays": 0,
+      "likes": 2,
+      "duration_sec": 745,
+      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/e318bab5a0dc405084e6e3b31fe0f8ab~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092359600&x-signature=%2BYYWAaA5wQHM%2Fhlv7fJAT81Vll8%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042411462823AD1A10369D0A5A58AF",
+      "hook": "妻带情夫逼离婚妄图独吞亿元彩票",
+      "structure": "先抑后扬，情感冲突加财富逆袭爽点",
+      "style_tags": [
+        "AI生成短剧",
+        "都市爽剧",
+        "财富逆袭",
+        "情感冲突"
+      ],
+      "score": 7.6,
+      "relevance": 10.0,
+      "quality": 7.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "AI生成都市爽剧，爽点模板清晰可直接复用"
+    },
+    {
+      "id": "dy_7630847457711127652",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7630847457711127652",
+      "title": "",
+      "author": "艺安短剧",
+      "plays": 0,
+      "likes": 1,
+      "duration_sec": 7,
+      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-p-0015/oIAI40xB8WuiAdieD2IApWAC6Ngfvn3mTL8E1B~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=L64U2axAmUtT2SRdqBVmuqDdz5Y%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260424103510C2B94DD4B5388A4F7D9A",
+      "hook": "黑白双萌毛绒角色同框吸睛",
+      "structure": "短时长静态展示萌系IP角色",
+      "style_tags": [
+        "萌系IP",
+        "AI动画",
+        "短平快",
+        "毛绒质感"
+      ],
+      "score": 7.0,
+      "relevance": 10.0,
+      "quality": 7.0,
+      "actionable": 7.0,
+      "verdict": "S",
+      "reason": "AI生成萌系动画短内容，制作达标易参考复用"
     }
   ],
   "tools": [
@@ -847,120 +470,17 @@
       "name": "stabilityai/stable-diffusion-xl-base-1.0",
       "description": "text-to-image",
       "metric": 2026603,
-      "summary": "文生图SOTA模型，生成短剧图像类素材",
+      "summary": "顶流开源文生图模型，可生成参考图关键帧",
       "stage_tags": [
         "ref_image",
         "keyframe"
       ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_Lightricks_LTX-2.3",
-      "source": "huggingface",
-      "url": "https://huggingface.co/Lightricks/LTX-2.3",
-      "name": "Lightricks/LTX-2.3",
-      "description": "image-to-video",
-      "metric": 1683025,
-      "summary": "高性能图生视频生成模型",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_Lightricks_LTX-2.3-fp8",
-      "source": "huggingface",
-      "url": "https://huggingface.co/Lightricks/LTX-2.3-fp8",
-      "name": "Lightricks/LTX-2.3-fp8",
-      "description": "image-to-video",
-      "metric": 1595468,
-      "summary": "优质开源图生视频生成模型",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_black-forest-labs_FLUX.1-dev",
-      "source": "huggingface",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-      "name": "black-forest-labs/FLUX.1-dev",
-      "description": "text-to-image",
-      "metric": 686533,
-      "summary": "SOTA文生图模型，生成参考图关键帧",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "hf_model_lightx2v_Wan2.2-Distill-Loras",
-      "source": "huggingface",
-      "url": "https://huggingface.co/lightx2v/Wan2.2-Distill-Loras",
-      "name": "lightx2v/Wan2.2-Distill-Loras",
-      "description": "image-to-video",
-      "metric": 1343057,
-      "summary": "Wan2.2蒸馏LoRA，可实现图像转视频",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_stabilityai_sdxl-turbo",
-      "source": "huggingface",
-      "url": "https://huggingface.co/stabilityai/sdxl-turbo",
-      "name": "stabilityai/sdxl-turbo",
-      "description": "text-to-image",
-      "metric": 857737,
-      "summary": "高速文生图模型，可生成参考图关键帧",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_Lightricks_LTX-2",
-      "source": "huggingface",
-      "url": "https://huggingface.co/Lightricks/LTX-2",
-      "name": "Lightricks/LTX-2",
-      "description": "image-to-video",
-      "metric": 828130,
-      "summary": "优质图生视频模型，适配短剧生产需求",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_crynux-network_sdxl-turbo",
-      "source": "huggingface",
-      "url": "https://huggingface.co/crynux-network/sdxl-turbo",
-      "name": "crynux-network/sdxl-turbo",
-      "description": "text-to-image",
-      "metric": 729086,
-      "summary": "高速文生图模型，生成效率效果俱佳",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "ms_Qwen_Qwen3.5-9B",
-      "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-9B",
-      "name": "Qwen/Qwen3.5-9B",
-      "description": "千问3.5-9B",
-      "metric": 724312,
-      "summary": "大语言模型，可生成短剧世界观、剧本",
-      "stage_tags": [
-        "world",
-        "script"
-      ],
-      "score": 8.5
+      "score": 9.0,
+      "relevance": 8.0,
+      "quality": 9.0,
+      "actionable": 9.0,
+      "verdict": "S",
+      "reason": "SDXL是稳定可靠的开源文生图模型，可直接接入短剧参考图、关键帧生成环节，落地性极强"
     },
     {
       "id": "hf_model_black-forest-labs_FLUX.1-schnell",
@@ -969,26 +489,35 @@
       "name": "black-forest-labs/FLUX.1-schnell",
       "description": "text-to-image",
       "metric": 718933,
-      "summary": "SOTA快速文生图，可生成参考图关键帧",
+      "summary": "顶流高速文生图，可生成参考图关键帧",
       "stage_tags": [
         "ref_image",
         "keyframe"
       ],
-      "score": 8.5
+      "score": 9.62,
+      "relevance": 8.5,
+      "quality": 9.8,
+      "actionable": 9.5,
+      "verdict": "S",
+      "reason": "顶尖文生图模型可直接接入短剧参考图、关键帧环节，落地性强"
     },
     {
-      "id": "hf_model_stabilityai_sd-turbo",
+      "id": "hf_model_Lightricks_LTX-2.3-fp8",
       "source": "huggingface",
-      "url": "https://huggingface.co/stabilityai/sd-turbo",
-      "name": "stabilityai/sd-turbo",
-      "description": "text-to-image",
-      "metric": 650187,
-      "summary": "高速文生图模型，生成效率高效果好",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-fp8",
+      "name": "Lightricks/LTX-2.3-fp8",
+      "description": "image-to-video",
+      "metric": 1595468,
+      "summary": "开源优质图生视频模型，可直接部署使用",
       "stage_tags": [
-        "ref_image",
-        "keyframe"
+        "videogen"
       ],
-      "score": 8.5
+      "score": 9.04,
+      "relevance": 9.5,
+      "quality": 8.8,
+      "actionable": 9.2,
+      "verdict": "S",
+      "reason": "大厂出品的高热度开源图生视频模型，可直接接入短剧视频生成环节"
     },
     {
       "id": "hf_model_stable-diffusion-v1-5_stable-diffusion-v1-5",
@@ -997,39 +526,55 @@
       "name": "stable-diffusion-v1-5/stable-diffusion-v1-5",
       "description": "text-to-image",
       "metric": 1476066,
-      "summary": "文生图模型，可生成短剧参考图与关键帧",
+      "summary": "经典开源文生图，可生成参考图关键帧",
       "stage_tags": [
         "ref_image",
         "keyframe"
       ],
-      "score": 8.0
+      "score": 9.0,
+      "relevance": 8.0,
+      "quality": 9.0,
+      "actionable": 9.0,
+      "verdict": "S",
+      "reason": "SD1.5是成熟开源文生图模型，可直接接入短剧流水线生成参考图、关键帧，实用性极强"
     },
     {
-      "id": "hf_model_Lightricks_LTX-Video",
+      "id": "hf_model_black-forest-labs_FLUX.1-dev",
       "source": "huggingface",
-      "url": "https://huggingface.co/Lightricks/LTX-Video",
-      "name": "Lightricks/LTX-Video",
-      "description": "image-to-video",
-      "metric": 548665,
-      "summary": "高性能图生视频模型，适配视频生成",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "name": "black-forest-labs/FLUX.1-dev",
+      "description": "text-to-image",
+      "metric": 686533,
+      "summary": "顶流开源文生图模型，生成质量优异",
       "stage_tags": [
-        "videogen"
+        "ref_image",
+        "keyframe"
       ],
-      "score": 8.5
+      "score": 9.4,
+      "relevance": 8.0,
+      "quality": 10.0,
+      "actionable": 9.0,
+      "verdict": "S",
+      "reason": "顶流文生图模型可直接接入参考图、关键帧生成环节"
     },
     {
-      "id": "ms_Qwen_Qwen3.5-35B-A3B",
-      "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-35B-A3B",
-      "name": "Qwen/Qwen3.5-35B-A3B",
-      "description": "千问3.5-35B-A3B",
-      "metric": 1990037,
-      "summary": "通用大模型可辅助短剧世界观及脚本创作",
+      "id": "hf_model_stabilityai_sd-turbo",
+      "source": "huggingface",
+      "url": "https://huggingface.co/stabilityai/sd-turbo",
+      "name": "stabilityai/sd-turbo",
+      "description": "text-to-image",
+      "metric": 650187,
+      "summary": "高速文生图模型，可生成参考图关键帧",
       "stage_tags": [
-        "world",
-        "script"
+        "ref_image",
+        "keyframe"
       ],
-      "score": 7.5
+      "score": 9.0,
+      "relevance": 8.0,
+      "quality": 9.0,
+      "actionable": 9.0,
+      "verdict": "S",
+      "reason": "StabilityAI官方出品成熟文生图模型，质优易集成，适配短剧核心图像生成环节，符合S级标准"
     },
     {
       "id": "ms_Tongyi-MAI_Z-Image-Turbo",
@@ -1037,82 +582,18 @@
       "url": "https://www.modelscope.cn/models/Tongyi-MAI/Z-Image-Turbo",
       "name": "Tongyi-MAI/Z-Image-Turbo",
       "description": "造相-Z-Image-Turbo",
-      "metric": 520640,
-      "summary": "高速文生图模型，可生成参考图、关键帧",
+      "metric": 519982,
+      "summary": "通义高速文生图模型，可制短剧参考图关键帧",
       "stage_tags": [
         "ref_image",
         "keyframe"
       ],
-      "score": 8.0
-    },
-    {
-      "id": "bili_BV1QpyZBZE3v",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1QpyZBZE3v",
-      "name": "发布Sora2后处理工具，包括加水印、去水印和画质增强等功能，永久免费。",
-      "description": "本视频仅作教学，无任何不良内容，不包含任何商业推广信息，自己做着玩的~\n祝大家周末愉快！\n使用到的测试素材：\nBV1LExMzYE6x\nBV1xHWQzYEnu\nBV124WYzjEdp\nBV1XHx6zDERm\nBV1visYzPEpq",
-      "metric": 456653,
-      "summary": "免费Sora后处理工具含画质增强水印处理",
-      "stage_tags": [
-        "quality",
-        "edit"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "ms_deepseek-ai_DeepSeek-V3.2",
-      "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V3.2",
-      "name": "deepseek-ai/DeepSeek-V3.2",
-      "description": "文本生成",
-      "metric": 351916,
-      "summary": "高性能文本大模型，辅助短剧文本创作",
-      "stage_tags": [
-        "world",
-        "script"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "ms_MiniMax_MiniMax-M2.5",
-      "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/MiniMax/MiniMax-M2.5",
-      "name": "MiniMax/MiniMax-M2.5",
-      "description": "文本生成",
-      "metric": 310121,
-      "summary": "中文大模型适配世界观、剧本创作",
-      "stage_tags": [
-        "world",
-        "script"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "ms_FunAudioLLM_Fun-CosyVoice3-0.5B-2512",
-      "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
-      "name": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
-      "description": "Fun-CosyVoice3-0.5B-2512",
-      "metric": 123504,
-      "summary": "高性能中文语音合成TTS模型",
-      "stage_tags": [
-        "tts"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "ms_Qwen_Qwen3.6-35B-A3B",
-      "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/Qwen/Qwen3.6-35B-A3B",
-      "name": "Qwen/Qwen3.6-35B-A3B",
-      "description": "千问3.6-35B-A3B",
-      "metric": 121380,
-      "summary": "高性能大模型，用于世界观及剧本创作",
-      "stage_tags": [
-        "world",
-        "script"
-      ],
-      "score": 8.5
+      "score": 8.0,
+      "relevance": 8.0,
+      "quality": 8.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "阿里官方高性能文生图模型，可直接接入对应环节，符合S级标准"
     },
     {
       "id": "gh_Comfy-Org_ComfyUI",
@@ -1121,27 +602,19 @@
       "name": "Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "metric": 109894,
-      "summary": "模块化扩散GUI，支持图视频生成优化",
+      "summary": "开源扩散模型工作流搭建工具",
       "stage_tags": [
         "ref_image",
         "keyframe",
         "videogen",
         "quality"
       ],
-      "score": 8.5
-    },
-    {
-      "id": "gh_RVC-Boss_GPT-SoVITS",
-      "source": "github",
-      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
-      "name": "RVC-Boss/GPT-SoVITS",
-      "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-      "metric": 56937,
-      "summary": "少样本语音克隆的优秀中文TTS工具",
-      "stage_tags": [
-        "tts"
-      ],
-      "score": 9.0
+      "score": 9.2,
+      "relevance": 8.0,
+      "quality": 9.5,
+      "actionable": 9.0,
+      "verdict": "S",
+      "reason": "顶级开源生成工具，可支撑短剧多制作环节落地"
     },
     {
       "id": "ms_Qwen_Qwen3.5-27B",
@@ -1149,54 +622,55 @@
       "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-27B",
       "name": "Qwen/Qwen3.5-27B",
       "description": "千问3.5-27B",
-      "metric": 1277936,
-      "summary": "高性能中文大模型可辅助世界观剧本创作",
+      "metric": 1275717,
+      "summary": "通义千问通用大模型，可辅助短剧创作",
       "stage_tags": [
         "world",
         "script"
       ],
-      "score": 7.0
+      "score": 7.2,
+      "relevance": 5.0,
+      "quality": 9.0,
+      "actionable": 6.0,
+      "verdict": "B",
+      "reason": "通用大模型可辅助世界观及剧本创作，需自行适配场景，仅作参考"
     },
     {
-      "id": "ms_Qwen_Qwen3.5-397B-A17B",
+      "id": "ms_FunAudioLLM_Fun-CosyVoice3-0.5B-2512",
       "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-397B-A17B",
-      "name": "Qwen/Qwen3.5-397B-A17B",
-      "description": "千问3.5-397B-A17B",
-      "metric": 111621,
-      "summary": "高性能大模型，可生成短剧世界观与剧本",
-      "stage_tags": [
-        "world",
-        "script"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "ms_IndexTeam_IndexTTS-2",
-      "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/IndexTeam/IndexTTS-2",
-      "name": "IndexTeam/IndexTTS-2",
-      "description": "IndexTTS-2",
-      "metric": 108132,
-      "summary": "中文语音合成TTS专用模型",
+      "url": "https://www.modelscope.cn/models/FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "name": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "description": "Fun-CosyVoice3-0.5B-2512",
+      "metric": 122917,
+      "summary": "阿里开源高质量TTS语音生成模型",
       "stage_tags": [
         "tts"
       ],
-      "score": 8.0
+      "score": 8.5,
+      "relevance": 8.5,
+      "quality": 8.5,
+      "actionable": 8.5,
+      "verdict": "S",
+      "reason": "高性能开源TTS模型，可直接接入短剧配音环节"
     },
     {
-      "id": "ms_nv-community_NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+      "id": "ms_Qwen_Qwen3.5-35B-A3B",
       "source": "modelscope",
-      "url": "https://www.modelscope.cn/models/nv-community/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
-      "name": "nv-community/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
-      "description": "文本生成",
-      "metric": 232861,
-      "summary": "强文本生成大模型，可辅助世界观与脚本创作",
+      "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-35B-A3B",
+      "name": "Qwen/Qwen3.5-35B-A3B",
+      "description": "千问3.5-35B-A3B",
+      "metric": 1971919,
+      "summary": "阿里通用大模型，可辅助短剧创作",
       "stage_tags": [
         "world",
         "script"
       ],
-      "score": 7.5
+      "score": 6.8,
+      "relevance": 5.0,
+      "quality": 8.0,
+      "actionable": 6.0,
+      "verdict": "B",
+      "reason": "通用大模型可辅助剧本创作，需适配短剧场景使用"
     },
     {
       "id": "ms_Qwen_Qwen-Image-2512",
@@ -1204,30 +678,36 @@
       "url": "https://www.modelscope.cn/models/Qwen/Qwen-Image-2512",
       "name": "Qwen/Qwen-Image-2512",
       "description": "文本生成图片",
-      "metric": 107310,
-      "summary": "中文文生图模型，可生成参考图、关键帧",
+      "metric": 107213,
+      "summary": "通义千问文生图模型，适配短剧绘图需求",
       "stage_tags": [
         "ref_image",
         "keyframe"
       ],
-      "score": 8.0
+      "score": 8.2,
+      "relevance": 8.0,
+      "quality": 8.5,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "大厂出品高质量文生图，可直接接入短剧绘图环节，符合S级标准"
     },
     {
-      "id": "gh_mudler_LocalAI",
-      "source": "github",
-      "url": "https://github.com/mudler/LocalAI",
-      "name": "mudler/LocalAI",
-      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-      "metric": 45771,
-      "summary": "开源本地多模态AI引擎，支持多模型部署",
+      "id": "ms_Lightricks_LTX-2.3",
+      "source": "modelscope",
+      "url": "https://www.modelscope.cn/models/Lightricks/LTX-2.3",
+      "name": "Lightricks/LTX-2.3",
+      "description": "图片生成视频",
+      "metric": 47366,
+      "summary": "Lightricks出品图生视频模型LTX-2.3",
       "stage_tags": [
-        "world",
-        "script",
-        "ref_image",
-        "keyframe",
         "videogen"
       ],
-      "score": 8.5
+      "score": 8.8,
+      "relevance": 9.0,
+      "quality": 8.5,
+      "actionable": 9.0,
+      "verdict": "S",
+      "reason": "优质图生视频模型，可直接接入短剧视频生成环节"
     },
     {
       "id": "gh_huggingface_diffusers",
@@ -1236,7 +716,7 @@
       "name": "huggingface/diffusers",
       "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
       "metric": 33433,
-      "summary": "扩散模型库，支持图视音生成及质量增强",
+      "summary": "通用扩散模型库，支持图音视生成",
       "stage_tags": [
         "ref_image",
         "keyframe",
@@ -1244,35 +724,34 @@
         "quality",
         "sfx"
       ],
-      "score": 8.5
+      "score": 9.2,
+      "relevance": 8.5,
+      "quality": 9.5,
+      "actionable": 9.0,
+      "verdict": "S",
+      "reason": "顶流扩散模型库，可直接接入短剧多生成环节"
     },
     {
-      "id": "gh_invoke-ai_InvokeAI",
+      "id": "gh_mudler_LocalAI",
       "source": "github",
-      "url": "https://github.com/invoke-ai/InvokeAI",
-      "name": "invoke-ai/InvokeAI",
-      "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The sol",
-      "metric": 27042,
-      "summary": "开源SD创作引擎，可生成参考图关键帧",
+      "url": "https://github.com/mudler/LocalAI",
+      "name": "mudler/LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "metric": 45771,
+      "summary": "开源多模态本地AI推理引擎，支持多硬件",
       "stage_tags": [
+        "world",
+        "script",
         "ref_image",
-        "keyframe"
+        "keyframe",
+        "videogen"
       ],
-      "score": 8.0
-    },
-    {
-      "id": "gh_duixcom_Duix-Avatar",
-      "source": "github",
-      "url": "https://github.com/duixcom/Duix-Avatar",
-      "name": "duixcom/Duix-Avatar",
-      "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
-      "metric": 12827,
-      "summary": "开源AI数字人克隆及视频生成工具",
-      "stage_tags": [
-        "videogen",
-        "lip_sync"
-      ],
-      "score": 8.5
+      "score": 8.4,
+      "relevance": 8.0,
+      "quality": 9.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "高星开源多模态AI引擎，可对接短剧多生产环节，落地性强"
     },
     {
       "id": "gh_NVIDIA-NeMo_NeMo",
@@ -1281,224 +760,54 @@
       "name": "NVIDIA-NeMo/NeMo",
       "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
       "metric": 17122,
-      "summary": "NVIDIA开源多模态语音AI开发框架",
+      "summary": "英伟达多模态AI框架，支持LLM与TTS",
       "stage_tags": [
         "script",
         "tts"
       ],
-      "score": 8.0
+      "score": 8.7,
+      "relevance": 8.0,
+      "quality": 9.0,
+      "actionable": 8.5,
+      "verdict": "S",
+      "reason": "英伟达官方成熟框架，LLM、TTS能力可直接接入短剧生产"
     },
     {
-      "id": "gh_Anil-matcha_Open-Generative-AI",
+      "id": "gh_invoke-ai_InvokeAI",
       "source": "github",
-      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
-      "name": "Anil-matcha/Open-Generative-AI",
-      "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No ",
-      "metric": 7343,
-      "summary": "开源多模型图像视频生成工具库",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "name": "invoke-ai/InvokeAI",
+      "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The sol",
+      "metric": 27042,
+      "summary": "开源SD创作引擎，可生成图像视觉素材",
       "stage_tags": [
         "ref_image",
-        "keyframe",
-        "videogen"
+        "keyframe"
       ],
-      "score": 8.5
+      "score": 8.4,
+      "relevance": 8.0,
+      "quality": 9.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "高星可靠SD工具，可直接接入短剧图像制作环节"
     },
     {
-      "id": "gh_leejet_stable-diffusion.cpp",
+      "id": "gh_DrewThomasson_ebook2audiobook",
       "source": "github",
-      "url": "https://github.com/leejet/stable-diffusion.cpp",
-      "name": "leejet/stable-diffusion.cpp",
-      "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
-      "metric": 5827,
-      "summary": "C/C++实现的扩散模型高效推理框架",
-      "stage_tags": [
-        "ref_image",
-        "keyframe",
-        "quality"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "gh_Forget-C_Jellyfish",
-      "source": "github",
-      "url": "https://github.com/Forget-C/Jellyfish",
-      "name": "Forget-C/Jellyfish",
-      "description": "An end-to-end production workspace for AI-generated short dramas. From script input to structured storyboarding, consistency management, shot preparation, video generation, and export.",
-      "metric": 3096,
-      "summary": "AI短剧端到端全流程生产工作空间",
-      "stage_tags": [
-        "world",
-        "script",
-        "ref_image",
-        "keyframe",
-        "videogen"
-      ],
-      "score": 9.0
-    },
-    {
-      "id": "gh_k2-fsa_OmniVoice",
-      "source": "github",
-      "url": "https://github.com/k2-fsa/OmniVoice",
-      "name": "k2-fsa/OmniVoice",
-      "description": "High-Quality Voice Cloning TTS for 600+ Languages",
-      "metric": 4232,
-      "summary": "600+语言高质量语音克隆TTS工具",
+      "url": "https://github.com/DrewThomasson/ebook2audiobook",
+      "name": "DrewThomasson/ebook2audiobook",
+      "description": "Generate audiobooks from e-books, voice cloning & 1158+ languages!",
+      "metric": 18738,
+      "summary": "多语言语音克隆开源TTS工具",
       "stage_tags": [
         "tts"
       ],
-      "score": 8.5
-    },
-    {
-      "id": "gh_Fannovel16_comfyui_controlnet_aux",
-      "source": "github",
-      "url": "https://github.com/Fannovel16/comfyui_controlnet_aux",
-      "name": "Fannovel16/comfyui_controlnet_aux",
-      "description": "ComfyUI's ControlNet Auxiliary Preprocessors",
-      "metric": 3944,
-      "summary": "ComfyUI ControlNet 辅助预处理工具集",
-      "stage_tags": [
-        "ref_image",
-        "keyframe",
-        "videogen"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "bili_BV1b2dSB8EEM",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1b2dSB8EEM",
-      "name": "【秋叶ComfyUI】秋叶最新发布！ComfyUI V8终极整合包来了！支持50 40 30系显卡，Win+Mac一键安装，解压即用（附Comfyui整合包）",
-      "description": "",
-      "metric": 18582,
-      "summary": "ComfyUI一键整合包，多显卡适配解压即用",
-      "stage_tags": [
-        "ref_image",
-        "keyframe",
-        "videogen",
-        "quality"
-      ],
-      "score": 7.0
-    },
-    {
-      "id": "bili_BV1iZd8BnEw3",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1iZd8BnEw3",
-      "name": "【秋叶SD全教程】2026全网最全StableDiffusion终极整合包重磅更新！一键安装抢先使用&amp;最新整合包，附零基础精通出图教程+商业实战案例，效率拉满！",
-      "description": "最新秋叶SD整合包看评论区~",
-      "metric": 9496,
-      "summary": "SD整合包及教程，可高效生成AI绘图",
-      "stage_tags": [
-        "world",
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 7.5
-    },
-    {
-      "id": "bili_BV1FAoeBBEW7",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1FAoeBBEW7",
-      "name": "【秋叶SD整合包】2026全新StableDiffusion秋叶整合包无私分享！一键安装抢先使用&amp;新版整合包，附零基础精通出图教程+商业实战案例，效率直接拉满",
-      "description": "一键安装抢先使用&amp;最新整合包，附零基础精通出图教程+商业实战案例，效率完全拉满！\n\nStableDiffusion安装包&amp;StableDiffusion整合包（含100+工作流、模型、插件、lora等） ，三联+评论区留言！",
-      "metric": 4251,
-      "summary": "SD整合包含资源教程，提升AI绘图效率",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 7.5
-    },
-    {
-      "id": "bili_BV1zQ9KBnEW1",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1zQ9KBnEW1",
-      "name": "【ComfyUI整合包2026版】Win+Mac一键安装，2026-AI绘画工作流模型插件塞满新手包！全套工作流可带走附Comfyui整合包下载与电脑配置",
-      "description": "新版本-全面-便携-多人群适用！！！\n视频相关资源汇总，含视频中提到的整合包，模型精确名称，客户端下载地址，请粉丝+三连后，发送“整合包”。\nUp还有别的工作，不一定会秒回，但是看见了都会回复，谢谢！~[保卫萝卜_哇][保卫萝卜_哇]\n飞书文档：https://ccna39o15b4f.feishu.cn/wiki/PCz7w3oduiJvsZkfqIbcwFI1nzb",
-      "metric": 65839,
-      "summary": "ComfyUI绘画整合包，含工作流与模型插件",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 5.0
-    },
-    {
-      "id": "bili_BV1M3dhBkEoK",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1M3dhBkEoK",
-      "name": "【2026最全面ComfyUI+AIagent智能体搭建+AI漫剧制作教程】B站强推！建议所有想学AI漫剧制作与AI短剧的同学，死磕这条视频，花了一月时间整理的",
-      "description": "UP收到很多朋友私信 说能不能透彻讲解一期【ComfyUI+AIagent智能体搭建+AI漫剧制作教程】\n\n多角色资产裤短剧思路视频工作流具体的实战案例 用户场景 与“变现方式” \n\n这套视频初心是让你看完本套视频 彻底掌握ComfyUI+AI创作短剧\n\n【视频用的agent智能体+AI工作流 都整理了 】如果UP没回 可能就是正在制作教程 蟹蟹理解！",
-      "metric": 14481,
-      "summary": "AI漫剧短剧全流程制作实战教程",
-      "stage_tags": [
-        "world",
-        "script",
-        "ref_image",
-        "keyframe",
-        "videogen"
-      ],
-      "score": 5.0
-    },
-    {
-      "id": "bili_BV1QMoxBwEPg",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1QMoxBwEPg",
-      "name": "【秋叶SD整合包】最新StableDiffusion教程+Comfyui保姆级教程—秋叶零基础入门到精通商业实战 AI绘画出图全流程附SD+ComfyUI整合包",
-      "description": "制作不易，大家记得点个关注自动获取整合包，工作流~",
-      "metric": 1139,
-      "summary": "SD及ComfyUI绘画全流程教程",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 6.0
-    },
-    {
-      "id": "bili_BV1D3s2zZEmd",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1D3s2zZEmd",
-      "name": "Sora2 保姆级教程：从注册到出片，全网最详细教程，完全免费！",
-      "description": "sora官网：sora.chatgpt.com\n去水印网站：Free Sora Watermark Remover - Remove Watermarks from Sora AI Videos Online\n可能对大家有帮助：\n夸克网盘链接：https://pan.quark.cn/s/11f0ed0b744a\n百度网盘链接： https://pan.baidu.com/s/1_-zWFaYOGKJSQC6sujS-yA?pwd=3da4 提取码: 3da4\n\n\n\n\nbgm：\nMusic: Solitu",
-      "metric": 1256449,
-      "summary": "Sora2注册到出片保姆级入门教程",
-      "stage_tags": [
-        "videogen",
-        "quality"
-      ],
-      "score": 3.0
-    },
-    {
-      "id": "bili_BV1PJ9QY8E9Y",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1PJ9QY8E9Y",
-      "name": "【全100集】B站最详细StableDiffusion+Comfyui全套保姆级教程——秋叶零基础入门到精通，全程干货无废话，允许白嫖，拿走不谢！（附SD安装包",
-      "description": "资料评论区获取哦",
-      "metric": 574269,
-      "summary": "SD+ComfyUI全套零基础到精通教程",
-      "stage_tags": [
-        "world",
-        "ref_image",
-        "keyframe",
-        "quality"
-      ],
-      "score": 3.0
-    },
-    {
-      "id": "bili_BV1rvPrz5ESn",
-      "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1rvPrz5ESn",
-      "name": "【AI短剧】“豆包+即梦+剪映”2小时快速掌握真人短剧制作技巧（2026最新）多主体一致性控制，人物微表情控制，手把手教你、、玩转AI影视赛道！",
-      "description": "持续更新中~评论区获取课程资料哟~求一键三连~谢谢各位观众老爷！！！！\n片头片段来自痘印玄清散人⁽ᴬᴵᴳᶜ⁾ 原创短片《永安雪》，喜欢可以移步观看哟~",
-      "metric": 426273,
-      "summary": "AI真人短剧全流程制作入门教程",
-      "stage_tags": [
-        "world",
-        "script",
-        "ref_image",
-        "keyframe",
-        "videogen"
-      ],
-      "score": 3.0
+      "score": 8.2,
+      "relevance": 8.0,
+      "quality": 8.5,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "高星开源多语言TTS带克隆，可直接接入短剧TTS环节"
     },
     {
       "id": "bili_BV1As4y127HW",
@@ -1507,27 +816,117 @@
       "name": "B站第一套系统的AI绘画课！零基础学会Stable Diffusion，这绝对是你看过的最容易上手的AI绘画教程 | SD WebUI 保姆级攻略",
       "description": "B站首门系统的AI绘画入门教程来了！零基础玩转Stable Diffusion，就看这个系列的视频了！\n\n提示词宝典：BV12X4y1r7QB\n模型新手包：BV1Us4y117Rg\n汉化及扩展安装：BV1hz4y1a76M\n\n学习资料链接：\n🔗：https://nenly.notion.site/017c3341c8b84a7ebb4c2cb16f36e28f\n\n随堂练习素材下载：\n🔗夸克：https://pan.quark.cn/s/98b88f75cc5f\n🔗度盘：https://pan.baidu.",
       "metric": 4467718,
-      "summary": "Stable Diffusion零基础入门教程",
+      "summary": "零基础保姆级SD绘画系统教程",
       "stage_tags": [
         "ref_image",
         "keyframe"
       ],
-      "score": 2.5
+      "score": 8.2,
+      "relevance": 8.0,
+      "quality": 8.5,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "高口碑SD教程，可用于生成短剧参考图、关键帧，落地性强"
     },
     {
-      "id": "bili_BV1c9d2YUEyy",
+      "id": "bili_BV1D3s2zZEmd",
       "source": "bilibili",
-      "url": "https://www.bilibili.com/video/BV1c9d2YUEyy",
-      "name": "翻遍整个B站，这绝对是2025讲的最好的ComfyUI教程，带你3小时吃透Comfyui与AI绘画入门到精通，少走99%的弯路！stablediffusion全",
-      "description": "站内最干货最详细的 一套“零基础 保姆式真正让小白入门到精通的ComfyUI汉化3.0升级版教程&quot; 【共68课 单集课长达40分钟】\n\n真正意义上做到：每一步操作 每一个节点 让你清楚且详细使用并逐步掌握”AI绘画“   \n\n1.课程适合零基础 刚入门的ComfyUI的同学 让你从入门到精通 清楚的了解ComfyUI的生图原理\n\n2.课程从全中文节点 ，从软件安装 ，原理介绍 ，文生图，高清修复，Controlnet，IPAdapter,AI视频换脸，综合应用等等\n\n3.课程还搭配了最新的wan2.1视频",
-      "metric": 209642,
-      "summary": "ComfyUI零基础入门到精通保姆级教程",
+      "url": "https://www.bilibili.com/video/BV1D3s2zZEmd",
+      "name": "Sora2 保姆级教程：从注册到出片，全网最详细教程，完全免费！",
+      "description": "sora官网：sora.chatgpt.com\n去水印网站：Free Sora Watermark Remover - Remove Watermarks from Sora AI Videos Online\n可能对大家有帮助：\n夸克网盘链接：https://pan.quark.cn/s/11f0ed0b744a\n百度网盘链接： https://pan.baidu.com/s/1_-zWFaYOGKJSQC6sujS-yA?pwd=3da4 提取码: 3da4\n\n\n\n\nbgm：\nMusic: Solitu",
+      "metric": 1256358,
+      "summary": "Sora2从注册到出片保姆级免费教程",
+      "stage_tags": [
+        "videogen",
+        "quality"
+      ],
+      "score": 8.6,
+      "relevance": 9.0,
+      "quality": 8.0,
+      "actionable": 9.0,
+      "verdict": "S",
+      "reason": "核心视频生成工具实操教程，内容扎实可直接落地"
+    },
+    {
+      "id": "bili_BV13it4zDE2K",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV13it4zDE2K",
+      "name": "【全68集】3分钟入门AI视频制作！AI生成视频零基础入门保姆级教程（2025最新）AI视频制作全流程教学！包含所有干货！七天就能从小白到大神！（附工具）",
+      "description": "持续更新中~附全套工具！求三连！！",
+      "metric": 1515119,
+      "summary": "AI视频全流程保姆级教程附工具",
+      "stage_tags": [
+        "script",
+        "ref_image",
+        "keyframe",
+        "videogen",
+        "quality"
+      ],
+      "score": 8.0,
+      "relevance": 8.0,
+      "quality": 8.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "全流程AI视频教程内容扎实易落地，适配短剧多生产环节"
+    },
+    {
+      "id": "bili_BV1ahJtzeEB1",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1ahJtzeEB1",
+      "name": "【2025最全面ComfyUI教程】B站强推！建议所有想学ComfyUI的同学，死磕这条视频，花了一周时间整理的ComfyUI零基础入门教程！",
+      "description": "UP耗时三个月制作了一套“2025新ComfyUI零基础入门教程”真正意义上 让你看完本套视频 彻底掌握ComfyUI,\n课程主要针对“刚刚入门的ComfyUI的同学”和“正在进阶ComfyUI的同学”主要更新内容：\n\n1. 课程亮点：“新节点详细讲解”+“通俗易懂的讲课方式”“高效快速搭建工作流”大大减少同学们入门ComfyUI的时间\n\n2.课程内容：全中文节点 ，从原理介绍 ，文生图，图生图，高清修复，Controlnet，IPAdapter,AI视频换脸，综合应用等等\n\n3.课程进阶:Flux本地部",
+      "metric": 1338717,
+      "summary": "ComfyUI零基础到进阶全流程实用教程",
       "stage_tags": [
         "ref_image",
         "keyframe",
+        "quality",
         "videogen"
       ],
-      "score": 3.0
+      "score": 8.0,
+      "relevance": 8.0,
+      "quality": 8.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "该教程内容全面扎实可落地，适配短剧多制作环节，属必看S级资源"
+    },
+    {
+      "id": "bili_BV1xK411V7Uf",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1xK411V7Uf",
+      "name": "Comfyui零基础入门教程【Comfyui教程|Comfyui培训班|Comfyui培训机构|Comfyui课程|Comfyui工作流|Comfyui教学】",
+      "description": "AI高级培训课程：https://www.bilibili.com/read/cv41479512\n📚学完即接单，稿费合同保障💰\n🏆获国家网信办算法备案✅\n💼服务华为/科大讯飞等2000+企业🌟\n🚀技术稳居国内头部阵营💪\n🤝真乙方公司，实战派教学📚\n👉AI高薪赛道，转型趁现在！",
+      "metric": 6210433,
+      "summary": "ComfyUI零基础入门实用教程",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 7.2,
+      "relevance": 8.0,
+      "quality": 7.5,
+      "actionable": 7.0,
+      "verdict": "A",
+      "reason": "教程可用于短剧绘图环节，内容扎实易落地"
+    },
+    {
+      "id": "bili_BV1PJ9QY8E9Y",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1PJ9QY8E9Y",
+      "name": "【全100集】B站最详细StableDiffusion+Comfyui全套保姆级教程——秋叶零基础入门到精通，全程干货无废话，允许白嫖，拿走不谢！（附SD安装包",
+      "description": "资料评论区获取哦",
+      "metric": 574104,
+      "summary": "秋叶SD+ComfyUI保姆级全套教程",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 8.4,
+      "relevance": 8.0,
+      "quality": 9.0,
+      "actionable": 8.0,
+      "verdict": "S",
+      "reason": "知名靠谱SD教程，可直接用于短剧参考图、关键帧生成，实用性强"
     },
     {
       "id": "arxiv_2604.21931",
@@ -1536,11 +935,17 @@
       "name": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
       "description": "How can we tell whether a video has been sped up or slowed down? How can we generate videos at different speeds? Although videos have been central to modern computer vision research, little attention has been paid to perceiving and controlling the passage of time. In this paper, we study time as a l",
       "metric": 0,
-      "summary": "支持视频调速，提升视频生成时间可控性",
+      "summary": "视频时间流控制相关学术研究",
       "stage_tags": [
-        "videogen"
+        "videogen",
+        "edit"
       ],
-      "score": 7.0
+      "score": 5.8,
+      "relevance": 7.0,
+      "quality": 7.0,
+      "actionable": 5.0,
+      "verdict": "B",
+      "reason": "视频时间控制研究可参考，暂无可直接落地方案"
     },
     {
       "id": "arxiv_2604.21921",
@@ -1549,15 +954,19 @@
       "name": "Context Unrolling in Omni Models",
       "description": "We present Omni, a unified multimodal model natively trained on diverse modalities, including text, images, videos, 3D geometry, and hidden representations. We find that such training enables Context Unrolling, where the model explicitly reasons across multiple modal representations before producing",
       "metric": 0,
-      "summary": "多模态大模型，适配短剧多生成环节",
+      "summary": "通用多模态模型研究，支持多模态推理",
       "stage_tags": [
-        "world",
         "script",
         "ref_image",
         "keyframe",
         "videogen"
       ],
-      "score": 5.5
+      "score": 4.8,
+      "relevance": 5.0,
+      "quality": 6.0,
+      "actionable": 4.0,
+      "verdict": "B",
+      "reason": "通用多模态学术研究有参考价值但暂无法直接落地"
     },
     {
       "id": "arxiv_2604.21686",
@@ -1566,11 +975,17 @@
       "name": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
       "description": "Interactive video generation models such as Genie, YUME, HY-World, and Matrix-Game are advancing rapidly, yet every model is evaluated on its own benchmark with private scenes and trajectories, making fair cross-model comparison impossible. Existing public benchmarks offer useful metrics such as tra",
       "metric": 0,
-      "summary": "交互式视频世界模型统一评测基准",
+      "summary": "视频世界模型统一评测基准套件",
       "stage_tags": [
-        "world"
+        "world",
+        "videogen"
       ],
-      "score": 5.0
+      "score": 5.1,
+      "relevance": 5.5,
+      "quality": 6.0,
+      "actionable": 4.5,
+      "verdict": "B",
+      "reason": "属视频生成相关研究，可参考用于模型选型评测"
     },
     {
       "id": "arxiv_2604.21362",
@@ -1583,7 +998,12 @@
       "stage_tags": [
         "videogen"
       ],
-      "score": 6.0
+      "score": 5.8,
+      "relevance": 8.0,
+      "quality": 7.0,
+      "actionable": 5.0,
+      "verdict": "B",
+      "reason": "视频生成领域研究，有参考价值需自行复现"
     },
     {
       "id": "arxiv_2604.21291",
@@ -1592,11 +1012,16 @@
       "name": "Exploring the Role of Synthetic Data Augmentation in Controllable Human-Centric Video Generation",
       "description": "Controllable human video generation aims to produce realistic videos of humans with explicitly guided motions and appearances,serving as a foundation for digital humans, animation, and embodied AI.However, the scarcity of largescale, diverse, and privacy safe human video datasets poses a major bottl",
       "metric": 0,
-      "summary": "可控人像视频生成方向学术论文",
+      "summary": "可控人像视频生成数据增强研究",
       "stage_tags": [
         "videogen"
       ],
-      "score": 5.0
+      "score": 5.5,
+      "relevance": 7.0,
+      "quality": 7.0,
+      "actionable": 4.5,
+      "verdict": "B",
+      "reason": "为视频生成提供学术参考，落地需自行复现"
     },
     {
       "id": "arxiv_2604.21221",
@@ -1605,136 +1030,16 @@
       "name": "Sparse Forcing: Native Trainable Sparse Attention for Real-time Autoregressive Diffusion Video Generation",
       "description": "We introduce Sparse Forcing, a training-and-inference paradigm for autoregressive video diffusion models that improves long-horizon generation quality while reducing decoding latency. Sparse Forcing is motivated by an empirical observation in autoregressive diffusion rollouts: attention concentrates",
       "metric": 0,
-      "summary": "优化视频扩散生成质量与推理速度",
-      "stage_tags": [
-        "videogen",
-        "quality"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "arxiv_2604.20841",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.20841",
-      "name": "DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation",
-      "description": "Recent advances in video generative models enable the synthesis of realistic human-object interaction videos across a wide range of scenarios and object categories, including complex dexterous manipulations that are difficult to capture with motion capture systems. While the rich interaction knowled",
-      "metric": 0,
-      "summary": "可生成逼真人-物交互视频的生成模型",
+      "summary": "视频生成稀疏注意力优化学术论文",
       "stage_tags": [
         "videogen"
       ],
-      "score": 8.0
-    },
-    {
-      "id": "arxiv_2604.20936",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.20936",
-      "name": "AttentionBender: Manipulating Cross-Attention in Video Diffusion Transformers as a Creative Probe",
-      "description": "We present AttentionBender, a tool that manipulates cross-attention in Video Diffusion Transformers to help artists probe the internal mechanics of black-box video generation. While generative outputs are increasingly realistic, prompt-only control limits artists' ability to build intuition for the ",
-      "metric": 0,
-      "summary": "视频扩散注意力操控工具，优化生成可控性",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 7.5
-    },
-    {
-      "id": "arxiv_2604.20470",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.20470",
-      "name": "DynamicRad: Content-Adaptive Sparse Attention for Long Video Diffusion",
-      "description": "Leveraging the natural spatiotemporal energy decay in video diffusion offers a path to efficiency, yet relying solely on rigid static masks risks losing critical long-range information in complex dynamics. To address this issue, we propose \\textbf{DynamicRad}, a unified sparse-attention paradigm tha",
-      "metric": 0,
-      "summary": "长视频扩散模型效率优化技术",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "arxiv_2604.21718",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.21718",
-      "name": "Building a Precise Video Language with Human-AI Oversight",
-      "description": "Video-language models (VLMs) learn to reason about the dynamic visual world through natural language. We introduce a suite of open datasets, benchmarks, and recipes for scalable oversight that enable precise video captioning. First, we define a structured specification for describing subjects, scene",
-      "metric": 0,
-      "summary": "精准视频字幕相关VLM数据集及实现方案",
-      "stage_tags": [
-        "script",
-        "quality"
-      ],
-      "score": 5.0
-    },
-    {
-      "id": "arxiv_2604.20357",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.20357",
-      "name": "SignDATA: Data Pipeline for Sign Language Translation",
-      "description": "Sign-language datasets are difficult to preprocess consistently because they vary in annotation schema, clip timing, signer framing, and privacy constraints. Existing work usually reports downstream models, while the preprocessing pipeline that converts raw video into training-ready pose or video ar",
-      "metric": 0,
-      "summary": "手语翻译数据管道与短剧制作无关",
-      "stage_tags": [],
-      "score": 0.0
-    },
-    {
-      "id": "arxiv_2604.20329",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.20329",
-      "name": "Image Generators are Generalist Vision Learners",
-      "description": "Recent works show that image and video generators exhibit zero-shot visual understanding behaviors, in a way reminiscent of how LLMs develop emergent capabilities of language understanding and reasoning from generative pretraining. While it has long been conjectured that the ability to create visual",
-      "metric": 0,
-      "summary": "图像生成器视觉理解理论研究",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 2.0
-    },
-    {
-      "id": "news_36kr_https___36kr_com_p_3777870287737860_f_rss",
-      "source": "news",
-      "url": "https://36kr.com/p/3777870287737860?f=rss",
-      "name": "36氪官方AI专属社群，正式开放招募！",
-      "description": "36氪AI测评官方社群现已正式开放， 从入门认知到实战应用，从工具使用到项目落地。 36氪AI测评正式开放三大垂直社群：AI启航群、AI实战群、OPC超级个体群。面向不同阶段、不同目标的用户，帮助你更高效地理解AI、使用AI，并推动真实成长与结果落地。   为什么要做三大专属社群？ AI 已经从“了解一下”走向“真正使用”。不同用户所处阶段不同，关注的问题也不同。有人需要从零开始建立基础认知，有人希望提升日常实操能力，也有人更关注如何借助 AI 推动项目落地、个人增长与资源连接。基于此，36氪AI测评围绕用户的不同阶段与需求，帮助每一类用户都能找到更适合自己的交流空间与成长路径。   三大社群",
-      "metric": 0,
-      "summary": "通用AI社群，与短剧制作流程无关",
-      "stage_tags": [],
-      "score": 0.0
-    },
-    {
-      "id": "news_synced_es_automated_failure_attribution_of_llm_multi_agent_systems_",
-      "source": "news",
-      "url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
-      "name": "Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
-      "description": "In recent years, LLM Multi-Agent systems have garnered widespread attention for their collaborative approach to solving complex problems. However, it's a common scenario for these systems to fail at a task despite a flurry of activity. The post Which Agent Causes Task Failures and When?Researchers f",
-      "metric": 0,
-      "summary": "多智能体故障归因研究，与短剧流水线无关",
-      "stage_tags": [],
-      "score": 0.0
-    },
-    {
-      "id": "news_synced_esearchers_unveil_seal_a_new_step_towards_self_improving_ai_",
-      "source": "news",
-      "url": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/",
-      "name": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI",
-      "description": "MIT introduces SEAL, a framework enabling large language models to self-edit and update their weights via reinforcement learning. The post MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI first appeared on Synced.",
-      "metric": 0,
-      "summary": "大模型自优化框架，可辅助文本生成环节",
-      "stage_tags": [
-        "world",
-        "script"
-      ],
-      "score": 4.0
-    },
-    {
-      "id": "news_synced_introduce_multi_agent_systems_automated_failure_attribution_",
-      "source": "news",
-      "url": "https://syncedreview.com/2025/06/16/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated-failure-attribution/",
-      "name": "Researchers from PSU and Duke introduce “Multi-Agent Systems Automated Failure Attribution",
-      "description": "\"Automated failure attribution\" is a crucial component in the development lifecycle of Multi-Agent systems. It has the potential to transform the challenge of identifying \"what went wrong and who is to blame\" from a perplexing mystery into a quantifiable and analyzable problem The post Researchers f",
-      "metric": 0,
-      "summary": "与AI短剧制作流水线完全无关",
-      "stage_tags": [],
-      "score": 0.0
+      "score": 6.2,
+      "relevance": 8.0,
+      "quality": 8.0,
+      "actionable": 5.0,
+      "verdict": "B",
+      "reason": "视频生成优化研究有参考性，但暂无可落地实现"
     },
     {
       "id": "news_synced_g_term_memory_in_video_world_models_with_state_space_models_",
@@ -1743,11 +1048,16 @@
       "name": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
       "description": "By combining State-Space Models (SSMs) for efficient long-range dependency modeling with dense local attention for coherence, and using training strategies like diffusion forcing and frame local attention, researchers from Adobe Research successfully overcome the long-standing challenge of long-term",
       "metric": 0,
-      "summary": "提升长视频生成时序一致性的新技术",
+      "summary": "Adobe发布长记忆视频世界模型研究",
       "stage_tags": [
         "videogen"
       ],
-      "score": 8.0
+      "score": 5.6,
+      "relevance": 8.0,
+      "quality": 8.0,
+      "actionable": 4.0,
+      "verdict": "B",
+      "reason": "属视频生成技术研究，有参考价值暂无法落地"
     },
     {
       "id": "news_synced__cost_large_model_training_through_hardware_aware_co_design_",
@@ -1756,34 +1066,16 @@
       "name": "DeepSeek-V3 New Paper is coming! Unveiling the Secrets of Low-Cost Large Model Training through Hardware-Aware Co-design",
       "description": "A newly released 14-page technical paper from the team behind DeepSeek-V3, with DeepSeek CEO Wenfeng Liang as a co-author, sheds light on the “Scaling Challenges and Reflections on Hardware for AI Architectures.” The post DeepSeek-V3 New Paper is coming! Unveiling the Secrets of Low-Cost Large Model",
       "metric": 0,
-      "summary": "大模型低成本训练技术研究论文",
-      "stage_tags": [],
-      "score": 0.0
-    },
-    {
-      "id": "news_synced_rem_proving_with_recursive_proof_search_and_a_new_benchmark_",
-      "source": "news",
-      "url": "https://syncedreview.com/2025/04/30/deepseek-unveils-deepseek-prover-v2-advancing-neural-theorem-proving-with-recursive-proof-search-and-a-new-benchmark/",
-      "name": "DeepSeek Unveils DeepSeek-Prover-V2: Advancing Neural Theorem Proving with Recursive Proof Search and a New Benchmark",
-      "description": "DeepSeek AI releases DeepSeek-Prover-V2, an open-source LLM for Lean 4 theorem proving. It uses recursive proof search with DeepSeek-V3 for training data and reinforcement learning, achieving top results on MiniF2F. The post DeepSeek Unveils DeepSeek-Prover-V2: Advancing Neural Theorem Proving with ",
-      "metric": 0,
-      "summary": "定理证明模型，与短剧制作无关",
-      "stage_tags": [],
-      "score": 0.0
-    },
-    {
-      "id": "news_synced__grpo_be_10x_efficient_kwai_ais_srpo_suggests_yes_with_srpo_",
-      "source": "news",
-      "url": "https://syncedreview.com/2025/04/23/can-grpo-be-10x-efficient-kwai-ais-srpo-suggests-yes-with-srpo/",
-      "name": "Can GRPO be 10x Efficient? Kwai AI’s SRPO Suggests Yes with SRPO",
-      "description": "Kwai AI's SRPO framework slashes LLM RL post-training steps by 90% while matching DeepSeek-R1 performance in math and code. This two-stage RL approach with history resampling overcomes GRPO limitations. The post Can GRPO be 10x Efficient? Kwai AI’s SRPO Suggests Yes with SRPO first appeared on Synce",
-      "metric": 0,
-      "summary": "SRPO大幅提升大模型RL训练效率",
+      "summary": "DeepSeek发布大模型低成本训练论文",
       "stage_tags": [
-        "world",
         "script"
       ],
-      "score": 5.0
+      "score": 4.0,
+      "relevance": 5.0,
+      "quality": 7.0,
+      "actionable": 2.0,
+      "verdict": "B",
+      "reason": "通用大模型训练研究，仅对短剧有微弱参考价值"
     },
     {
       "id": "news_synced_ing_fast_glm_models_global_expansion_ahead_of_potential_ipo_",
@@ -1792,48 +1084,71 @@
       "name": "Zhipu.AI’s Open-Source Power Play: Blazing-Fast GLM Models & Global Expansion Ahead of Potential IPO",
       "description": "Zhipu.AI open-sources faster GLM models (8x speedup), launches Z.ai, aiming for global expansion, potentially ahead of IPO. The post Zhipu.AI’s Open-Source Power Play: Blazing-Fast GLM Models & Global Expansion Ahead of Potential IPO first appeared on Synced.",
       "metric": 0,
-      "summary": "智谱开源高速GLM，可辅助短剧内容创作",
+      "summary": "智谱开源高速GLM，推进全球化拟IPO",
       "stage_tags": [
-        "world",
         "script"
       ],
-      "score": 5.0
+      "score": 3.6,
+      "relevance": 5.0,
+      "quality": 6.0,
+      "actionable": 2.0,
+      "verdict": "B",
+      "reason": "通用LLM可辅助脚本创作，仅具参考价值"
     },
     {
-      "id": "news_synced_model_unveils_novel_approach_to_scaling_inference_with_spct_",
+      "id": "news_hf_blog___huggingface_co_blog_train_multimodal_sentence_transformers",
       "source": "news",
-      "url": "https://syncedreview.com/2025/04/11/deepseek-signals-next-gen-r2-model-unveils-novel-approach-to-scaling-inference-with-spct/",
-      "name": "DeepSeek Signals Next-Gen R2 Model, Unveils Novel Approach to Scaling Inference with SPCT",
-      "description": "DeepSeek AI, a prominent player in the large language model arena, has recently published a research paper detailing a new technique aimed at enhancing the scalability of general reward models (GRMs) during the inference phase. The post DeepSeek Signals Next-Gen R2 Model, Unveils Novel Approach to S",
+      "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+      "name": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
+      "description": "",
       "metric": 0,
-      "summary": "大模型推理优化，助力脚本世界观生成",
+      "summary": "多模态嵌入重排模型训练教程",
       "stage_tags": [
-        "world",
+        "script",
+        "ref_image"
+      ],
+      "score": 6.2,
+      "relevance": 5.0,
+      "quality": 8.0,
+      "actionable": 5.0,
+      "verdict": "B",
+      "reason": "通用多模态技术教程，需适配才可用于短剧环节"
+    },
+    {
+      "id": "news_hf_blog_https___huggingface_co_blog_trl_v1",
+      "source": "news",
+      "url": "https://huggingface.co/blog/trl-v1",
+      "name": "TRL v1.0: Post-Training Library Built to Move with the Field",
+      "description": "",
+      "metric": 0,
+      "summary": "Hugging Face发布TRL v1.0训练库",
+      "stage_tags": [
         "script"
       ],
-      "score": 5.0
+      "score": 6.2,
+      "relevance": 5.0,
+      "quality": 8.0,
+      "actionable": 5.0,
+      "verdict": "B",
+      "reason": "通用大模型训练工具，可辅助微调脚本生成模型，仅作参考"
     },
     {
-      "id": "news_hf_blog_https___huggingface_co_blog_tiiuae_qimma_arabic_leaderboard",
+      "id": "news_hf_blog_uggingface_co_blog_nvidia_domain_specific_embedding_finetune",
       "source": "news",
-      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
-      "name": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+      "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "name": "Build a Domain-Specific Embedding Model in Under a Day",
       "description": "",
       "metric": 0,
-      "summary": "阿拉伯LLM榜单，与中文短剧无关",
-      "stage_tags": [],
-      "score": 0.0
-    },
-    {
-      "id": "news_hf_blog_https___huggingface_co_blog_cybersecurity_openness",
-      "source": "news",
-      "url": "https://huggingface.co/blog/cybersecurity-openness",
-      "name": "AI and the Future of Cybersecurity: Why Openness Matters",
-      "description": "",
-      "metric": 0,
-      "summary": "与AI短剧制作流程完全无关",
-      "stage_tags": [],
-      "score": 0.0
+      "summary": "英伟达域嵌入微调官方教程",
+      "stage_tags": [
+        "script"
+      ],
+      "score": 6.2,
+      "relevance": 5.0,
+      "quality": 8.0,
+      "actionable": 5.0,
+      "verdict": "B",
+      "reason": "通用NLP技术，可参考优化剧本环节，需自行适配短剧域"
     }
   ]
 }
