@@ -1,7 +1,7 @@
 {
   "week": "2026-W17",
-  "generated_at": "2026-04-24T11:25:42",
-  "summary": "本周重点抓两类可复用爆款打法：一类是强反差脑洞选题，不管是食物拟人恋爱、名人虚构离谱剧情，零认知门槛自带话题性，完播率比常规选题高出近40%；另一类是地域垂直爽点内容，针对特定市场做本土英雄叙事、特色改造内容，精准击中本地用户喜好，涨粉效率翻倍。工具直接把FLUX.1-dev加入参考图、关键帧生产环节，出图精度覆盖全品类需求，视频生成环节替换成LTX-2.3系列，出片稳定性提升30%，无需额外测试其他模型。",
+  "generated_at": "2026-04-24T11:27:56",
+  "summary": "本周AI短剧圈重点：爆款打法优先抓两类，一是无厘头脑洞爽点选题，不管是跨物种恋爱、反常识英雄叙事，靠违背常理的强钩子第一秒抓停留，转化效果突出；二是国际名人、政要玩梗向内容，自带大众认知基础，起量速度快。工具端直接把9分的FLUX.1-dev纳入参考图、关键帧生产环节，画质表现优于现有SD系列，再把LTX-2.3系列加入视频生成流水线，稳定性足够适配批量生产需求。",
   "videos": [
     {
       "id": "yt_5BGYQ4wDv4g",
@@ -210,566 +210,6 @@
       "score": 8.0
     },
     {
-      "id": "yt__kA4MGjydII",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/_kA4MGjydII",
-      "title": "hasbi rabbi jallallah #shorts #naat #shortvideo #cute #youtubeshorts #foryou #trending",
-      "author": "Jannah Muslim Kids",
-      "plays": 2948913,
-      "likes": 37429,
-      "duration_sec": 17,
-      "cover_url": "https://i.ytimg.com/vi/_kA4MGjydII/hqdefault.jpg",
-      "hook": "软萌童声演唱经典伊斯兰赞圣词",
-      "structure": "童声演唱开场→配字幕展示→温馨氛围收尾",
-      "style_tags": [
-        "萌娃出镜",
-        "童声演唱",
-        "治愈温情",
-        "垂直内容",
-        "短平快"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_TJce3H7b_Ec",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/TJce3H7b_Ec",
-      "title": "Trump AI Video: Iran Embassy Mocks Trump With Animated Hormuz Video",
-      "author": "NDTV",
-      "plays": 2416164,
-      "likes": 49490,
-      "duration_sec": 67,
-      "cover_url": "https://i.ytimg.com/vi/TJce3H7b_Ec/hqdefault.jpg",
-      "hook": "伊朗发布霍尔木兹AI动画公然嘲讽特朗普",
-      "structure": "热点引入→动画内容展示→事件背景解读",
-      "style_tags": [
-        "国际热点",
-        "时政资讯",
-        "AI动画",
-        "冲突感强",
-        "信息干货"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_q79Zey68ofI",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/q79Zey68ofI",
-      "title": "Magic Hulk Transformation! ⚡🤡 #cartoon #woodart #funny #animation #ai #comedy #woodworking #shorts",
-      "author": "Comaaly",
-      "plays": 841061,
-      "likes": 5635,
-      "duration_sec": 20,
-      "cover_url": "https://i.ytimg.com/vi/q79Zey68ofI/hqdefault.jpg",
-      "hook": "绿巨人魔法变身高能视觉冲击",
-      "structure": "场景铺垫→魔法变身→搞笑收尾",
-      "style_tags": [
-        "AI动画",
-        "变身爽点",
-        "搞笑喜剧",
-        "视觉特效",
-        "创意二创"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "yt_hwOVTO96lEE",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/hwOVTO96lEE",
-      "title": "The Danger of Using AI Most People Ignore.",
-      "author": "GROWTH™",
-      "plays": 833485,
-      "likes": 22953,
-      "duration_sec": 88,
-      "cover_url": "https://i.ytimg.com/vi/hwOVTO96lEE/hqdefault.jpg",
-      "hook": "你知道多数人忽略的AI使用致命风险吗？",
-      "structure": "抛出认知差风险→拆解危害→给出防范指引",
-      "style_tags": [
-        "干货科普",
-        "认知提升",
-        "风险预警",
-        "实用干货",
-        "信息增量"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "yt_kcBw1gpdfck",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/kcBw1gpdfck",
-      "title": "#ai #cartoon #story #shorts #love",
-      "author": "Ai Duniya King",
-      "plays": 1940130,
-      "likes": 0,
-      "duration_sec": 33,
-      "cover_url": "https://i.ytimg.com/vi/kcBw1gpdfck/hqdefault.jpg",
-      "hook": "AI生成的治愈卡通爱情故事超甜",
-      "structure": "相遇→心动相处→甜蜜圆满结局",
-      "style_tags": [
-        "AI动画",
-        "卡通画风",
-        "甜宠爱情",
-        "短平快",
-        "治愈向"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_0wogo6JSlEQ",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/0wogo6JSlEQ",
-      "title": "Socrates Mentality Ragebait #shorts #skeletonai #viral #socrates",
-      "author": "Anime Corner",
-      "plays": 671357,
-      "likes": 15384,
-      "duration_sec": 42,
-      "cover_url": "https://i.ytimg.com/vi/0wogo6JSlEQ/hqdefault.jpg",
-      "hook": "苏格拉底怼杠精也太解气了吧？",
-      "structure": "抛出杠精场景→苏格拉底回怼→心态方法总结",
-      "style_tags": [
-        "AI动画",
-        "爽感输出",
-        "知识科普",
-        "名人玩梗",
-        "短平快"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "yt_feyD_bwipXM",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/feyD_bwipXM",
-      "title": "IPS आहाना का एक्शन 🔥 गैस घोटाले का खुलासा. #lpg #ai #shorts #viral",
-      "author": "Storys By Adii",
-      "plays": 530365,
-      "likes": 8021,
-      "duration_sec": 40,
-      "cover_url": "https://i.ytimg.com/vi/feyD_bwipXM/hqdefault.jpg",
-      "hook": "IPS硬核出手 曝光燃气诈骗黑幕",
-      "structure": "爆点开场→骗局细节披露→正义执法收尾",
-      "style_tags": [
-        "AI短剧",
-        "民生热点",
-        "快节奏",
-        "爽感拉满",
-        "正能量"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "yt_7K5EskN3ucY",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/7K5EskN3ucY",
-      "title": "सर बने सेस नाग 🐍😱..!!#dkclasses #comedy #funny #ai #snake #shortvideo #fun #shorts #teacher",
-      "author": "Dk_backbencher85",
-      "plays": 1197449,
-      "likes": 22982,
-      "duration_sec": 93,
-      "cover_url": "https://i.ytimg.com/vi/7K5EskN3ucY/hqdefault.jpg",
-      "hook": "老师的头居然变成了大蛇？",
-      "structure": "课堂日常铺垫→头变蛇反转→搞笑反应收尾",
-      "style_tags": [
-        "AI特效",
-        "校园喜剧",
-        "离谱反转",
-        "搞笑段子",
-        "短平快"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_169sVu6ceZ4",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/169sVu6ceZ4",
-      "title": "La IA lo ha vuelto a hacer🤣 | Xokas",
-      "author": "elxokas SHORTS",
-      "plays": 1154898,
-      "likes": 69470,
-      "duration_sec": 177,
-      "cover_url": "https://i.ytimg.com/vi/169sVu6ceZ4/hqdefault.jpg",
-      "hook": "AI再出离谱操作，开场笑点拉满",
-      "structure": "展示AI离谱操作→博主爆笑反应→趣味吐槽",
-      "style_tags": [
-        "博主reaction",
-        "搞笑吐槽",
-        "AI整活",
-        "笑点密集",
-        "真人出镜"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_bpbwkyP6I-4",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/bpbwkyP6I-4",
-      "title": "फुल्की वाला || Modi V/S Donald Trump ||Funny Ai parody #trending #war #funny #comedy #shorts",
-      "author": "As Ai Animation11",
-      "plays": 973113,
-      "likes": 5122,
-      "duration_sec": 17,
-      "cover_url": "https://i.ytimg.com/vi/bpbwkyP6I-4/hqdefault.jpg",
-      "hook": "莫迪特朗普跨次元搞笑同框对决",
-      "structure": "反差角色登场→搞笑互动→爆点收尾",
-      "style_tags": [
-        "AI动画",
-        "政要恶搞",
-        "搞笑反差",
-        "短平快笑点",
-        "外网热梗"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_VkgEMm0qg7o",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/VkgEMm0qg7o",
-      "title": "Ganesh Ji Ki Murti Chori 😱 | Goku vs Commando Final Battle #shorts #goku",
-      "author": "GokuKaAdda",
-      "plays": 933251,
-      "likes": 0,
-      "duration_sec": 65,
-      "cover_url": "https://i.ytimg.com/vi/VkgEMm0qg7o/hqdefault.jpg",
-      "hook": "神像被盗！悟空与特种兵终极对战？",
-      "structure": "失窃事件铺垫→高燃对战→结局收尾",
-      "style_tags": [
-        "跨次元联动",
-        "高燃打戏",
-        "猎奇脑洞",
-        "爽感拉满"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_LsblQ3WRuMo",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/LsblQ3WRuMo",
-      "title": "Mohe Mor Banaiyo Radha 🥰🌺💖 viral short 🥀#shorts #ai",
-      "author": "Alfa Ai",
-      "plays": 868998,
-      "likes": 6550,
-      "duration_sec": 25,
-      "cover_url": "https://i.ytimg.com/vi/LsblQ3WRuMo/hqdefault.jpg",
-      "hook": "绝美AI绘制拉达神话形象视觉冲击",
-      "structure": "唯美AI画面轮播→适配BGM烘托浪漫氛围",
-      "style_tags": [
-        "AI生成",
-        "宗教唯美",
-        "氛围感强",
-        "BGM适配",
-        "短平快"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_D1dMYuzCtSQ",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/D1dMYuzCtSQ",
-      "title": "#story #ai #cartoon #funny #shorts #ai #love",
-      "author": "Ai Duniya King",
-      "plays": 851710,
-      "likes": 0,
-      "duration_sec": 33,
-      "cover_url": "https://i.ytimg.com/vi/D1dMYuzCtSQ/hqdefault.jpg",
-      "hook": "AI卡通搞笑爱情故事趣味开场",
-      "structure": "日常小场景→搞笑误会→甜蜜收尾",
-      "style_tags": [
-        "AI卡通动画",
-        "搞笑轻喜剧",
-        "爱情短故事",
-        "竖屏快节奏"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_kPqV1GBRc1k",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/kPqV1GBRc1k",
-      "title": "highway ki kahani#bhoot #shortvideo",
-      "author": "horror Kahani ",
-      "plays": 691846,
-      "likes": 3358,
-      "duration_sec": 28,
-      "cover_url": "https://i.ytimg.com/vi/kPqV1GBRc1k/hqdefault.jpg",
-      "hook": "深夜走高速有没有碰过诡异的事？",
-      "structure": "抛出疑问→讲述高速灵异事件→惊悚收尾",
-      "style_tags": [
-        "灵异惊悚",
-        "民间怪谈",
-        "短平快叙事",
-        "悬念开头"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_zMeBxWP7emo",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/zMeBxWP7emo",
-      "title": "THEDA GADIVAA ? 🤣🤣🤣",
-      "author": "Play Like Incognito",
-      "plays": 623884,
-      "likes": 26007,
-      "duration_sec": 97,
-      "cover_url": "https://i.ytimg.com/vi/zMeBxWP7emo/hqdefault.jpg",
-      "hook": "抛出陌生梗名+夸张爆笑表情抓眼球",
-      "structure": "抛梗设疑→梗源揭秘→趣味玩梗演示",
-      "style_tags": [
-        "搞笑玩梗",
-        "网感拉满",
-        "口语化",
-        "轻松幽默",
-        "梗科普"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_w_4h-pumxag",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/w_4h-pumxag",
-      "title": "VILLAGE LIFE SECRET STORY \"haar baat pe nehi nehi\" #viral #viral#ai #trendingshorts #viralvideo#ai",
-      "author": "GUPSHP",
-      "plays": 569547,
-      "likes": 14394,
-      "duration_sec": 69,
-      "cover_url": "https://i.ytimg.com/vi/w_4h-pumxag/hqdefault.jpg",
-      "hook": "乡村怪事：为啥这人啥事都拒绝？",
-      "structure": "抛出悬念→讲述乡村秘密故事→揭晓背后真相",
-      "style_tags": [
-        "悬念开头",
-        "乡村秘闻",
-        "AI生成",
-        "故事向",
-        "短平快"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_TiR47p1VVrw",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/TiR47p1VVrw",
-      "title": "Elephanta Caves Mystery Revealed 😱 | Ancient India’s Hidden Wonder #ai #shorts #viral # tranding",
-      "author": " Travel Famous Place",
-      "plays": 557021,
-      "likes": 0,
-      "duration_sec": 97,
-      "cover_url": "https://i.ytimg.com/vi/TiR47p1VVrw/hqdefault.jpg",
-      "hook": "象岛石窟千年隐藏谜团终于揭晓？",
-      "structure": "悬念抛出→谜团揭秘→历史科普",
-      "style_tags": [
-        "历史科普",
-        "悬念开场",
-        "神秘猎奇",
-        "AI制作",
-        "干货输出"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_Ild0eE3kfcU",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/Ild0eE3kfcU",
-      "title": "Stand up comedy 🤣 #ai #comedy #standupcomedy #shorts",
-      "author": "AI Stand-Up Comedy Daily",
-      "plays": 525109,
-      "likes": 0,
-      "duration_sec": 23,
-      "cover_url": "https://i.ytimg.com/vi/Ild0eE3kfcU/hqdefault.jpg",
-      "hook": "AI脱口秀开场甩爆笑反差梗",
-      "structure": "爆梗开场→短段子密集输出→收尾抖包袱",
-      "style_tags": [
-        "AI生成",
-        "脱口秀",
-        "笑点密集",
-        "短平快",
-        "搞笑"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_wfgW-DxBBDo",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/wfgW-DxBBDo",
-      "title": "POURQUOI J’AI ÉLIMINÉ FURIOUS JUMPER DANS LA VIDEO MICHOU ?😨 #shorts #michou #furiousjumper #tiktok",
-      "author": "Keonii - Actus d’Internet 🗞️",
-      "plays": 501264,
-      "likes": 22798,
-      "duration_sec": 61,
-      "cover_url": "https://i.ytimg.com/vi/wfgW-DxBBDo/hqdefault.jpg",
-      "hook": "我为何在米楚视频中剔除Furious Jumper？",
-      "structure": "抛出悬念→还原事件经过→揭秘真实原因",
-      "style_tags": [
-        "悬念开头",
-        "网瓜爆料",
-        "口语解说",
-        "热点关联"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_nP9d8wBlJlk",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/nP9d8wBlJlk",
-      "title": "New LEGO Video from IRAN | Wake Up America!",
-      "author": "AI IRAN",
-      "plays": 479563,
-      "likes": 27000,
-      "duration_sec": 120,
-      "cover_url": "https://i.ytimg.com/vi/nP9d8wBlJlk/hqdefault.jpg",
-      "hook": "伊朗乐高视频？看完美国人该警醒了",
-      "structure": "猎奇引子→内容展示→输出警示观点",
-      "style_tags": [
-        "AI制作",
-        "国际热点",
-        "乐高创意",
-        "观点输出",
-        "警示向"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_AjCnGxkSuMA",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/AjCnGxkSuMA",
-      "title": "🐄 A Cow’s Prayer Created a Miracle! Lord Krishna Saved the Lives of the Fish 😱🙏#shortfeed #ai",
-      "author": "Dharm Sagar",
-      "plays": 477625,
-      "likes": 8944,
-      "duration_sec": 61,
-      "cover_url": "https://i.ytimg.com/vi/AjCnGxkSuMA/hqdefault.jpg",
-      "hook": "奶牛祈祷显神迹？神明救下濒死鱼群",
-      "structure": "悬念引入→神迹过程还原→信仰价值传递",
-      "style_tags": [
-        "AI动画",
-        "神话叙事",
-        "神迹反转",
-        "情绪治愈",
-        "信仰向"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_bM6RO6tAA_Y",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/bM6RO6tAA_Y",
-      "title": "Egg gold and diamond story 🥚😱 Mustafa Naat | Islamic Reminder #shorts #naat#islam #artworkshort",
-      "author": "Artwork Short ",
-      "plays": 1111394,
-      "likes": 0,
-      "duration_sec": 19,
-      "cover_url": "https://i.ytimg.com/vi/bM6RO6tAA_Y/hqdefault.jpg",
-      "hook": "蛋藏黄金钻石？背后有伊斯兰人生智慧",
-      "structure": "奇观抛出→哲理解读→伊斯兰善意提醒",
-      "style_tags": [
-        "奇观开头",
-        "垂直宗教",
-        "短平快",
-        "动画演示",
-        "正向引导"
-      ],
-      "score": 7.5
-    },
-    {
-      "id": "yt_FXq9i0_JNyc",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/FXq9i0_JNyc",
-      "title": "Ai Ka Bhoot 😱| #shorts",
-      "author": "Aasthik Mishraji",
-      "plays": 401279,
-      "likes": 6712,
-      "duration_sec": 33,
-      "cover_url": "https://i.ytimg.com/vi/FXq9i0_JNyc/hqdefault.jpg",
-      "hook": "AI变成恐怖鬼怪你敢信？",
-      "structure": "抛出悬念→恐怖画面展示→趣味吐槽收尾",
-      "style_tags": [
-        "悬念开头",
-        "恐怖猎奇",
-        "AI脑洞",
-        "短平快",
-        "玩梗搞笑"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_Lg3KxUvirDQ",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/Lg3KxUvirDQ",
-      "title": "hasbi rabbi jallallah #shorts #naat #shortvideo #cute #youtubeshorts #foryou #trending",
-      "author": "Jannah Muslim Kids",
-      "plays": 870155,
-      "likes": 10637,
-      "duration_sec": 17,
-      "cover_url": "https://i.ytimg.com/vi/Lg3KxUvirDQ/hqdefault.jpg",
-      "hook": "萌娃奶声演唱经典伊斯兰颂歌",
-      "structure": "萌娃演唱画面+bgm卡点→温馨氛围收尾",
-      "style_tags": [
-        "萌娃出镜",
-        "治愈温馨",
-        "宗教内容",
-        "卡点配乐",
-        "短平快"
-      ],
-      "score": 7.5
-    },
-    {
-      "id": "yt_J2M15bD2o4g",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/J2M15bD2o4g",
-      "title": "Ronan Farrow Reveals New Details on OpenAI CEO Sam Altman",
-      "author": "Katie Couric",
-      "plays": 245496,
-      "likes": 9172,
-      "duration_sec": 108,
-      "cover_url": "https://i.ytimg.com/vi/J2M15bD2o4g/hqdefault.jpg",
-      "hook": "Ronan披露OpenAI CEO奥特曼独家新细节",
-      "structure": "爆点引入→细节披露→事件影响解读",
-      "style_tags": [
-        "科技爆料",
-        "名人资讯",
-        "干货输出",
-        "访谈剪辑"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "yt_qlD1Brstce8",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/qlD1Brstce8",
-      "title": "Iran Embassy Shares Video of Jesus Punching Trump Amid AI Image Controversy",
-      "author": "NDTV",
-      "plays": 1114961,
-      "likes": 15185,
-      "duration_sec": 11,
-      "cover_url": "https://i.ytimg.com/vi/qlD1Brstce8/hqdefault.jpg",
-      "hook": "AI生成耶稣拳打特朗普的冲击画面",
-      "structure": "展示争议片段→说明发布主体→点明事件背景",
-      "style_tags": [
-        "时事热点",
-        "AI生成内容",
-        "热点速报",
-        "视觉冲击"
-      ],
-      "score": 7.0
-    },
-    {
-      "id": "yt_NTGPj7WxaFQ",
-      "platform": "youtube_shorts",
-      "url": "https://www.youtube.com/shorts/NTGPj7WxaFQ",
-      "title": "Trump AI Video | Iran Embassy Shares Video of Jesus Punching Trump Amid AI Image Row",
-      "author": "NDTV",
-      "plays": 232866,
-      "likes": 4175,
-      "duration_sec": 126,
-      "cover_url": "https://i.ytimg.com/vi/NTGPj7WxaFQ/hqdefault.jpg",
-      "hook": "AI视频惊现耶稣拳打特朗普？",
-      "structure": "爆点抛出→事件背景梳理→各方反响汇总",
-      "style_tags": [
-        "国际热点",
-        "资讯播报",
-        "猎奇爆点",
-        "争议话题"
-      ],
-      "score": 7.5
-    },
-    {
       "id": "dy_7045934595224767756",
       "platform": "douyin",
       "url": "https://www.douyin.com/video/7045934595224767756",
@@ -828,6 +268,153 @@
         "日常场景",
         "悬念开头",
         "轻喜剧"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "dy_7628894710672755995",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7628894710672755995",
+      "title": "带现任见前任这样穿合适吗？ #搞笑帽子哥 #搞笑 #搞笑情侣 #搞笑夫妻 #搞笑短剧",
+      "author": "搞笑帽子哥",
+      "plays": 0,
+      "likes": 33458,
+      "duration_sec": 21,
+      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/9834cbf974f24de28a118172db6245a5~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=uz%2FWsQNMd7pGai5t6Gl06KxCci4%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
+      "hook": "带现任见前任这么穿合适吗？",
+      "structure": "悬念提问→情景演绎→搞笑反转收尾",
+      "style_tags": [
+        "真人演绎",
+        "美女吸睛",
+        "情侣搞笑",
+        "剧情反转",
+        "日常场景"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "dy_7382207400440253750",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7382207400440253750",
+      "title": "一招制敌！ #搞笑 #反转 #迷惑行为大赏 #恶搞 #搞笑段子",
+      "author": "搞笑帽子哥",
+      "plays": 0,
+      "likes": 29552,
+      "duration_sec": 94,
+      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/a4b07b9f722d43d796c2f5011bff7b17~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=3WmJvj61mPf0zMBLqP9svlz1O3s%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
+      "hook": "美女娇俏托脸对男生主动示好",
+      "structure": "暧昧场景铺垫→离谱反转→搞笑笑点输出",
+      "style_tags": [
+        "真人演绎",
+        "反转搞笑",
+        "沙雕恶搞",
+        "暧昧前置",
+        "反差感"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "dy_7516059102267886908",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7516059102267886908",
+      "title": "将计就计!#搞笑#恶搞",
+      "author": "搞笑帽子哥",
+      "plays": 0,
+      "likes": 6897,
+      "duration_sec": 160,
+      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oAQe87cb5CHQMAL7gJQgNe8CxnBFgNeyi9zGI0~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=C2nrydIpSmMV7%2BBPIu1OMuL0nDY%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
+      "hook": "美女坏笑，藏着什么整蛊小心思？",
+      "structure": "整蛊铺垫→对方中计→将计就计反杀",
+      "style_tags": [
+        "真人演绎",
+        "搞笑整蛊",
+        "反转剧情",
+        "轻松解压",
+        "日常段子"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "dy_7627468920903011634",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7627468920903011634",
+      "title": "妻子越想越生气！ #搞笑帽子哥 #搞笑夫妻 #搞笑家庭 #搞笑情侣 #搞笑",
+      "author": "搞笑帽子哥",
+      "plays": 0,
+      "likes": 1856,
+      "duration_sec": 24,
+      "cover_url": "https://p9-pc-sign.douyinpic.com/tos-cn-i-dy/9501973e8df74c4584b169f3db445249~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=84y6%2FZojCOGY5QvaFTTzjj74cTY%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
+      "hook": "妻子坐车里为啥越想越生气？",
+      "structure": "悬念设疑→揭晓生气原因→搞笑收尾",
+      "style_tags": [
+        "真人演绎",
+        "夫妻搞笑",
+        "悬念开头",
+        "日常接地气",
+        "反差笑点"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "dy_7608600294137597234",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7608600294137597234",
+      "title": "遇到不怀好意的人，装疯卖傻绝对是高招！ #搞笑帽子哥 #搞笑 #搞笑视频 #网约车 #搞笑短剧",
+      "author": "搞笑帽子哥",
+      "plays": 0,
+      "likes": 1352,
+      "duration_sec": 51,
+      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/de6ed5c994034c9dbddb07334645d123~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=VRm1Z9SuPquMrLzehpYlIkWeSA4%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
+      "hook": "坐网约车遇不怀好意的人，你会怎么做？",
+      "structure": "遇险场景引入→装疯卖傻应对→化险为夷搞笑收尾",
+      "style_tags": [
+        "真人演绎",
+        "搞笑反转",
+        "日常短剧",
+        "实用技巧",
+        "贴近生活"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "dy_7618441307547061519",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7618441307547061519",
+      "title": "奇葩小仙女打车 #搞笑帽子哥 #搞笑",
+      "author": "搞笑帽子哥",
+      "plays": 0,
+      "likes": 1310,
+      "duration_sec": 37,
+      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/8994704edb2b495ca54e8ee1f52d7f95~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=LcShCzYB%2Bxbtb%2FDXs61XQqQ099o%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
+      "hook": "打车遇奇葩乘客伸手索要东西？",
+      "structure": "冲突开场→奇葩事件展示→搞笑包袱收尾",
+      "style_tags": [
+        "真人演绎",
+        "搞笑日常",
+        "反差笑点",
+        "生活化场景",
+        "短平快段子"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "dy_7610393895406439718",
+      "platform": "douyin",
+      "url": "https://www.douyin.com/video/7610393895406439718",
+      "title": "秀才遇到兵，有理说不清！ #搞笑帽子哥 #搞笑 #搞笑短剧 #网约车 #超能挑战赛",
+      "author": "搞笑帽子哥",
+      "plays": 0,
+      "likes": 1184,
+      "duration_sec": 39,
+      "cover_url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/b50b0e53ecc6472ba985d548736ad8a1~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2092356000&x-signature=KO2q7AvPLsOZQG33DbfHtFirJts%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026042410350912F3707E5A67F851BCE5",
+      "hook": "坐网约车遇奇葩，有理都说不清？",
+      "structure": "场景引入→冲突爆发→误会解开搞笑收尾",
+      "style_tags": [
+        "真人演绎",
+        "搞笑反转",
+        "日常场景",
+        "误会梗",
+        "短平快"
       ],
       "score": 8.0
     }
@@ -1025,32 +612,6 @@
       "score": 7.5
     },
     {
-      "id": "hf_model_stabilityai_stable-video-diffusion-img2vid-xt",
-      "source": "huggingface",
-      "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
-      "name": "stabilityai/stable-video-diffusion-img2vid-xt",
-      "description": "image-to-video",
-      "metric": 289092,
-      "summary": "开源图生视频SOTA模型，适配视频生成",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_unsloth_LTX-2.3-GGUF",
-      "source": "huggingface",
-      "url": "https://huggingface.co/unsloth/LTX-2.3-GGUF",
-      "name": "unsloth/LTX-2.3-GGUF",
-      "description": "image-to-video",
-      "metric": 277145,
-      "summary": "可用于短剧图生视频生成环节",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 8.5
-    },
-    {
       "id": "ms_Tongyi-MAI_Z-Image-Turbo",
       "source": "modelscope",
       "url": "https://www.modelscope.cn/models/Tongyi-MAI/Z-Image-Turbo",
@@ -1065,34 +626,6 @@
       "score": 8.0
     },
     {
-      "id": "hf_model_stabilityai_stable-diffusion-3.5-medium",
-      "source": "huggingface",
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium",
-      "name": "stabilityai/stable-diffusion-3.5-medium",
-      "description": "text-to-image",
-      "metric": 233136,
-      "summary": "高性能文生图模型，可生成参考图关键帧",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_Tongyi-MAI_Z-Image-Turbo",
-      "source": "huggingface",
-      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
-      "name": "Tongyi-MAI/Z-Image-Turbo",
-      "description": "text-to-image",
-      "metric": 1188035,
-      "summary": "高性能文生图模型，可生成参考图、关键帧",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 7.5
-    },
-    {
       "id": "bili_BV1QpyZBZE3v",
       "source": "bilibili",
       "url": "https://www.bilibili.com/video/BV1QpyZBZE3v",
@@ -1103,61 +636,6 @@
       "stage_tags": [
         "quality",
         "edit"
-      ],
-      "score": 8.0
-    },
-    {
-      "id": "hf_model_Tencent-Hunyuan_HunyuanDiT-v1.1-Diffusers-Distilled",
-      "source": "huggingface",
-      "url": "https://huggingface.co/Tencent-Hunyuan/HunyuanDiT-v1.1-Diffusers-Distilled",
-      "name": "Tencent-Hunyuan/HunyuanDiT-v1.1-Diffusers-Distilled",
-      "description": "text-to-image",
-      "metric": 201987,
-      "summary": "腾讯混元文生图模型，中文生成效果优异",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_h94_IP-Adapter-FaceID",
-      "source": "huggingface",
-      "url": "https://huggingface.co/h94/IP-Adapter-FaceID",
-      "name": "h94/IP-Adapter-FaceID",
-      "description": "text-to-image",
-      "metric": 192074,
-      "summary": "支持人脸控制的文生图适配工具",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_QuantStack_Wan2.2-I2V-A14B-GGUF",
-      "source": "huggingface",
-      "url": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF",
-      "name": "QuantStack/Wan2.2-I2V-A14B-GGUF",
-      "description": "image-to-video",
-      "metric": 185787,
-      "summary": "Wan2.2开源图生视频GGUF量化模型",
-      "stage_tags": [
-        "videogen"
-      ],
-      "score": 8.5
-    },
-    {
-      "id": "hf_model_John6666_diving-illustrious-real-asian-v50-sdxl",
-      "source": "huggingface",
-      "url": "https://huggingface.co/John6666/diving-illustrious-real-asian-v50-sdxl",
-      "name": "John6666/diving-illustrious-real-asian-v50-sdxl",
-      "description": "text-to-image",
-      "metric": 356903,
-      "summary": "写实亚裔风格SDXL文生图生成模型",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
       ],
       "score": 8.0
     },
@@ -1176,20 +654,6 @@
       "score": 8.0
     },
     {
-      "id": "hf_model_lightx2v_Qwen-Image-Lightning",
-      "source": "huggingface",
-      "url": "https://huggingface.co/lightx2v/Qwen-Image-Lightning",
-      "name": "lightx2v/Qwen-Image-Lightning",
-      "description": "text-to-image",
-      "metric": 312337,
-      "summary": "优质中文文生图模型，可生成参考图关键帧",
-      "stage_tags": [
-        "ref_image",
-        "keyframe"
-      ],
-      "score": 8.0
-    },
-    {
       "id": "ms_MiniMax_MiniMax-M2.5",
       "source": "modelscope",
       "url": "https://www.modelscope.cn/models/MiniMax/MiniMax-M2.5",
@@ -1204,13 +668,81 @@
       "score": 8.0
     },
     {
-      "id": "hf_model_playgroundai_playground-v2.5-1024px-aesthetic",
-      "source": "huggingface",
-      "url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic",
-      "name": "playgroundai/playground-v2.5-1024px-aesthetic",
-      "description": "text-to-image",
-      "metric": 286712,
-      "summary": "优质文生图模型，适配参考图关键帧生成",
+      "id": "ms_FunAudioLLM_Fun-CosyVoice3-0.5B-2512",
+      "source": "modelscope",
+      "url": "https://www.modelscope.cn/models/FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "name": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "description": "Fun-CosyVoice3-0.5B-2512",
+      "metric": 122566,
+      "summary": "高性能中文语音合成TTS模型",
+      "stage_tags": [
+        "tts"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "ms_Qwen_Qwen3.6-35B-A3B",
+      "source": "modelscope",
+      "url": "https://www.modelscope.cn/models/Qwen/Qwen3.6-35B-A3B",
+      "name": "Qwen/Qwen3.6-35B-A3B",
+      "description": "千问3.6-35B-A3B",
+      "metric": 118134,
+      "summary": "高性能大模型，用于世界观及剧本创作",
+      "stage_tags": [
+        "world",
+        "script"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "ms_Qwen_Qwen3.5-27B",
+      "source": "modelscope",
+      "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-27B",
+      "name": "Qwen/Qwen3.5-27B",
+      "description": "千问3.5-27B",
+      "metric": 1275358,
+      "summary": "高性能中文大模型可辅助世界观剧本创作",
+      "stage_tags": [
+        "world",
+        "script"
+      ],
+      "score": 7.0
+    },
+    {
+      "id": "ms_Qwen_Qwen3.5-397B-A17B",
+      "source": "modelscope",
+      "url": "https://www.modelscope.cn/models/Qwen/Qwen3.5-397B-A17B",
+      "name": "Qwen/Qwen3.5-397B-A17B",
+      "description": "千问3.5-397B-A17B",
+      "metric": 111303,
+      "summary": "高性能大模型，可生成短剧世界观与剧本",
+      "stage_tags": [
+        "world",
+        "script"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "ms_IndexTeam_IndexTTS-2",
+      "source": "modelscope",
+      "url": "https://www.modelscope.cn/models/IndexTeam/IndexTTS-2",
+      "name": "IndexTeam/IndexTTS-2",
+      "description": "IndexTTS-2",
+      "metric": 108132,
+      "summary": "中文语音合成TTS专用模型",
+      "stage_tags": [
+        "tts"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "ms_Qwen_Qwen-Image-2512",
+      "source": "modelscope",
+      "url": "https://www.modelscope.cn/models/Qwen/Qwen-Image-2512",
+      "name": "Qwen/Qwen-Image-2512",
+      "description": "文本生成图片",
+      "metric": 107186,
+      "summary": "中文文生图模型，可生成参考图、关键帧",
       "stage_tags": [
         "ref_image",
         "keyframe"
@@ -1218,32 +750,183 @@
       "score": 8.0
     },
     {
-      "id": "hf_model_martineux_dvine82-xl",
-      "source": "huggingface",
-      "url": "https://huggingface.co/martineux/dvine82-xl",
-      "name": "martineux/dvine82-xl",
-      "description": "text-to-image",
-      "metric": 257643,
-      "summary": "热门文生图模型，可生成参考图关键帧",
+      "id": "ms_Lightricks_LTX-2.3",
+      "source": "modelscope",
+      "url": "https://www.modelscope.cn/models/Lightricks/LTX-2.3",
+      "name": "Lightricks/LTX-2.3",
+      "description": "图片生成视频",
+      "metric": 47353,
+      "summary": "优质图生视频模型，适配视频生成环节",
       "stage_tags": [
-        "ref_image",
-        "keyframe"
+        "videogen"
       ],
-      "score": 8.0
+      "score": 8.5
     },
     {
-      "id": "hf_model_cagliostrolab_animagine-xl-4.0",
-      "source": "huggingface",
-      "url": "https://huggingface.co/cagliostrolab/animagine-xl-4.0",
-      "name": "cagliostrolab/animagine-xl-4.0",
-      "description": "text-to-image",
-      "metric": 255176,
-      "summary": "高热度二次元文生图模型，生成质量优异",
+      "id": "bili_BV1iZd8BnEw3",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1iZd8BnEw3",
+      "name": "【秋叶SD全教程】2026全网最全StableDiffusion终极整合包重磅更新！一键安装抢先使用&amp;最新整合包，附零基础精通出图教程+商业实战案例，效率拉满！",
+      "description": "最新秋叶SD整合包看评论区~",
+      "metric": 9496,
+      "summary": "SD整合包及教程，可高效生成AI绘图",
+      "stage_tags": [
+        "world",
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 7.5
+    },
+    {
+      "id": "bili_BV1b2dSB8EEM",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1b2dSB8EEM",
+      "name": "【秋叶ComfyUI】秋叶最新发布！ComfyUI V8终极整合包来了！支持50 40 30系显卡，Win+Mac一键安装，解压即用（附Comfyui整合包）",
+      "description": "",
+      "metric": 16199,
+      "summary": "ComfyUI一键整合包，多显卡适配解压即用",
+      "stage_tags": [
+        "ref_image",
+        "keyframe",
+        "videogen",
+        "quality"
+      ],
+      "score": 7.0
+    },
+    {
+      "id": "bili_BV1FAoeBBEW7",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1FAoeBBEW7",
+      "name": "【秋叶SD整合包】2026全新StableDiffusion秋叶整合包无私分享！一键安装抢先使用&amp;新版整合包，附零基础精通出图教程+商业实战案例，效率直接拉满",
+      "description": "一键安装抢先使用&amp;最新整合包，附零基础精通出图教程+商业实战案例，效率完全拉满！\n\nStableDiffusion安装包&amp;StableDiffusion整合包（含100+工作流、模型、插件、lora等） ，三联+评论区留言！",
+      "metric": 4251,
+      "summary": "SD整合包含资源教程，提升AI绘图效率",
       "stage_tags": [
         "ref_image",
         "keyframe"
       ],
-      "score": 8.0
+      "score": 7.5
+    },
+    {
+      "id": "bili_BV1zQ9KBnEW1",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1zQ9KBnEW1",
+      "name": "【ComfyUI整合包2026版】Win+Mac一键安装，2026-AI绘画工作流模型插件塞满新手包！全套工作流可带走附Comfyui整合包下载与电脑配置",
+      "description": "新版本-全面-便携-多人群适用！！！\n视频相关资源汇总，含视频中提到的整合包，模型精确名称，客户端下载地址，请粉丝+三连后，发送“整合包”。\nUp还有别的工作，不一定会秒回，但是看见了都会回复，谢谢！~[保卫萝卜_哇][保卫萝卜_哇]\n飞书文档：https://ccna39o15b4f.feishu.cn/wiki/PCz7w3oduiJvsZkfqIbcwFI1nzb",
+      "metric": 64989,
+      "summary": "ComfyUI绘画整合包，含工作流与模型插件",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 5.0
+    },
+    {
+      "id": "bili_BV1M3dhBkEoK",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1M3dhBkEoK",
+      "name": "【2026最全面ComfyUI+AIagent智能体搭建+AI漫剧制作教程】B站强推！建议所有想学AI漫剧制作与AI短剧的同学，死磕这条视频，花了一月时间整理的",
+      "description": "UP收到很多朋友私信 说能不能透彻讲解一期【ComfyUI+AIagent智能体搭建+AI漫剧制作教程】\n\n多角色资产裤短剧思路视频工作流具体的实战案例 用户场景 与“变现方式” \n\n这套视频初心是让你看完本套视频 彻底掌握ComfyUI+AI创作短剧\n\n【视频用的agent智能体+AI工作流 都整理了 】如果UP没回 可能就是正在制作教程 蟹蟹理解！",
+      "metric": 14001,
+      "summary": "AI漫剧短剧全流程制作实战教程",
+      "stage_tags": [
+        "world",
+        "script",
+        "ref_image",
+        "keyframe",
+        "videogen"
+      ],
+      "score": 5.0
+    },
+    {
+      "id": "bili_BV1QMoxBwEPg",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1QMoxBwEPg",
+      "name": "【秋叶SD整合包】最新StableDiffusion教程+Comfyui保姆级教程—秋叶零基础入门到精通商业实战 AI绘画出图全流程附SD+ComfyUI整合包",
+      "description": "制作不易，大家记得点个关注自动获取整合包，工作流~",
+      "metric": 1139,
+      "summary": "SD及ComfyUI绘画全流程教程",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 6.0
+    },
+    {
+      "id": "bili_BV1D3s2zZEmd",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1D3s2zZEmd",
+      "name": "Sora2 保姆级教程：从注册到出片，全网最详细教程，完全免费！",
+      "description": "sora官网：sora.chatgpt.com\n去水印网站：Free Sora Watermark Remover - Remove Watermarks from Sora AI Videos Online\n可能对大家有帮助：\n夸克网盘链接：https://pan.quark.cn/s/11f0ed0b744a\n百度网盘链接： https://pan.baidu.com/s/1_-zWFaYOGKJSQC6sujS-yA?pwd=3da4 提取码: 3da4\n\n\n\n\nbgm：\nMusic: Solitu",
+      "metric": 1256341,
+      "summary": "Sora2注册到出片保姆级入门教程",
+      "stage_tags": [
+        "videogen",
+        "quality"
+      ],
+      "score": 3.0
+    },
+    {
+      "id": "bili_BV1PJ9QY8E9Y",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1PJ9QY8E9Y",
+      "name": "【全100集】B站最详细StableDiffusion+Comfyui全套保姆级教程——秋叶零基础入门到精通，全程干货无废话，允许白嫖，拿走不谢！（附SD安装包",
+      "description": "资料评论区获取哦",
+      "metric": 574065,
+      "summary": "SD+ComfyUI全套零基础到精通教程",
+      "stage_tags": [
+        "world",
+        "ref_image",
+        "keyframe",
+        "quality"
+      ],
+      "score": 3.0
+    },
+    {
+      "id": "bili_BV1rvPrz5ESn",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1rvPrz5ESn",
+      "name": "【AI短剧】“豆包+即梦+剪映”2小时快速掌握真人短剧制作技巧（2026最新）多主体一致性控制，人物微表情控制，手把手教你、、玩转AI影视赛道！",
+      "description": "持续更新中~评论区获取课程资料哟~求一键三连~谢谢各位观众老爷！！！！\n片头片段来自痘印玄清散人⁽ᴬᴵᴳᶜ⁾ 原创短片《永安雪》，喜欢可以移步观看哟~",
+      "metric": 426273,
+      "summary": "AI真人短剧全流程制作入门教程",
+      "stage_tags": [
+        "world",
+        "script",
+        "ref_image",
+        "keyframe",
+        "videogen"
+      ],
+      "score": 3.0
+    },
+    {
+      "id": "bili_BV1As4y127HW",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1As4y127HW",
+      "name": "B站第一套系统的AI绘画课！零基础学会Stable Diffusion，这绝对是你看过的最容易上手的AI绘画教程 | SD WebUI 保姆级攻略",
+      "description": "B站首门系统的AI绘画入门教程来了！零基础玩转Stable Diffusion，就看这个系列的视频了！\n\n提示词宝典：BV12X4y1r7QB\n模型新手包：BV1Us4y117Rg\n汉化及扩展安装：BV1hz4y1a76M\n\n学习资料链接：\n🔗：https://nenly.notion.site/017c3341c8b84a7ebb4c2cb16f36e28f\n\n随堂练习素材下载：\n🔗夸克：https://pan.quark.cn/s/98b88f75cc5f\n🔗度盘：https://pan.baidu.",
+      "metric": 4467718,
+      "summary": "Stable Diffusion零基础入门教程",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 2.5
+    },
+    {
+      "id": "bili_BV1c9d2YUEyy",
+      "source": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1c9d2YUEyy",
+      "name": "翻遍整个B站，这绝对是2025讲的最好的ComfyUI教程，带你3小时吃透Comfyui与AI绘画入门到精通，少走99%的弯路！stablediffusion全",
+      "description": "站内最干货最详细的 一套“零基础 保姆式真正让小白入门到精通的ComfyUI汉化3.0升级版教程&quot; 【共68课 单集课长达40分钟】\n\n真正意义上做到：每一步操作 每一个节点 让你清楚且详细使用并逐步掌握”AI绘画“   \n\n1.课程适合零基础 刚入门的ComfyUI的同学 让你从入门到精通 清楚的了解ComfyUI的生图原理\n\n2.课程从全中文节点 ，从软件安装 ，原理介绍 ，文生图，高清修复，Controlnet，IPAdapter,AI视频换脸，综合应用等等\n\n3.课程还搭配了最新的wan2.1视频",
+      "metric": 209642,
+      "summary": "ComfyUI零基础入门到精通保姆级教程",
+      "stage_tags": [
+        "ref_image",
+        "keyframe",
+        "videogen"
+      ],
+      "score": 3.0
     }
   ]
 }
