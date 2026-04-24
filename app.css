@@ -335,6 +335,54 @@ a:hover { color: var(--gold-warm); }
 .tcard-source.arxiv { background: #b31b1b; color: #fff; }
 .tcard-source.news { background: #ff8c42; color: #000; }
 
+/* ============== VERDICT ============== */
+
+.verdict-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 32px; height: 32px;
+  border-radius: 6px;
+  font-family: var(--serif); font-size: 20px; font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-left: auto;
+  align-self: flex-start;
+}
+.verdict-S-badge { background: linear-gradient(135deg, #d4a853, #ff8c42); color: #000; box-shadow: 0 0 16px rgba(212,168,83,0.5); }
+.verdict-A-badge { background: rgba(212,168,83,0.15); color: #d4a853; border: 1px solid rgba(212,168,83,0.4); }
+.verdict-B-badge { background: rgba(255,255,255,0.05); color: #8a7e6c; border: 1px solid var(--border); }
+
+.verdict-S .cover { outline: 1px solid rgba(212,168,83,0.6); outline-offset: -1px; }
+.verdict-S.vcard, .verdict-S.tcard { border-color: rgba(212,168,83,0.35); }
+.verdict-S.vcard::before {
+  content: "★"; position: absolute; top: 12px; right: 12px;
+  font-size: 14px; color: var(--gold); z-index: 3;
+  text-shadow: 0 0 10px rgba(212,168,83,0.8);
+}
+
+/* ============== DIMENSIONS BAR ============== */
+
+.dims {
+  display: flex; gap: 16px; margin-top: 12px; padding-top: 12px;
+  border-top: 1px dashed var(--border);
+  flex-wrap: wrap;
+}
+.dim {
+  display: flex; align-items: center; gap: 6px;
+  font-family: var(--mono); font-size: 11px;
+  min-width: 130px; flex: 1;
+}
+.dim-l { color: var(--muted); min-width: 32px; }
+.dim-bar {
+  flex: 1; height: 3px;
+  background: var(--border); border-radius: 100px;
+  overflow: hidden;
+}
+.dim-bar > span {
+  display: block; height: 100%;
+  background: linear-gradient(90deg, var(--gold) 0%, var(--orange) 100%);
+  border-radius: 100px;
+}
+.dim-v { color: var(--text); min-width: 24px; text-align: right; }
+
 .tcard-score {
   font-family: var(--serif); font-size: 20px;
   background: linear-gradient(135deg, var(--gold), var(--orange));

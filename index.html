@@ -47,9 +47,17 @@
         ? `<a href="${esc(v.url)}" target="_blank" rel="noopener"><div class="cover" style="background-image:url('${esc(v.cover_url)}')"><span class="cover-badge ${plat}">${plat.replace("_shorts","")}</span></div></a>`
         : `<div class="cover"><span class="cover-badge ${plat}">${plat.replace("_shorts","")}</span></div>`;
       const tags = (v.style_tags || []).map(t => `<span class="chip">${esc(t)}</span>`).join("");
-      const score = Number(v.score || 0);
-      const scorePct = Math.min(100, score * 10);
-      return `<article class="vcard reveal">
+      const verdict = (v.verdict || "B").toUpperCase();
+      const rel = Number(v.relevance || 0);
+      const qual = Number(v.quality || 0);
+      const act = Number(v.actionable || 0);
+      const dims = `
+        <div class="dims">
+          <div class="dim"><div class="dim-l">相关</div><div class="dim-bar"><span style="width:${rel*10}%"></span></div><div class="dim-v">${rel.toFixed(1)}</div></div>
+          <div class="dim"><div class="dim-l">质量</div><div class="dim-bar"><span style="width:${qual*10}%"></span></div><div class="dim-v">${qual.toFixed(1)}</div></div>
+          <div class="dim"><div class="dim-l">可模仿</div><div class="dim-bar"><span style="width:${act*10}%"></span></div><div class="dim-v">${act.toFixed(1)}</div></div>
+        </div>`;
+      return `<article class="vcard reveal verdict-${verdict}">
         <div class="num">${String(i+1).padStart(2, "0")}</div>
         ${cover}
         <div class="vcard-body">
@@ -62,13 +70,11 @@
           </div>
           ${v.hook ? `<div class="vcard-hook">&ldquo;${esc(v.hook)}&rdquo;</div>` : ""}
           ${v.structure ? `<div class="vcard-structure"><b>结构</b>${esc(v.structure)}</div>` : ""}
+          ${v.reason ? `<div class="vcard-structure"><b>豆包判</b>${esc(v.reason)}</div>` : ""}
           ${tags ? `<div class="vcard-tags">${tags}</div>` : ""}
+          ${dims}
         </div>
-        <div class="score-badge">
-          <div class="score-n">${score.toFixed(1)}</div>
-          <div class="score-l">豆包</div>
-          <div class="score-bar"><span style="width:${scorePct}%"></span></div>
-        </div>
+        <div class="verdict-badge verdict-${verdict}-badge">${verdict}</div>
       </article>`;
     }
 

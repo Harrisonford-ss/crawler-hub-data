@@ -51,17 +51,28 @@
   <script>
     function renderTool(t) {
       const src = esc(t.source || "");
-      const score = Number(t.score || 0);
-      return `<article class="tcard reveal">
+      const verdict = (t.verdict || "B").toUpperCase();
+      const rel = Number(t.relevance || 0);
+      const qual = Number(t.quality || 0);
+      const act = Number(t.actionable || 0);
+      const dims = `
+        <div class="dims">
+          <div class="dim"><div class="dim-l">相关</div><div class="dim-bar"><span style="width:${rel*10}%"></span></div><div class="dim-v">${rel.toFixed(1)}</div></div>
+          <div class="dim"><div class="dim-l">质量</div><div class="dim-bar"><span style="width:${qual*10}%"></span></div><div class="dim-v">${qual.toFixed(1)}</div></div>
+          <div class="dim"><div class="dim-l">可用</div><div class="dim-bar"><span style="width:${act*10}%"></span></div><div class="dim-v">${act.toFixed(1)}</div></div>
+        </div>`;
+      return `<article class="tcard reveal verdict-${verdict}">
         <div class="tcard-head">
           <div class="tcard-title">
-            <span class="tcard-source ${src}">${src}</span>
+            <span class="tcard-source ${src}">${src === "youtube_shorts" ? "youtube" : src}</span>
             <a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.name || "?")}</a>
           </div>
-          <div class="tcard-score">${score.toFixed(1)}</div>
+          <div class="verdict-badge verdict-${verdict}-badge">${verdict}</div>
         </div>
         <div class="tcard-meta">热度 ${fmtNumber(t.metric)}</div>
         ${t.summary ? `<div class="tcard-summary">${esc(t.summary)}</div>` : ""}
+        ${t.reason ? `<div class="tcard-summary" style="color:var(--muted);font-size:12px;"><b>判</b> ${esc(t.reason)}</div>` : ""}
+        ${dims}
       </article>`;
     }
 
