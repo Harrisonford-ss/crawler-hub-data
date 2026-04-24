@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>学习 · AI 工具资源库</title>
+  <meta name="description" content="按流水线 stage 分组的 AI 工具 / 模型 / 教程" />
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">crawler<em>·</em>hub</a>
+      <div class="nav-tabs">
+        <a href="index.html">📺 资讯</a>
+        <a href="tools.html" class="active">🛠 学习</a>
+      </div>
+      <div class="nav-meta">
+        <div><b id="nav-week">——</b> · 每周一更新</div>
+        <div id="nav-updated"></div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-label">Weekly Stack · 工具盘点</div>
+      <h1>按流水线 <em>阶段</em> 分层<br />哪些 <em>工具</em> 该上</h1>
+      <p class="hero-summary" id="summary">加载中…</p>
+      <div class="hero-stats" id="hero-stats"></div>
+    </section>
+
+    <section id="stages"><div class="loading">loading…</div></section>
+
+    <section id="misc-section" style="display:none;">
+      <div class="section-head">
+        <h2>未分类</h2>
+        <span class="tag">No stage matched</span>
+      </div>
+      <div id="misc" class="tlist"></div>
+    </section>
+
+    <footer class="footer">
+      <div>crawler·hub · AI 短剧情报系统</div>
+      <div><a href="index.html">→ 资讯板块</a></div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    function renderTool(t) {
+      const src = esc(t.source || "");
+      const score = Number(t.score || 0);
+      return `<article class="tcard reveal">
+        <div class="tcard-head">
+          <div class="tcard-title">
+            <span class="tcard-source ${src}">${src}</span>
+            <a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.name || "?")}</a>
+          </div>
+          <div class="tcard-score">${score.toFixed(1)}</div>
+        </div>
+        <div class="tcard-meta">热度 ${fmtNumber(t.metric)}</div>
+        ${t.summary ? `<div class="tcard-summary">${esc(t.summary)}</div>` : ""}
+      </article>`;
+    }
+
+    function groupByStage(tools) {
+      const buckets = {};
+      const misc = [];
+      for (const t of tools) {
+        const stages = t.stage_tags || [];
+        if (!stages.length) { misc.push(t); continue; }
+        // a tool may appear under multiple stages
+        for (const s of stages) {
+          if (!buckets[s]) buckets[s] = [];
+          buckets[s].push(t);
+        }
+      }
+      // 按 STAGE_ORDER 排序，每个 stage 内部按分数降序
+      const ordered = STAGE_ORDER
+        .filter(s => buckets[s]?.length)
+        .map(s => ({
+          stage: s,
+          items: buckets[s]
+            .slice()
+            .sort((a, b) => (b.score || 0) - (a.score || 0))
+            .slice(0, 8),
+        }));
+      return { ordered, misc };
+    }
+
+    async function init() {
+      try {
+        const d = await loadData();
+        setupNav(d.week, `更新于 ${fmtDate(d.generated_at)}`);
+        const tools = d.tools || [];
+        document.getElementById("summary").textContent = d.summary || "本周数据待生成。";
+
+        const avgScore = tools.length ? (tools.reduce((s, t) => s + (t.score || 0), 0) / tools.length) : 0;
+        const topHit = tools.length ? Math.max(...tools.map(t => t.metric || 0)) : 0;
+        const stageCount = new Set(tools.flatMap(t => t.stage_tags || [])).size;
+        document.getElementById("hero-stats").innerHTML = `
+          <div class="hero-stat"><div class="hero-stat-n">${tools.length}</div><div class="hero-stat-l">入选工具</div></div>
+          <div class="hero-stat"><div class="hero-stat-n">${stageCount}</div><div class="hero-stat-l">覆盖 Stage</div></div>
+          <div class="hero-stat"><div class="hero-stat-n">${avgScore.toFixed(1)}</div><div class="hero-stat-l">平均豆包分</div></div>
+          <div class="hero-stat"><div class="hero-stat-n">${fmtNumber(topHit)}</div><div class="hero-stat-l">最高热度</div></div>
+        `;
+
+        const { ordered, misc } = groupByStage(tools);
+        const stagesHtml = ordered.map(g => `
+          <div class="stage-group">
+            <div class="stage-head">
+              <h3>${STAGE_LABEL[g.stage] || g.stage}</h3>
+              <span class="stage-tag">${g.stage}</span>
+              <span class="count">TOP ${g.items.length}</span>
+            </div>
+            <div class="tlist">${g.items.map(renderTool).join("")}</div>
+          </div>
+        `).join("");
+        document.getElementById("stages").innerHTML = stagesHtml || "<div class='empty'>暂无分类数据</div>";
+
+        if (misc.length) {
+          const miscSection = document.getElementById("misc-section");
+          miscSection.style.display = "";
+          document.getElementById("misc").innerHTML = misc
+            .sort((a, b) => (b.score || 0) - (a.score || 0))
+            .slice(0, 12)
+            .map(renderTool).join("");
+        }
+
+        observeReveal();
+      } catch (e) {
+        document.getElementById("summary").innerHTML =
+          `<span class="error">数据加载失败：${esc(e.message)}。首次数据将在周一 08:00 生成。</span>`;
+        document.getElementById("stages").innerHTML = "";
+      }
+    }
+    init();
+  </script>
+</body>
+</html>

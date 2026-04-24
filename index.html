@@ -3,214 +3,107 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI 短剧情报 · crawler-hub</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    :root {
-      --bg: #0a0a0c;
-      --panel: #16161b;
-      --border: #2a2a33;
-      --text: #e8e8ed;
-      --muted: #8a8a95;
-      --accent: #d4a853;
-      --red: #ff5a5a;
-      --yellow: #ffc84a;
-      --blue: #5ab3ff;
-      --pink: #ff7eb6;
-    }
-    html, body {
-      background: var(--bg); color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
-      line-height: 1.55;
-    }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .wrap { max-width: 960px; margin: 0 auto; padding: 32px 20px 80px; }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 24px; margin-bottom: 32px;
-    }
-    h1 {
-      font-size: 32px; font-weight: 600; letter-spacing: -0.02em;
-      display: flex; align-items: center; gap: 12px;
-    }
-    h1 .dot {
-      width: 10px; height: 10px; border-radius: 50%;
-      background: var(--accent); display: inline-block;
-    }
-    .meta { color: var(--muted); font-size: 14px; margin-top: 8px; }
-    h2 {
-      font-size: 20px; margin: 48px 0 16px; font-weight: 600;
-      display: flex; align-items: center; gap: 8px;
-    }
-    .overview {
-      background: var(--panel); border: 1px solid var(--border);
-      border-radius: 12px; padding: 20px 24px;
-      font-size: 15px; line-height: 1.7;
-    }
-    .card {
-      background: var(--panel); border: 1px solid var(--border);
-      border-radius: 12px; padding: 18px 20px; margin-bottom: 14px;
-      transition: border-color 0.15s;
-    }
-    .card:hover { border-color: var(--accent); }
-    .card-head {
-      display: flex; align-items: flex-start; gap: 14px; margin-bottom: 10px;
-    }
-    .cover {
-      width: 100px; height: 140px; background: #000; border-radius: 6px;
-      flex-shrink: 0; background-size: cover; background-position: center;
-    }
-    .card-title {
-      flex: 1; font-size: 16px; font-weight: 500; line-height: 1.4;
-    }
-    .card-sub {
-      font-size: 13px; color: var(--muted); margin-top: 6px;
-      display: flex; flex-wrap: wrap; gap: 12px;
-    }
-    .score {
-      display: inline-block; background: var(--accent); color: #000;
-      border-radius: 4px; padding: 2px 8px; font-weight: 600; font-size: 13px;
-    }
-    .score.lo { background: #555; color: var(--text); }
-    .score.hi { background: var(--accent); }
-    .tag {
-      display: inline-block; padding: 2px 8px; background: rgba(212,168,83,0.1);
-      border: 1px solid rgba(212,168,83,0.3); border-radius: 4px;
-      font-size: 12px; color: var(--accent); margin-right: 6px; margin-top: 4px;
-    }
-    .bullet {
-      font-size: 13px; color: var(--muted); margin-top: 8px; line-height: 1.6;
-    }
-    .bullet b { color: var(--text); font-weight: 500; }
-    .platform {
-      font-size: 11px; font-weight: 600; padding: 2px 6px; border-radius: 3px;
-      letter-spacing: 0.05em; text-transform: uppercase;
-    }
-    .platform.douyin { background: #ff1744; color: #fff; }
-    .platform.youtube_shorts { background: #cc0000; color: #fff; }
-    .platform.bilibili { background: #00a1d6; color: #fff; }
-    .platform.huggingface { background: #ffcc4d; color: #000; }
-    .error {
-      background: rgba(255,90,90,0.1); border: 1px solid rgba(255,90,90,0.3);
-      border-radius: 8px; padding: 16px; color: var(--red);
-    }
-    .loading { color: var(--muted); text-align: center; padding: 60px; }
-    @media (max-width: 600px) {
-      .cover { width: 72px; height: 100px; }
-      h1 { font-size: 24px; }
-      .card-head { gap: 10px; }
-    }
-  </style>
+  <title>资讯 · AI 短剧情报</title>
+  <meta name="description" content="每周精选 AI 短视频爆款，豆包拆解钩子/节奏/风格" />
+  <link rel="stylesheet" href="app.css" />
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <h1><span class="dot"></span> AI 短剧情报 <span style="color:var(--muted);font-weight:400;font-size:18px;"id="week"></span></h1>
-      <div class="meta" id="meta">加载中…</div>
-    </header>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">crawler<em>·</em>hub</a>
+      <div class="nav-tabs">
+        <a href="index.html" class="active">📺 资讯</a>
+        <a href="tools.html">🛠 学习</a>
+      </div>
+      <div class="nav-meta">
+        <div><b id="nav-week">——</b> · 每周一更新</div>
+        <div id="nav-updated"></div>
+      </div>
+    </div>
+  </nav>
 
-    <div id="overview" class="overview"></div>
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-label">Weekly Briefing · 情报简报</div>
+      <h1>本周 <em>爆款</em> 短视频<br />哪些 <em>钩子</em> 值得学</h1>
+      <p class="hero-summary" id="summary">加载中…</p>
+      <div class="hero-stats" id="hero-stats"></div>
+    </section>
 
-    <h2>📺 爆款短视频 TOP</h2>
-    <div id="videos" class="loading">加载中…</div>
+    <section>
+      <div class="section-head">
+        <h2>TOP 短视频</h2>
+        <span class="tag">Sorted by 豆包分 × log(播放)</span>
+      </div>
+      <div id="videos" class="vlist"><div class="loading">loading…</div></div>
+    </section>
 
-    <h2>🛠 AI 工具 / 模型 / 教程</h2>
-    <div id="tools" class="loading">加载中…</div>
-  </div>
+    <footer class="footer">
+      <div>crawler·hub · AI 短剧情报系统</div>
+      <div><a href="tools.html">→ 学习板块</a></div>
+    </footer>
+  </main>
 
+  <script src="app.js"></script>
   <script>
-    const STAGE_LABEL = {
-      world: "世界观", script: "剧本", ref_image: "参考图",
-      keyframe: "关键帧", videogen: "视频生成", quality: "质检",
-      tts: "配音", sfx: "音效", bgm: "配乐", edit: "剪辑", lip_sync: "对口型",
-    };
-
-    function esc(s) {
-      return String(s || "").replace(/[<>&]/g, c => ({"<":"&lt;",">":"&gt;","&":"&amp;"}[c]));
-    }
-
-    function fmtNumber(n) {
-      n = Number(n) || 0;
-      if (n >= 1e8) return (n/1e8).toFixed(1) + "亿";
-      if (n >= 1e4) return (n/1e4).toFixed(1) + "万";
-      return n.toLocaleString();
-    }
-
-    function scoreClass(s) {
-      if (s >= 7) return "hi"; if (s >= 4) return ""; return "lo";
-    }
-
-    function renderVideo(v) {
+    function renderVideo(v, i) {
+      const plat = esc(v.platform || "");
       const cover = v.cover_url
-        ? `<a href="${esc(v.url)}" target="_blank"><div class="cover" style="background-image:url('${esc(v.cover_url)}')"></div></a>`
-        : `<div class="cover"></div>`;
-      const tags = (v.style_tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join("");
-      return `<div class="card">
-        <div class="card-head">
-          ${cover}
-          <div style="flex:1;">
-            <div class="card-title">
-              <span class="platform ${esc(v.platform)}">${esc(v.platform)}</span>
-              &nbsp;<a href="${esc(v.url)}" target="_blank">${esc(v.title || '(无标题)')}</a>
-            </div>
-            <div class="card-sub">
-              <span>${esc(v.author || '?')}</span>
-              <span>▶ ${fmtNumber(v.plays)}</span>
-              <span>♥ ${fmtNumber(v.likes)}</span>
-              ${v.duration_sec ? `<span>⏱ ${v.duration_sec}s</span>` : ""}
-              <span class="score ${scoreClass(v.score)}">豆包 ${Number(v.score||0).toFixed(1)}</span>
-            </div>
-            ${v.hook ? `<div class="bullet"><b>🎯 钩子：</b>${esc(v.hook)}</div>` : ""}
-            ${v.structure ? `<div class="bullet"><b>🎬 结构：</b>${esc(v.structure)}</div>` : ""}
-            ${tags ? `<div style="margin-top:8px;">${tags}</div>` : ""}
+        ? `<a href="${esc(v.url)}" target="_blank" rel="noopener"><div class="cover" style="background-image:url('${esc(v.cover_url)}')"><span class="cover-badge ${plat}">${plat.replace("_shorts","")}</span></div></a>`
+        : `<div class="cover"><span class="cover-badge ${plat}">${plat.replace("_shorts","")}</span></div>`;
+      const tags = (v.style_tags || []).map(t => `<span class="chip">${esc(t)}</span>`).join("");
+      const score = Number(v.score || 0);
+      const scorePct = Math.min(100, score * 10);
+      return `<article class="vcard reveal">
+        <div class="num">${String(i+1).padStart(2, "0")}</div>
+        ${cover}
+        <div class="vcard-body">
+          <h3 class="vcard-title"><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.title || "(无标题)")}</a></h3>
+          <div class="vcard-meta">
+            <span class="author">${esc(v.author || "?")}</span>
+            <span class="num-mono">▶ ${fmtNumber(v.plays)}</span>
+            <span class="num-mono">♥ ${fmtNumber(v.likes)}</span>
+            ${v.duration_sec ? `<span class="num-mono">⏱ ${v.duration_sec}s</span>` : ""}
           </div>
+          ${v.hook ? `<div class="vcard-hook">&ldquo;${esc(v.hook)}&rdquo;</div>` : ""}
+          ${v.structure ? `<div class="vcard-structure"><b>结构</b>${esc(v.structure)}</div>` : ""}
+          ${tags ? `<div class="vcard-tags">${tags}</div>` : ""}
         </div>
-      </div>`;
+        <div class="score-badge">
+          <div class="score-n">${score.toFixed(1)}</div>
+          <div class="score-l">豆包</div>
+          <div class="score-bar"><span style="width:${scorePct}%"></span></div>
+        </div>
+      </article>`;
     }
 
-    function renderTool(t) {
-      const stageTags = (t.stage_tags || []).map(s =>
-        `<span class="tag">${STAGE_LABEL[s] || s}</span>`
-      ).join("");
-      return `<div class="card">
-        <div class="card-title">
-          <span class="platform ${esc(t.source)}">${esc(t.source)}</span>
-          &nbsp;<a href="${esc(t.url)}" target="_blank">${esc(t.name || '?')}</a>
-        </div>
-        <div class="card-sub">
-          <span>热度 ${fmtNumber(t.metric)}</span>
-          <span class="score ${scoreClass(t.score)}">豆包 ${Number(t.score||0).toFixed(1)}</span>
-        </div>
-        ${t.summary ? `<div class="bullet">${esc(t.summary)}</div>` : ""}
-        ${stageTags ? `<div style="margin-top:8px;">${stageTags}</div>` : ""}
-      </div>`;
-    }
-
-    async function load() {
+    async function init() {
       try {
-        const r = await fetch("data/latest.json?_=" + Date.now());
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        const d = await r.json();
-        document.getElementById("week").textContent = d.week || "";
-        document.getElementById("meta").textContent =
-          `生成于 ${d.generated_at || "—"} · ${d.videos?.length || 0} 视频 · ${d.tools?.length || 0} 工具`;
-        document.getElementById("overview").innerHTML = esc(d.summary || "—")
-          .replace(/\n/g, "<br>");
-        document.getElementById("videos").innerHTML =
-          (d.videos || []).map(renderVideo).join("") || "<div class='loading'>暂无数据</div>";
-        document.getElementById("videos").classList.remove("loading");
-        document.getElementById("tools").innerHTML =
-          (d.tools || []).map(renderTool).join("") || "<div class='loading'>暂无数据</div>";
-        document.getElementById("tools").classList.remove("loading");
+        const d = await loadData();
+        setupNav(d.week, `更新于 ${fmtDate(d.generated_at)}`);
+        const videos = d.videos || [];
+        document.getElementById("summary").textContent = d.summary || "本周数据待生成。";
+
+        const totalPlays = videos.reduce((s, v) => s + (v.plays || 0), 0);
+        const avgScore = videos.length ? (videos.reduce((s, v) => s + (v.score || 0), 0) / videos.length) : 0;
+        document.getElementById("hero-stats").innerHTML = `
+          <div class="hero-stat"><div class="hero-stat-n">${videos.length}</div><div class="hero-stat-l">入选视频</div></div>
+          <div class="hero-stat"><div class="hero-stat-n">${fmtNumber(totalPlays)}</div><div class="hero-stat-l">累计播放</div></div>
+          <div class="hero-stat"><div class="hero-stat-n">${avgScore.toFixed(1)}</div><div class="hero-stat-l">平均豆包分</div></div>
+        `;
+
+        const html = videos.length
+          ? videos.map((v, i) => renderVideo(v, i)).join("")
+          : `<div class="empty">本周尚无视频数据</div>`;
+        document.getElementById("videos").innerHTML = html;
+        observeReveal();
       } catch (e) {
-        document.getElementById("overview").innerHTML =
-          `<div class="error">加载失败：${esc(e.message)}。<br>首次周报会在每周一早 8 点生成。</div>`;
+        document.getElementById("summary").innerHTML =
+          `<span class="error">数据加载失败：${esc(e.message)}。首次数据将在周一 08:00 生成。</span>`;
         document.getElementById("videos").innerHTML = "";
-        document.getElementById("tools").innerHTML = "";
       }
     }
-    load();
+    init();
   </script>
 </body>
 </html>
