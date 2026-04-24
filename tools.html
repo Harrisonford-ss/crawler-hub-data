@@ -10,7 +10,7 @@
 <body>
   <nav class="nav">
     <div class="nav-inner">
-      <a href="index.html" class="brand">crawler<em>·</em>hub</a>
+      <a href="index.html" class="brand"><span class="dot"></span>crawler·hub</a>
       <div class="nav-tabs">
         <a href="index.html">📺 资讯</a>
         <a href="tools.html" class="active">🛠 学习</a>
@@ -25,7 +25,7 @@
   <main class="wrap">
     <section class="hero">
       <div class="hero-label">Weekly Stack · 工具盘点</div>
-      <h1>按流水线 <em>阶段</em> 分层<br />哪些 <em>工具</em> 该上</h1>
+      <h1>AI 工具 · 按流水线阶段分层</h1>
       <p class="hero-summary" id="summary">加载中…</p>
       <div class="hero-stats" id="hero-stats"></div>
     </section>
@@ -35,7 +35,7 @@
     <section id="misc-section" style="display:none;">
       <div class="section-head">
         <h2>未分类</h2>
-        <span class="tag">No stage matched</span>
+        <span class="tag">无 stage 标签</span>
       </div>
       <div id="misc" class="tlist"></div>
     </section>
@@ -53,10 +53,8 @@
       const score = Number(t.score || 0);
       return `<article class="tcard reveal">
         <div class="tcard-head">
-          <div class="tcard-title">
-            <span class="tcard-source ${src}">${src}</span>
-            <a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.name || "?")}</a>
-          </div>
+          <span class="tcard-source ${src}">${src === "youtube_shorts" ? "youtube" : src}</span>
+          <div class="tcard-title"><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.name || "?")}</a></div>
           <div class="tcard-score">${score.toFixed(1)}</div>
         </div>
         <div class="tcard-meta">热度 ${fmtNumber(t.metric)}</div>
@@ -70,21 +68,16 @@
       for (const t of tools) {
         const stages = t.stage_tags || [];
         if (!stages.length) { misc.push(t); continue; }
-        // a tool may appear under multiple stages
         for (const s of stages) {
           if (!buckets[s]) buckets[s] = [];
           buckets[s].push(t);
         }
       }
-      // 按 STAGE_ORDER 排序，每个 stage 内部按分数降序
       const ordered = STAGE_ORDER
         .filter(s => buckets[s]?.length)
         .map(s => ({
           stage: s,
-          items: buckets[s]
-            .slice()
-            .sort((a, b) => (b.score || 0) - (a.score || 0))
-            .slice(0, 8),
+          items: buckets[s].slice().sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 8),
         }));
       return { ordered, misc };
     }
@@ -94,6 +87,7 @@
         const d = await loadData();
         setupNav(d.week, `更新于 ${fmtDate(d.generated_at)}`);
         const tools = d.tools || [];
+
         document.getElementById("summary").textContent = d.summary || "本周数据待生成。";
 
         const avgScore = tools.length ? (tools.reduce((s, t) => s + (t.score || 0), 0) / tools.length) : 0;
@@ -120,8 +114,7 @@
         document.getElementById("stages").innerHTML = stagesHtml || "<div class='empty'>暂无分类数据</div>";
 
         if (misc.length) {
-          const miscSection = document.getElementById("misc-section");
-          miscSection.style.display = "";
+          document.getElementById("misc-section").style.display = "";
           document.getElementById("misc").innerHTML = misc
             .sort((a, b) => (b.score || 0) - (a.score || 0))
             .slice(0, 12)

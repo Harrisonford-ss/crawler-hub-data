@@ -1,6 +1,5 @@
 FROM caddy:2-alpine
 COPY index.html tools.html app.css app.js /srv/
-COPY preview.html preview-1.html preview-2.html preview-3.html /srv/
 COPY data /srv/data/
 RUN echo ':8080 {' > /etc/caddy/Caddyfile && \
     echo '  root * /srv' >> /etc/caddy/Caddyfile && \
