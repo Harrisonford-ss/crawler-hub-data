@@ -4,13 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>资讯 · AI 短剧情报</title>
-  <meta name="description" content="每周精选 AI 短视频爆款 · 豆包拆解钩子/节奏/风格" />
+  <meta name="description" content="每周精选 AI 短视频爆款，豆包拆解钩子/节奏/风格" />
   <link rel="stylesheet" href="app.css" />
 </head>
 <body>
   <nav class="nav">
     <div class="nav-inner">
-      <a href="index.html" class="brand"><span class="dot"></span>crawler·hub</a>
+      <a href="index.html" class="brand">crawler<em>·</em>hub</a>
       <div class="nav-tabs">
         <a href="index.html" class="active">📺 资讯</a>
         <a href="tools.html">🛠 学习</a>
@@ -24,8 +24,8 @@
 
   <main class="wrap">
     <section class="hero">
-      <div class="hero-label">Weekly Briefing · 本周爆款</div>
-      <h1>爆款 AI 短视频·钩子拆解</h1>
+      <div class="hero-label">Weekly Briefing · 情报简报</div>
+      <h1>本周 <em>爆款</em> 短视频<br />哪些 <em>钩子</em> 值得学</h1>
       <p class="hero-summary" id="summary">加载中…</p>
       <div class="hero-stats" id="hero-stats"></div>
     </section>
@@ -33,8 +33,7 @@
     <section>
       <div class="section-head">
         <h2>TOP 短视频</h2>
-        <span class="tag">按 豆包分 × log(播放) 排序</span>
-        <span class="count" id="v-count"></span>
+        <span class="tag">Sorted by 豆包分 × log(播放)</span>
       </div>
       <div id="videos" class="vlist"><div class="loading">loading…</div></div>
     </section>
@@ -47,17 +46,16 @@
 
   <script src="app.js"></script>
   <script>
-    function renderVideo(v) {
+    function renderVideo(v, i) {
       const plat = esc(v.platform || "");
-      const platLabel = plat.replace("_shorts", "");
       const cover = v.cover_url
-        ? `<a href="${esc(v.url)}" target="_blank" rel="noopener" class="cover" style="background-image:url('${esc(v.cover_url)}')"><span class="cover-badge ${plat}">${platLabel}</span></a>`
-        : `<div class="cover"><span class="cover-badge ${plat}">${platLabel}</span></div>`;
+        ? `<a href="${esc(v.url)}" target="_blank" rel="noopener"><div class="cover" style="background-image:url('${esc(v.cover_url)}')"><span class="cover-badge ${plat}">${plat.replace("_shorts","")}</span></div></a>`
+        : `<div class="cover"><span class="cover-badge ${plat}">${plat.replace("_shorts","")}</span></div>`;
       const tags = (v.style_tags || []).map(t => `<span class="chip">${esc(t)}</span>`).join("");
       const score = Number(v.score || 0);
       const scorePct = Math.min(100, score * 10);
-
       return `<article class="vcard reveal">
+        <div class="num">${String(i+1).padStart(2, "0")}</div>
         ${cover}
         <div class="vcard-body">
           <h3 class="vcard-title"><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.title || "(无标题)")}</a></h3>
@@ -67,11 +65,11 @@
             <span class="num-mono">♥ ${fmtNumber(v.likes)}</span>
             ${v.duration_sec ? `<span class="num-mono">⏱ ${v.duration_sec}s</span>` : ""}
           </div>
-          ${v.hook ? `<div class="vcard-hook">${esc(v.hook)}</div>` : ""}
+          ${v.hook ? `<div class="vcard-hook">&ldquo;${esc(v.hook)}&rdquo;</div>` : ""}
           ${v.structure ? `<div class="vcard-structure"><b>结构</b>${esc(v.structure)}</div>` : ""}
           ${tags ? `<div class="vcard-tags">${tags}</div>` : ""}
         </div>
-        <div class="score-box">
+        <div class="score-badge">
           <div class="score-n">${score.toFixed(1)}</div>
           <div class="score-l">豆包</div>
           <div class="score-bar"><span style="width:${scorePct}%"></span></div>
@@ -84,9 +82,7 @@
         const d = await loadData();
         setupNav(d.week, `更新于 ${fmtDate(d.generated_at)}`);
         const videos = d.videos || [];
-
         document.getElementById("summary").textContent = d.summary || "本周数据待生成。";
-        document.getElementById("v-count").textContent = `${videos.length} 条`;
 
         const totalPlays = videos.reduce((s, v) => s + (v.plays || 0), 0);
         const avgScore = videos.length ? (videos.reduce((s, v) => s + (v.score || 0), 0) / videos.length) : 0;
@@ -96,9 +92,10 @@
           <div class="hero-stat"><div class="hero-stat-n">${avgScore.toFixed(1)}</div><div class="hero-stat-l">平均豆包分</div></div>
         `;
 
-        document.getElementById("videos").innerHTML = videos.length
-          ? videos.map(renderVideo).join("")
+        const html = videos.length
+          ? videos.map((v, i) => renderVideo(v, i)).join("")
           : `<div class="empty">本周尚无视频数据</div>`;
+        document.getElementById("videos").innerHTML = html;
         observeReveal();
       } catch (e) {
         document.getElementById("summary").innerHTML =
