@@ -10,7 +10,7 @@
 <body>
   <nav class="nav">
     <div class="nav-inner">
-      <a href="index.html" class="brand">crawler<em>·</em>hub</a>
+      <a href="index.html" class="brand">短剧<em>·</em>情报系统</a>
       <div class="nav-tabs">
         <a href="index.html" class="active">📺 资讯</a>
         <a href="tools.html">🛠 学习</a>
@@ -30,16 +30,10 @@
       <div class="hero-stats" id="hero-stats"></div>
     </section>
 
-    <section>
-      <div class="section-head">
-        <h2>TOP 短视频</h2>
-        <span class="tag">Sorted by 豆包分 × log(播放)</span>
-      </div>
-      <div id="videos" class="vlist"><div class="loading">loading…</div></div>
-    </section>
+    <section id="platforms"><div class="loading">loading…</div></section>
 
     <footer class="footer">
-      <div>crawler·hub · AI 短剧情报系统</div>
+      <div>短剧·情报系统 · powered by 豆包</div>
       <div><a href="tools.html">→ 学习板块</a></div>
     </footer>
   </main>
@@ -77,6 +71,35 @@
       </article>`;
     }
 
+    const PLATFORM_LABEL = {
+      douyin: { name: "抖音", emoji: "🔴", order: 1 },
+      bilibili_video: { name: "B 站", emoji: "🔵", order: 2 },
+      youtube_shorts: { name: "YouTube Shorts", emoji: "🟡", order: 3 },
+      tiktok: { name: "TikTok", emoji: "⚫", order: 4 },
+      xiaohongshu: { name: "小红书", emoji: "🟥", order: 5 },
+      kuaishou: { name: "快手", emoji: "🟠", order: 6 },
+    };
+
+    function groupByPlatform(videos) {
+      const buckets = {};
+      for (const v of videos) {
+        const p = v.platform || "other";
+        if (!buckets[p]) buckets[p] = [];
+        buckets[p].push(v);
+      }
+      return Object.entries(buckets)
+        .map(([p, items]) => ({
+          platform: p,
+          meta: PLATFORM_LABEL[p] || { name: p, emoji: "📺", order: 99 },
+          items: items.slice().sort((a, b) => {
+            const sa = (a.score || 0) * Math.log10(Math.max(10, a.plays || 10));
+            const sb = (b.score || 0) * Math.log10(Math.max(10, b.plays || 10));
+            return sb - sa;
+          }),
+        }))
+        .sort((a, b) => a.meta.order - b.meta.order);
+    }
+
     async function init() {
       try {
         const d = await loadData();
@@ -86,21 +109,31 @@
 
         const totalPlays = videos.reduce((s, v) => s + (v.plays || 0), 0);
         const avgScore = videos.length ? (videos.reduce((s, v) => s + (v.score || 0), 0) / videos.length) : 0;
+        const platformCount = new Set(videos.map(v => v.platform)).size;
         document.getElementById("hero-stats").innerHTML = `
           <div class="hero-stat"><div class="hero-stat-n">${videos.length}</div><div class="hero-stat-l">入选视频</div></div>
+          <div class="hero-stat"><div class="hero-stat-n">${platformCount}</div><div class="hero-stat-l">数据源</div></div>
           <div class="hero-stat"><div class="hero-stat-n">${fmtNumber(totalPlays)}</div><div class="hero-stat-l">累计播放</div></div>
           <div class="hero-stat"><div class="hero-stat-n">${avgScore.toFixed(1)}</div><div class="hero-stat-l">平均豆包分</div></div>
         `;
 
-        const html = videos.length
-          ? videos.map((v, i) => renderVideo(v, i)).join("")
+        const groups = groupByPlatform(videos);
+        const html = groups.length
+          ? groups.map(g => `
+            <div class="stage-group">
+              <div class="section-head">
+                <h2>${g.meta.emoji}&nbsp; ${esc(g.meta.name)}</h2>
+                <span class="tag">${g.items.length} 条 · 按 豆包分 × log(播放) 排序</span>
+              </div>
+              <div class="vlist">${g.items.map((v, i) => renderVideo(v, i)).join("")}</div>
+            </div>`).join("")
           : `<div class="empty">本周尚无视频数据</div>`;
-        document.getElementById("videos").innerHTML = html;
+        document.getElementById("platforms").innerHTML = html;
         observeReveal();
       } catch (e) {
         document.getElementById("summary").innerHTML =
           `<span class="error">数据加载失败：${esc(e.message)}。首次数据将在周一 08:00 生成。</span>`;
-        document.getElementById("videos").innerHTML = "";
+        document.getElementById("platforms").innerHTML = "";
       }
     }
     init();
