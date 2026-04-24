@@ -1,0 +1,418 @@
+{
+  "week": "2026-W17",
+  "generated_at": "2026-04-24T09:00:10",
+  "summary": "本周重点：优先学无厘头脑洞反差选题打法，不管是蔬果拟人恋爱、离谱地缘政治梗还是夸张民族英雄爽感剧情，靠强反差钩子抓首3秒停留，近期同类内容均分超8.5，起号转化效率极高。工具端直接把评分9.0的FLUX.1-dev加入流水线做参考图和关键帧生成，出图质量远高于同类型模型，视频生成环节换用LTX-2.3系列，出片稳定性拉满，能省至少30%的后期调整成本。",
+  "videos": [
+    {
+      "id": "yt_5BGYQ4wDv4g",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/5BGYQ4wDv4g",
+      "title": "බස් රජා 5 😎 Sri Lankan Old Bus Modification #shorts #modified",
+      "author": "AI Rooftop",
+      "plays": 4942795,
+      "likes": 25779,
+      "duration_sec": 17,
+      "cover_url": "https://i.ytimg.com/vi/5BGYQ4wDv4g/hqdefault.jpg",
+      "hook": "斯里兰卡老巴士爆改成品超酷炫",
+      "structure": "旧车原貌→改装过程→最终成品展示",
+      "style_tags": [
+        "视觉冲击",
+        "改装展示",
+        "异域特色",
+        "短平快",
+        "AI生成"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "yt_wG6T0FaoLCo",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/wG6T0FaoLCo",
+      "title": "Putin Saves Khamenei 😂 Trump’s Crazy Plan Backfires 💥 #putin #trump #funny #shorts",
+      "author": "Swag Memes",
+      "plays": 9301166,
+      "likes": 91219,
+      "duration_sec": 47,
+      "cover_url": "https://i.ytimg.com/vi/wG6T0FaoLCo/hqdefault.jpg",
+      "hook": "普京救哈梅内伊？特朗普计划彻底反噬",
+      "structure": "热点噱头引入→恶搞演绎→笑点暴击收尾",
+      "style_tags": [
+        "政要玩梗",
+        "恶搞meme",
+        "笑点密集",
+        "节奏轻快"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "yt_65WjlseqNvE",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/65WjlseqNvE",
+      "title": "Aam 🥭& Strawberry🍓  ki LoveStory♥📈 😂|Part-2 |Flow Animation| #aishorts #trendingai #lovestory #aiart",
+      "author": "FLOW ANIMATION",
+      "plays": 3158369,
+      "likes": 77364,
+      "duration_sec": 51,
+      "cover_url": "https://i.ytimg.com/vi/65WjlseqNvE/hqdefault.jpg",
+      "hook": "芒果和草莓居然也有甜甜的爱情？",
+      "structure": "水果拟人设定→恋爱互动剧情→搞笑萌点收尾",
+      "style_tags": [
+        "AI动画",
+        "水果拟人",
+        "搞笑甜宠",
+        "萌系叙事",
+        "系列短剧"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "yt_mH0Npjt1EtQ",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/mH0Npjt1EtQ",
+      "title": "Old Indian Army Soldier Saves Hijacked Train | Epic Bike Jump Fight vs Super Villain 🔥🚆💥#shorts #ai",
+      "author": "REAL FUCHI ANNU",
+      "plays": 2231777,
+      "likes": 138013,
+      "duration_sec": 116,
+      "cover_url": "https://i.ytimg.com/vi/mH0Npjt1EtQ/hqdefault.jpg",
+      "hook": "印度老兵骑摩托飞跃被劫火车",
+      "structure": "劫车危机铺垫→老兵登场激战→正义获胜收尾",
+      "style_tags": [
+        "AI生成",
+        "爆燃动作",
+        "爽感叙事",
+        "特效大场面",
+        "英雄爽片"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "yt_qUQ49ZpaOd4",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/qUQ49ZpaOd4",
+      "title": "Chuck Norris #1 #ai #chucknorris #epic #legend #hero",
+      "author": "Dead Original Gaming",
+      "plays": 3594859,
+      "likes": 61967,
+      "duration_sec": 39,
+      "cover_url": "https://i.ytimg.com/vi/qUQ49ZpaOd4/hqdefault.jpg",
+      "hook": "Chuck Norris的逆天传说你见过几个？",
+      "structure": "梗点引入→离谱事迹盘点→神梗收尾",
+      "style_tags": [
+        "AI生成",
+        "硬汉梗科普",
+        "爽感拉满",
+        "短平快盘点"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "yt_DmE3VblQlgY",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/DmE3VblQlgY",
+      "title": "#ai #cartoon #story #funny #love #shorts #sad",
+      "author": "Ai Duniya King",
+      "plays": 925202,
+      "likes": 8050,
+      "duration_sec": 33,
+      "cover_url": "https://i.ytimg.com/vi/DmE3VblQlgY/hqdefault.jpg",
+      "hook": "AI卡通爱情故事甜虐反转好哭又好笑",
+      "structure": "甜蜜恋爱铺垫→虐心转折→搞笑治愈收尾",
+      "style_tags": [
+        "AI卡通动画",
+        "甜虐反转",
+        "搞笑温情",
+        "迷你故事",
+        "短平快"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "yt_b12hGSXBnrk",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/b12hGSXBnrk",
+      "title": "THE MOST DANGEROUS AI #shorts",
+      "author": "jacobweeby",
+      "plays": 4500835,
+      "likes": 270905,
+      "duration_sec": 60,
+      "cover_url": "https://i.ytimg.com/vi/b12hGSXBnrk/hqdefault.jpg",
+      "hook": "你知道全球最危险的AI是什么吗？",
+      "structure": "悬念引入→风险点拆解→总结警示",
+      "style_tags": [
+        "悬念开头",
+        "科技科普",
+        "认知冲击",
+        "干货输出"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "yt_6OCZqOFHO6M",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/6OCZqOFHO6M",
+      "title": "Gareeb radha vs nagin 😲 #ai #shortvideo #trending",
+      "author": "DIVINE REELS OG 🎬",
+      "plays": 3926517,
+      "likes": 0,
+      "duration_sec": 107,
+      "cover_url": "https://i.ytimg.com/vi/6OCZqOFHO6M/hqdefault.jpg",
+      "hook": "贫穷拉妲为何敢与蛇女正面对战？",
+      "structure": "悬念引入→高能对战过程→爽感结局收尾",
+      "style_tags": [
+        "AI生成",
+        "神话题材",
+        "反差冲突",
+        "高能对战",
+        "爽感短剧"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "yt_MN5bs3uyDKk",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/MN5bs3uyDKk",
+      "title": "HALF OF AI DATA CENTERS CANCELLED #shorts",
+      "author": "jacobweeby",
+      "plays": 3793606,
+      "likes": 245777,
+      "duration_sec": 60,
+      "cover_url": "https://i.ytimg.com/vi/MN5bs3uyDKk/hqdefault.jpg",
+      "hook": "半数AI数据中心竟被取消？",
+      "structure": "爆点抛出→原因拆解→行业影响预判",
+      "style_tags": [
+        "热点资讯",
+        "干货拆解",
+        "快节奏",
+        "行业爆料"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "yt__kA4MGjydII",
+      "platform": "youtube_shorts",
+      "url": "https://www.youtube.com/shorts/_kA4MGjydII",
+      "title": "hasbi rabbi jallallah #shorts #naat #shortvideo #cute #youtubeshorts #foryou #trending",
+      "author": "Jannah Muslim Kids",
+      "plays": 2615798,
+      "likes": 33397,
+      "duration_sec": 17,
+      "cover_url": "https://i.ytimg.com/vi/_kA4MGjydII/hqdefault.jpg",
+      "hook": "软萌童声演唱经典伊斯兰赞圣词",
+      "structure": "童声演唱开场→配字幕展示→温馨氛围收尾",
+      "style_tags": [
+        "萌娃出镜",
+        "童声演唱",
+        "治愈温情",
+        "垂直内容",
+        "短平快"
+      ],
+      "score": 8.0
+    }
+  ],
+  "tools": [
+    {
+      "id": "hf_model_stabilityai_stable-diffusion-xl-base-1.0",
+      "source": "huggingface",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "description": "text-to-image",
+      "metric": 2027951,
+      "summary": "文生图SOTA模型，生成短剧图像类素材",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_Lightricks_LTX-2.3",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3",
+      "name": "Lightricks/LTX-2.3",
+      "description": "image-to-video",
+      "metric": 1678424,
+      "summary": "高性能图生视频生成模型",
+      "stage_tags": [
+        "videogen"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_Lightricks_LTX-2.3-fp8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3-fp8",
+      "name": "Lightricks/LTX-2.3-fp8",
+      "description": "image-to-video",
+      "metric": 1569589,
+      "summary": "优质开源图生视频生成模型",
+      "stage_tags": [
+        "videogen"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_black-forest-labs_FLUX.1-dev",
+      "source": "huggingface",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "name": "black-forest-labs/FLUX.1-dev",
+      "description": "text-to-image",
+      "metric": 684097,
+      "summary": "SOTA文生图模型，生成参考图关键帧",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "hf_model_lightx2v_Wan2.2-Distill-Loras",
+      "source": "huggingface",
+      "url": "https://huggingface.co/lightx2v/Wan2.2-Distill-Loras",
+      "name": "lightx2v/Wan2.2-Distill-Loras",
+      "description": "image-to-video",
+      "metric": 1362987,
+      "summary": "Wan2.2蒸馏LoRA，可实现图像转视频",
+      "stage_tags": [
+        "videogen"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_stabilityai_sdxl-turbo",
+      "source": "huggingface",
+      "url": "https://huggingface.co/stabilityai/sdxl-turbo",
+      "name": "stabilityai/sdxl-turbo",
+      "description": "text-to-image",
+      "metric": 868921,
+      "summary": "高速文生图模型，可生成参考图关键帧",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_Lightricks_LTX-2",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Lightricks/LTX-2",
+      "name": "Lightricks/LTX-2",
+      "description": "image-to-video",
+      "metric": 797890,
+      "summary": "优质图生视频模型，适配短剧生产需求",
+      "stage_tags": [
+        "videogen"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_black-forest-labs_FLUX.1-schnell",
+      "source": "huggingface",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+      "name": "black-forest-labs/FLUX.1-schnell",
+      "description": "text-to-image",
+      "metric": 717335,
+      "summary": "SOTA快速文生图，可生成参考图关键帧",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_crynux-network_sdxl-turbo",
+      "source": "huggingface",
+      "url": "https://huggingface.co/crynux-network/sdxl-turbo",
+      "name": "crynux-network/sdxl-turbo",
+      "description": "text-to-image",
+      "metric": 703834,
+      "summary": "高速文生图模型，生成效率效果俱佳",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_stabilityai_sd-turbo",
+      "source": "huggingface",
+      "url": "https://huggingface.co/stabilityai/sd-turbo",
+      "name": "stabilityai/sd-turbo",
+      "description": "text-to-image",
+      "metric": 655543,
+      "summary": "高速文生图模型，生成效率高效果好",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_stable-diffusion-v1-5_stable-diffusion-v1-5",
+      "source": "huggingface",
+      "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "name": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "description": "text-to-image",
+      "metric": 1508012,
+      "summary": "文生图模型，可生成短剧参考图与关键帧",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "hf_model_Lightricks_LTX-Video",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Lightricks/LTX-Video",
+      "name": "Lightricks/LTX-Video",
+      "description": "image-to-video",
+      "metric": 550455,
+      "summary": "高性能图生视频模型，适配视频生成",
+      "stage_tags": [
+        "videogen"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_stabilityai_stable-video-diffusion-img2vid-xt",
+      "source": "huggingface",
+      "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
+      "name": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "description": "image-to-video",
+      "metric": 289092,
+      "summary": "开源图生视频SOTA模型，适配视频生成",
+      "stage_tags": [
+        "videogen"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_unsloth_LTX-2.3-GGUF",
+      "source": "huggingface",
+      "url": "https://huggingface.co/unsloth/LTX-2.3-GGUF",
+      "name": "unsloth/LTX-2.3-GGUF",
+      "description": "image-to-video",
+      "metric": 277145,
+      "summary": "可用于短剧图生视频生成环节",
+      "stage_tags": [
+        "videogen"
+      ],
+      "score": 8.5
+    },
+    {
+      "id": "hf_model_stabilityai_stable-diffusion-3.5-medium",
+      "source": "huggingface",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-medium",
+      "name": "stabilityai/stable-diffusion-3.5-medium",
+      "description": "text-to-image",
+      "metric": 233136,
+      "summary": "高性能文生图模型，可生成参考图关键帧",
+      "stage_tags": [
+        "ref_image",
+        "keyframe"
+      ],
+      "score": 8.5
+    }
+  ]
+}
