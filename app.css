@@ -330,6 +330,10 @@ a:hover { color: var(--gold-warm); }
 }
 .tcard-source.huggingface { background: #ffcc4d; color: #000; }
 .tcard-source.bilibili { background: #00a1d6; color: #fff; }
+.tcard-source.modelscope { background: #5b3df5; color: #fff; }
+.tcard-source.github { background: #f0f6fc; color: #000; }
+.tcard-source.arxiv { background: #b31b1b; color: #fff; }
+.tcard-source.news { background: #ff8c42; color: #000; }
 
 .tcard-score {
   font-family: var(--serif); font-size: 20px;
