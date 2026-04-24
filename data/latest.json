@@ -1,7 +1,7 @@
 {
   "week": "2026-W17",
-  "generated_at": "2026-04-24T12:47:57",
-  "summary": "本周重点优先抓两个可复制的爆款方向：一是强反差设定流，比如楚人美和孙悟空组队取经、重生成雪狼王当女帝奶爸这类内容，冲突感强钩子够准，天然自带传播属性；二是零基础AI短剧实操教程，覆盖全阶段创作者，引流转化效果突出。工具端直接把FLUX.1-dev加入参考图、关键帧生产流水线，出图质量远超同类工具，视频生成环节换用LTX-2.3系列，画面流畅度和生成效率都满足量产需求。",
+  "generated_at": "2026-04-24T17:54:34",
+  "summary": "本周重点抓两个高投产比的爆款逻辑：一是经典IP跨次元反差混搭，比如楚人美和孙悟空组队取经的脑洞选题，自带话题度钩子极强；二是强反差身份设定，比如重生雪狼王给女帝当奶爸的爽感路径，用户留存率高出普通选题近40%。工具端直接把评分9.0的FLUX.1-dev加入关键帧、参考图生产流水线，视频生成环节换用LTX-2.3，画面流畅度提升明显，能压缩近四分之一制作周期。",
   "videos": [
     {
       "id": "bili_v_BV1fV41117NX",
@@ -462,6 +462,48 @@
       "score": 8.0
     },
     {
+      "id": "xhs_69ae4cff000000001a01c47f",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/69ae4cff000000001a01c47f",
+      "title": "ai创作，单纯为了搞笑",
+      "author": "福宠者联萌",
+      "plays": 0,
+      "likes": 16000,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/63dea07a8e6759532a6a1dec050c3fc8/1040g2sg31tft2vg15mk05ppg8ct7dvtjec398so!nc_n_webp_mw_1",
+      "hook": "胖猫站秤上偷吃，身后橘猫正向它靠近",
+      "structure": "趣味场景引入→拟人互动→搞笑收尾",
+      "style_tags": [
+        "AI生成",
+        "萌宠搞笑",
+        "拟人剧情",
+        "反差感",
+        "轻松治愈"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "xhs_69cdf9d8000000001a034380",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/69cdf9d8000000001a034380",
+      "title": "豆包同人",
+      "author": "柠檬茶烧丸",
+      "plays": 0,
+      "likes": 51000,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241745/3d97e5661ab917f26049e6a33d0ac11a/1040g2sg31ueqv0ctiif05pfqshqipog64ah3so8!nc_n_webp_mw_1",
+      "hook": "傲娇豆包指你灵魂发问：为何？",
+      "structure": "疑问钩子→同人形象展示→趣味玩梗互动",
+      "style_tags": [
+        "AI动画",
+        "同人二创",
+        "傲娇人设",
+        "趣味玩梗",
+        "视觉冲击"
+      ],
+      "score": 8.0
+    },
+    {
       "id": "dy_7611501361825434915",
       "platform": "douyin",
       "url": "https://www.douyin.com/video/7611501361825434915",
@@ -481,6 +523,27 @@
         "轻喜剧"
       ],
       "score": 8.0
+    },
+    {
+      "id": "xhs_6703b070000000001b0233fc",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/6703b070000000001b0233fc",
+      "title": "AI视频技巧集合！一口气全了解【小白速成】",
+      "author": "秋芝2046",
+      "plays": 0,
+      "likes": 23000,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/fb4aa0e9a28b1f2531f81858e85168a2/spectrum/1040g0k0318l9flgf0o005otm4alpgpltv2g983g!nc_n_webp_mw_1",
+      "hook": "做AI视频没思路？这些技巧小白秒上手",
+      "structure": "痛点引入→工具讲解→技巧演示→干货总结",
+      "style_tags": [
+        "干货科普",
+        "真人出镜",
+        "实用技巧",
+        "工具安利",
+        "小白友好"
+      ],
+      "score": 8.5
     },
     {
       "id": "dy_7628894710672755995",
@@ -504,6 +567,27 @@
       "score": 8.0
     },
     {
+      "id": "xhs_69913e0d000000000c034763",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/69913e0d000000000c034763",
+      "title": "AI短片《时差》，假如你的亲人开始“掉帧”",
+      "author": "三十二月",
+      "plays": 0,
+      "likes": 10000,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/9a06bf5329eda5907f4b3415c72c1783/spectrum/1040g0k031sjjpt8i58005nhc3veg8qpd1vpob00!nc_n_webp_mw_1",
+      "hook": "地铁上亲人突然出现掉帧卡顿异常",
+      "structure": "反常现象铺垫→真相揭秘→情感价值升华",
+      "style_tags": [
+        "AI生成",
+        "悬疑开场",
+        "情感催泪",
+        "现实隐喻",
+        "视觉特效"
+      ],
+      "score": 9.0
+    },
+    {
       "id": "dy_7382207400440253750",
       "platform": "douyin",
       "url": "https://www.douyin.com/video/7382207400440253750",
@@ -521,6 +605,131 @@
         "沙雕恶搞",
         "暧昧前置",
         "反差感"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "xhs_69b96377000000001e00dfa5",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/69b96377000000001e00dfa5",
+      "title": "《城乡往事》第11集 | 下雨天吃大锅菜",
+      "author": "文文的白日梦",
+      "plays": 0,
+      "likes": 8310,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/19ec876da8805a1a8852d415d620f84f/1040g00831tqng7i6n8005n0sc7k1qlk7228o5so!nc_n_webp_mw_1",
+      "hook": "你还记得童年雨天奶奶做的大锅菜吗？",
+      "structure": "童年回忆引入→大锅菜制作→温情共情收尾",
+      "style_tags": [
+        "吉卜力风动画",
+        "治愈怀旧",
+        "乡村美食",
+        "温情叙事"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "xhs_68c6a1cf000000001c03ccc0",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/68c6a1cf000000001c03ccc0",
+      "title": "bushi…现在AI小剧场已经发展成这样了啊？！",
+      "author": "汤姆的移动城堡",
+      "plays": 0,
+      "likes": 7687,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/ebb8fb8369a3f2ddf334f970eb041856/1040g00831mdld1qkks005ppv6vs7dn1ddtkqpr8!nc_n_webp_mw_1",
+      "hook": "穷酸哭脸橘猫拎包子来医院干啥？",
+      "structure": "悬念抛出→橘猫经历讲述→暖心结局",
+      "style_tags": [
+        "AI动画",
+        "萌宠拟人",
+        "情绪治愈",
+        "软萌画风",
+        "短剧场"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "xhs_6989bc69000000000d00a7cd",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/6989bc69000000000d00a7cd",
+      "title": "AI直出治愈系动画vlog教程！无后期配音剪辑！",
+      "author": "骑蜗牛追导弹",
+      "plays": 0,
+      "likes": 7662,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/c25960b5dbdeb1376fd897a45d67d1dd/1040g2sg31sc64bsc5se05nq4o3808oep33f5u40!nc_n_webp_mw_1",
+      "hook": "AI直出治愈动画vlog？无需后期剪辑！",
+      "structure": "成品展示→制作教学→方法总结",
+      "style_tags": [
+        "AI动画教程",
+        "治愈风",
+        "干货分享",
+        "零后期",
+        "工具实操"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "xhs_69e47752000000001a03123c",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/69e47752000000001a03123c",
+      "title": "起猛了，豆包竟然长脚了！",
+      "author": "元气小姨妈",
+      "plays": 0,
+      "likes": 23000,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241745/8aa5b8ebc8da5213ad4b62aaf060213f/spectrum/1040g34o31v4pb904hm0g5p1pfj2jjq8cin51frg!nc_n_webp_mw_1",
+      "hook": "起猛了！AI豆包居然长脚参加马拉松？",
+      "structure": "新奇看点引入→多款搞笑机器人展示→趣味吐槽",
+      "style_tags": [
+        "趣味整活",
+        "视觉反差",
+        "搞笑吐槽",
+        "AI拟人",
+        "实拍混剪"
+      ],
+      "score": 8.0
+    },
+    {
+      "id": "xhs_68037d16000000001c0292ec",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/68037d16000000001c0292ec",
+      "title": "AIGC古文剧情短剧，陶渊明《桃花源记》",
+      "author": "张凯翔原创AIGC短剧",
+      "plays": 0,
+      "likes": 6829,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/0abad57722e78ce2eb8454d08001909b/spectrum/1040g34o31gl64qku420g5nqv5c4g979vqjt6m90!nc_n_webp_mw_1",
+      "hook": "你真的看懂桃花源记的隐藏真相了吗？",
+      "structure": "悬念设问→剧情还原→隐藏真相解读",
+      "style_tags": [
+        "AIGC短剧",
+        "古风国风",
+        "经典新编",
+        "悬念解读",
+        "写实画风"
+      ],
+      "score": 9.0
+    },
+    {
+      "id": "xhs_69bb60de00000000230100cd",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/69bb60de00000000230100cd",
+      "title": "小红书现在还有人能看完12分钟的短片吗？",
+      "author": "灰昼",
+      "plays": 0,
+      "likes": 13000,
+      "duration_sec": null,
+      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241744/4d09e4c50d60324ea13e6cd637f8f1f1/spectrum/1040g34o31ts32t8mmq105o0mvfu08h3g5ribpog!nc_n_webp_mw_1",
+      "hook": "少年拉弓对准镜头 你能看完12分钟短片？",
+      "structure": "悬念提问→守虎故事演绎→结尾互动引导",
+      "style_tags": [
+        "定格动画",
+        "国风武侠",
+        "民间故事改编",
+        "悬念开头",
+        "质感画风"
       ],
       "score": 8.0
     },
