@@ -1,7 +1,7 @@
 {
   "week": "2026-W17",
-  "generated_at": "2026-04-25T09:25:29",
-  "summary": "本周重点优先抓两类可复制的爆款打法：一是绑定豆包这类国民级AIIP做反差向二创，比如傲娇AI质问、豆包长脚跑马拉松的内容，自带认知基础还靠强悬念强反差抓流量；二是出AI短剧实操技巧类教程，比如高速运镜转场提示词教学，精准命中从业者刚需。工具端直接把FLUX.1-dev加到关键帧、参考图生产流水线，视频生成环节补入Wan2.2-Distill-Loras，两者评分均超8.5，产出稳定性足够。",
+  "generated_at": "2026-04-25T09:38:07",
+  "summary": "本周重点：内容端优先吃透近期小红书跑出的两类高流量打法，一是大众熟知AIIP反差化+强情绪钩子，比如豆包变傲娇少女质问、长脚跑马拉松这类选题自带话题度，用户接受度极高；二是刚需向AI实用技巧直给，比如史诗级高速运镜转场提示词教程，可批量复刻。工具端直接把FLUX.1-dev加入参考图、关键帧生产流水线，视频生成环节新增Wan2.2-Distill-Loras提效即可。",
   "videos": [
     {
       "id": "xhs_69cdf9d8000000001a034380",
@@ -12,7 +12,7 @@
       "plays": 0,
       "likes": 51000,
       "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241745/3d97e5661ab917f26049e6a33d0ac11a/1040g2sg31ueqv0ctiif05pfqshqipog64ah3so8!nc_n_webp_mw_1",
+      "cover_url": "covers/xiaohongshu/96732181704ad4c3.webp",
       "hook": "傲娇AI少女指人质问留悬念",
       "structure": "AI同人立绘+对话气泡触发剧情钩子",
       "style_tags": [
@@ -63,7 +63,7 @@
       "plays": 0,
       "likes": 23000,
       "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241745/8aa5b8ebc8da5213ad4b62aaf060213f/spectrum/1040g34o31v4pb904hm0g5p1pfj2jjq8cin51frg!nc_n_webp_mw_1",
+      "cover_url": "covers/xiaohongshu/f2e981e3cea0df1a.webp",
       "hook": "豆包长脚跑马拉松反差感拉满",
       "structure": "展示多款抽象AI机器人跑马搞笑名场面",
       "style_tags": [
@@ -88,7 +88,7 @@
       "plays": 0,
       "likes": 112000,
       "duration_sec": null,
-      "cover_url": "https://sns-webpic-qc.xhscdn.com/202604241824/e585a25fd84057e97a86dd00d0c9d926/1040g00831tb81slhlk0g4a56f1hsi2l6e1773l8!nc_n_webp_mw_1",
+      "cover_url": "covers/xiaohongshu/b0c5bcb312035f3d.webp",
       "hook": "这些AI工具可替你上班提效",
       "structure": "先戳提效痛点，逐一介绍各AI工具功能",
       "style_tags": [
@@ -138,7 +138,7 @@
       "plays": 2679393,
       "likes": 124108,
       "duration_sec": 62,
-      "cover_url": "https://i.ytimg.com/vi/_92Rx7lOars/hqdefault.jpg",
+      "cover_url": "covers/youtube_shorts/37c886025f83a973.jpg",
       "hook": "AI接管MC短视频，引发玩家好奇",
       "structure": "抛出AI渗透MC短内容现象，做趋势展示",
       "style_tags": [
@@ -163,7 +163,7 @@
       "plays": 3159583,
       "likes": 77393,
       "duration_sec": 51,
-      "cover_url": "https://i.ytimg.com/vi/65WjlseqNvE/hqdefault.jpg",
+      "cover_url": "covers/youtube_shorts/4be6ead0cee49a98.jpg",
       "hook": "芒果草莓拟人恋爱故事续篇",
       "structure": "食物拟人甜宠剧情+分P连载留钩子",
       "style_tags": [
@@ -188,7 +188,7 @@
       "plays": 671525,
       "likes": 15385,
       "duration_sec": 42,
-      "cover_url": "https://i.ytimg.com/vi/0wogo6JSlEQ/hqdefault.jpg",
+      "cover_url": "covers/youtube_shorts/915098833904aa6a.jpg",
       "hook": "AI骷髅扮苏格拉底输出情绪观点",
       "structure": "AI人设+情绪输出+标签引流短结构",
       "style_tags": [
@@ -213,7 +213,7 @@
       "plays": 2547382,
       "likes": 156922,
       "duration_sec": 116,
-      "cover_url": "https://i.ytimg.com/vi/mH0Npjt1EtQ/hqdefault.jpg",
+      "cover_url": "covers/youtube_shorts/65178ee73760adda.jpg",
       "hook": "老兵救被劫火车，摩托战反派爽点拉满",
       "structure": "开篇抛劫车危机，中段打戏高潮，结尾解困",
       "style_tags": [
@@ -238,7 +238,7 @@
       "plays": 535288,
       "likes": 8152,
       "duration_sec": 40,
-      "cover_url": "https://i.ytimg.com/vi/feyD_bwipXM/hqdefault.jpg",
+      "cover_url": "covers/youtube_shorts/65b82d5908a82388.jpg",
       "hook": "IPS Ahana揭燃气诈骗爽点吸睛",
       "structure": "主角行动→曝光诈骗黑幕→爽感收尾",
       "style_tags": [
@@ -263,7 +263,7 @@
       "plays": 18652921,
       "likes": 12404,
       "duration_sec": 5824,
-      "cover_url": "https://i2.hdslb.com/bfs/archive/57a6e5e84b428717bf7b112c7a730c2ad005d7ba.jpg",
+      "cover_url": "covers/bilibili_video/e7a04f71f4f541a8.jpg",
       "hook": "零基础最新AI视频生成全流程教程",
       "structure": "工具详解+实操步骤，覆盖全类型AI短剧制作",
       "style_tags": [
@@ -288,7 +288,7 @@
       "plays": 11189911,
       "likes": 6378,
       "duration_sec": 559,
-      "cover_url": "https://i0.hdslb.com/bfs/archive/c710f4f7ea8f9f1bd84be03a2c341d2afd3ccb86.jpg",
+      "cover_url": "covers/bilibili_video/7a2d3a9517f2b7d7.jpg",
       "hook": "楚人美混搭孙悟空魔改西游剧情",
       "structure": "双经典IP混搭改编，多集合集上线",
       "style_tags": [
@@ -314,7 +314,7 @@
       "plays": 8242380,
       "likes": 10820,
       "duration_sec": 679,
-      "cover_url": "https://i1.hdslb.com/bfs/archive/679d4004a51cdc87c25d3ba933de1d6dbea3c52c.jpg",
+      "cover_url": "covers/bilibili_video/437748a4c35cd95f.jpg",
       "hook": "国产短剧卖上亿？揭秘AI出海赚钱逻辑",
       "structure": "抛爆款案例→拆解AI短剧创作与出海方法",
       "style_tags": [
@@ -339,7 +339,7 @@
       "plays": 3390857,
       "likes": 3137,
       "duration_sec": 173,
-      "cover_url": "https://i1.hdslb.com/bfs/archive/3384fc0c1138bc8fe08b2e0f1a2dfc297587e93f.jpg",
+      "cover_url": "covers/bilibili_video/611541594479b829.jpg",
       "hook": "AI还原西游记真实暗黑狮驼岭",
       "structure": "先抛还原噱头，再展示AI生成狮驼岭场景",
       "style_tags": [
@@ -365,7 +365,7 @@
       "plays": 5511374,
       "likes": 3076,
       "duration_sec": 89,
-      "cover_url": "https://i1.hdslb.com/bfs/archive/bc6f5415ee4d93926025a5c3bfaa4d05f009e98b.jpg",
+      "cover_url": "covers/bilibili_video/2bb6f04b0427ebc1.jpg",
       "hook": "古装角色持巨型雪糕反差吸睛",
       "structure": "经典神话IP改编无厘头反差剧情",
       "style_tags": [
