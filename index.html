@@ -64,8 +64,8 @@
           <h3 class="vcard-title"><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.title || "(无标题)")}</a></h3>
           <div class="vcard-meta">
             <span class="author">${esc(v.author || "?")}</span>
-            <span class="num-mono">▶ ${fmtNumber(v.plays)}</span>
-            <span class="num-mono">♥ ${fmtNumber(v.likes)}</span>
+            ${(v.plays || 0) > 0 ? `<span class="num-mono">▶ ${fmtNumber(v.plays)}</span>` : ""}
+            ${(v.likes || 0) > 0 ? `<span class="num-mono">♥ ${fmtNumber(v.likes)}</span>` : ""}
             ${v.duration_sec ? `<span class="num-mono">⏱ ${v.duration_sec}s</span>` : ""}
           </div>
           ${v.hook ? `<div class="vcard-hook">&ldquo;${esc(v.hook)}&rdquo;</div>` : ""}
